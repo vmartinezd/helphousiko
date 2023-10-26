@@ -1,0 +1,1318 @@
+/* Navbar */
+._navbar_wrap {
+    padding: 8px 12px;
+    background-color: #fff !important;
+    box-shadow: 0px 0px 60px rgba(48, 114, 255, 0.06);
+}
+
+.navbar-brand {
+    margin-right: 8px;
+}
+
+._navbar_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._navbar_pricing_li {
+    flex: 0 0 390px;
+    width: 390px;
+}
+
+._navbar_pricing_li ._housiko_hero_content_tab_input {
+    background-color: #F3F3F9 !important;
+}
+
+._navbar_ul2 .nav-link._navbar_btn {
+    padding: 12px 16px !important;
+}
+
+._navbar_link {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000 !important;
+}
+
+._navbar_btn {
+    background: #252E8D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF !important;
+    border: 1px solid #252E8D !important;
+    padding: 13px 16px !important;
+    border-radius: 6px;
+    gap: 0 8px;
+}
+
+._navbar_ul2 {
+    align-items: center;
+}
+
+._navbar_ul22 {
+    gap: 0 8px;
+}
+
+._navbar_btn_list {
+    background-color: #fff;
+    color: #000000 !important;
+    padding: 16px !important;
+    margin: 0 10px 0 0;
+}
+
+._myinfo_navbar_btn_list {
+    background-color: #fff;
+    color: #000000 !important;
+    padding: 14px !important;
+    margin: 0 20px 0 0;
+}
+
+._nav_drawer .ant-drawer-extra {
+    flex: 1 1;
+}
+
+._nav_drawer_img {
+    flex: 1 1;
+}
+
+._navbar_btn3 {
+    background: #fff;
+    border: none !important;
+    padding: 5px 12px !important;
+}
+
+._housiko_myads_title_wrap_inner.gap-2 ._navbar_btn3 {
+    padding: 0 0 0 4px !important;
+}
+
+._listing_home_wrap {
+    position: relative;
+}
+
+/* ._listing_home_wrap .ant-select {
+    width: 56px;
+} */
+
+._listing_home_wrap ._listing_home_ic {
+    position: absolute;
+    right: 0;
+}
+
+._navbar_btn3 .ant-select-selection-item {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 0 !important;
+}
+
+._housiko_listing_top_filter .ant-select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 4px;
+}
+
+._housiko_listing_top_filter .ant-select-selector {
+    padding-right: 10px;
+}
+
+._housiko_listing_top_filter {
+    padding-left: 6px !important;
+}
+
+/* ._housiko_listing_top_filter .ant-select-selection-item {
+    width: 60px;
+} */
+
+._housiko_listing_top_filter .ant-select-arrow {
+    margin-top: -4px;
+    /* position: absolute; */
+    /* position: relative; */
+    /* margin-top: 2px; */
+    right: 6px;
+    /* top: 50%; */
+    /* transform: translate(0, -50%); */
+    /* transform: translate(0, 0%); */
+}
+
+.ant-select-dropdown {
+    min-width: 80px !important;
+}
+
+/* ._navbar_btn3_flag_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 0;
+} */
+
+._navbar_btn3_flag {
+    /* width: 24px; */
+    width: 22px;
+    /* height: 24px; */
+    height: 17px;
+    align-self: stretch;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+._navbar_mbl_usr_r8 {
+    display: none;
+}
+
+.myinfo_navbar_flag {
+    width: 24px;
+    margin: 0 10px 0 13px;
+}
+
+._myinfo_select_currency {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+._navbar_btn3.myinfo_navbar_btn {
+    padding: 3px 0 !important;
+}
+
+._navbar_btn3 .ant-select-selector {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+._housiko_listing_nav_filter .ant-select-selection-item {
+    font-family: 'Inter';
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 19px;
+    color: #FFBF00 !important;
+}
+
+._housiko_listing_nav_select_wrap {
+    padding: 16px 24px;
+    background: #F2F2F9;
+    display: flex;
+    gap: 0 22px;
+}
+
+._housiko_listing_nav_select_li .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: 0;
+    box-shadow: none !important;
+    background: #F2F2F9;
+}
+
+._housiko_listing_nav_select_ul {
+    gap: 0 8px;
+}
+
+/* Dropdown */
+._dropdown_price_wrap {
+    width: 424px;
+    max-width: 424px;
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+._dropdown_more_wrap {
+    width: 320px;
+    max-width: 320px;
+}
+
+._housiko_listing_nav_dropdown_txt {
+    font-family: 'Inter';
+    font-weight: 400;
+    /* font-size: 16px; */
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+
+._dropdown_price_title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+._dropdown_price_content {
+    margin: 20px 0 0;
+    padding: 0 0 24px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+._dropdown_type {
+    border-bottom: 1px solid #ECECEC;
+}
+
+._housiko_listing_nav_dropdown {
+    padding: 12px 6px;
+    border: 1px solid rgba(85, 85, 85, 0.4);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+._housiko_listing_floor_nav_dropdown {
+    width: 160px;
+}
+
+._housiko_listing_nav_dropdown_txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 10px;
+}
+
+span._housiko_listing_nav_dropdown_ic {
+    display: none;
+}
+
+._dropdown_price_content_input_wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+}
+
+._dropdown_price_content_input_inner {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+}
+
+._dropdown_price_content_input_label {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 0 14px;
+}
+
+._dropdown_price_content_input {
+    /* padding: 12px 16px;
+    border: 1px solid rgba(85, 85, 85, 0.4);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    padding-right: 60px; */
+    padding: 7px 2px;
+    border: 1px solid rgba(85, 85, 85, 0.4);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    padding-right: 8px;
+}
+
+._dropdown_price_content_input_select_wrap .ant-select-selector {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+._dropdown_price_content_input_select_wrap {
+    position: relative;
+}
+
+._input_in_select {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+}
+
+._price_input_select .ant-input-group {
+    height: 100%;
+}
+
+._price_input_select .ant-input-group .ant-input {
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+    border-right: 0;
+    box-shadow: none;
+}
+
+._price_input_select .ant-input-group .ant-input:focus~.ant-input-group-addon {
+    border-color: #40a9ff;
+}
+
+._price_input_select .ant-input-group-addon {
+    background-color: #fff;
+    border-radius: 0 8px 8px 0;
+}
+
+._price_input_select:hover .ant-input-group-addon {
+    border-color: #40a9ff;
+}
+
+._price_input_select_wrap {
+    border-radius: 8px;
+
+}
+
+._price_select_wrap {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ECECEC;
+    border-radius: 4px;
+}
+
+._price_select .ant-select-selector {
+    background: #ECECEC !important;
+    border-radius: 4px !important;
+    border-color: rgba(85, 85, 85, 0.4) !important;
+    box-shadow: none !important;
+    height: 40px !important;
+    display: flex;
+    align-items: center
+}
+
+._dropdown_price_content_btn_wrap {
+    padding: 16px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0 10px;
+}
+
+._dropdown_price_content_btn_wrap._update {
+    padding: 0;
+    gap: 0;
+}
+
+._dropdown_price_content_btn {
+    padding: 11px 24px;
+    background: #252E8D;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._dropdown_price_content_btn_wrap._update ._dropdown_price_content_btn {
+    padding: 18px;
+}
+
+._dropdown_price_content_btn_wrap._update ._dropdown_price_content_btn:hover {
+    background: #252E8D;
+    color: #fff;
+}
+
+._housiko_listing_floor_nav_drop_inner ._price_select_wrap {
+    top: 50%;
+    right: 4px;
+    transform: translate(0, -50%);
+}
+
+._housiko_listing_floor_nav_drop_inner ._dropdown_price_content_input {
+    padding-right: 44px;
+}
+
+._dropdown_type_inner {
+    display: flex;
+    align-items: flex-start;
+}
+
+._dropdown_type_content {
+    flex: 1 1;
+}
+
+._dropdown_type_content_li {
+    margin: 14px 0;
+}
+
+._dropdown_type_content_ul_in {
+    padding: 0 0 0 20px !important;
+}
+
+._dropdown_type_content_li_in {
+    margin: 14px 0;
+}
+
+._login_input_label_txt {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+}
+
+._dropdown_fav_wrap {
+    width: 220px !important;
+    max-width: 220px !important;
+    padding: 0 16px !important;
+}
+
+._dropdown_fav_ul {
+    min-height: 120px;
+    max-height: 160px;
+}
+
+._dropdown_fav_wrap ._dropdown_fav_ul {
+    min-height: auto;
+    max-height: unset;
+}
+
+._dropdown_print_ul {
+    min-height: auto;
+}
+
+._dropdown_fav_ul_main {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 80px;
+}
+
+._dropdown_fav_li {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 7px 16px;
+    margin: 0 -16px;
+    display: flex;
+    align-items: center;
+    gap: 0 6px;
+    transition: .2s all ease;
+}
+
+._dropdown_fav_li:hover {
+    background: #f8f9ff;
+    cursor: pointer;
+}
+
+._dropdown_fav_li_ic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+._fav {
+    background: rgba(163, 44, 44, 0.05);
+}
+
+._fav svg path:nth-last-child(1) {
+    fill: #A32C2C;
+    stroke: #A32C2C;
+}
+
+._house_w {
+    background: rgba(37, 46, 141, 0.05);
+}
+
+._house_w svg path:nth-last-child(1) {
+    fill: #252E8D;
+    stroke: #252E8D;
+}
+
+/* ._house_s {
+    background: rgba(255, 191, 0, 0.25);
+} */
+
+/* ._house_s svg path:nth-last-child(1) {
+    fill: #FFBF00;
+    stroke: #FFBF00;
+} */
+
+._plus {
+    background-color: #252E8D;
+}
+
+._plus svg path {
+    fill: #fff;
+    /* stroke: #fff; */
+    opacity: 1;
+}
+
+._plus svg rect {
+    /* fill: #fff; */
+    stroke: #fff;
+    opacity: 1;
+}
+
+/* Dropdown */
+._housiko_listing_nav_select_li:nth-last-child(1) ._housiko_listing_nav_dropdown_wrap {
+    padding: 0 0 0 8px;
+    margin: 0;
+    border-left: 1px solid #555555;
+}
+
+._nav_more_btn {
+    gap: 0 6px;
+    padding: 11.5px 16px;
+}
+
+.ant-tooltip-inner {
+    border-radius: 4px;
+}
+
+._housiko_listing_nav_tag_wrap {
+    flex: 1 1;
+    /* max-width: 480px; */
+    max-width: calc(100% - 0px);
+    overflow: auto;
+}
+
+._housiko_listing_nav_tag_wrap::-webkit-scrollbar {
+    /* display: none; */
+    height: 6px;
+    cursor: pointer;
+}
+
+._housiko_listing_nav_tag_wrap::-webkit-scrollbar {
+    height: 8px;
+}
+
+/* ._housiko_listing_nav_tag_wrap::-webkit-scrollbar-thumb {
+    display: none;
+} */
+
+
+/* ._housiko_listing_nav_tag_wrap::-webkit-scrollbar-track-piece:horizontal:start {
+    margin-left: -6px;
+} */
+
+/* ._housiko_listing_nav_tag_wrap::-webkit-scrollbar-track-piece:horizontal:end {
+    margin-right: -6px;
+} */
+
+/* ._housiko_listing_nav_tag_wrap::-webkit-scrollbar-track-piece:vertical:start {
+    margin-top: -6px;
+} */
+/* 
+._housiko_listing_nav_tag_wrap::-webkit-scrollbar-track-piece:vertical:end {
+    margin-bottom: -6px;
+} */
+
+/* Forced Scrollbar Mode Styles */
+
+._housiko_listing_nav_tag_wrap::-webkit-scrollbar-button:start:decrement,
+._housiko_listing_nav_tag_wrap::-webkit-scrollbar-button:end:increment {
+    display: block;
+    background-color: #fff;
+    background-size: 6px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/271/271220.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    border-radius: 8px;
+}
+
+._housiko_listing_nav_tag_wrap::-webkit-scrollbar-button:end:increment {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/271/271228.png');
+
+}
+
+._housiko_listing_nav_tag_ul {
+    display: flex;
+    align-items: center;
+    gap: 0 6px;
+    height: 100%;
+    width: 100%;
+}
+
+._housiko_listing_nav_tag_li {
+    background: #555555;
+    border: 1px solid rgba(85, 85, 85, 0.4);
+    border-radius: 8px;
+    width: fit-content;
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 2px;
+    flex: 0 0 auto;
+}
+
+._housiko_listing_nav_tag_li_txt {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+._housiko_listing_nav_tag_li_ic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+._housiko_listing_nav_search_btn_wrap {
+    padding-left: 8px;
+    border-left: 1px solid #555555;
+    margin: 0 0 0 auto;
+}
+
+._housiko_listing_nav_search_btn_ul {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+._housiko_listing_nav_search_btn {
+    border-radius: 6px;
+    padding: 16px 12px;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    background: #252E8D;
+    color: #fff;
+}
+
+._housiko_listing_nav_search_btn:hover {
+    background: #2430b1;
+    color: #fff;
+}
+
+._housiko_listing_nav_search_btn:focus {
+    background: #2430b1;
+    color: #fff;
+}
+
+._housiko_listing_nav_alert_btn {
+    background: #FFBF00 !important;
+    padding: 16px 12px;
+}
+
+._housiko_myalerts_card_wrap ._housiko_listing_nav_alert_btn {
+    padding: 12px 10px;
+}
+
+._housiko_listing_nav_alert_btn:hover {
+    background: #f4b701;
+}
+
+._housiko_listing_nav_search_btn_txt {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+
+._create_new_alert_btn ._housiko_listing_nav_search_btn_txt {
+    color: #2430b1;
+    font-weight: 600;
+}
+
+._disabled_nav_btn:disabled {
+    cursor: not-allowed;
+    opacity: .4;
+}
+
+
+/* ._disabled_nav_btn:disabled ._housiko_listing_nav_search_btn_txt {
+    color: #8f8f8f;
+} */
+
+._disabled_nav_btn:disabled ._housiko_listing_nav_search_btn_ic {
+    opacity: .4;
+}
+
+._housiko_listing_nav_city_select_bg_wrap {
+    /* flex: 1 1 10vw; */
+    flex: 1 1 18vw;
+    width: 13vw;
+    max-width: 27vw;
+    border-radius: 6px;
+    align-self: stretch;
+    background: #fff;
+    z-index: 11;
+}
+
+._housiko_listing_nav_city_select_wrap {
+    /* flex: 1 1; */
+    flex: 1 1 10vw;
+    /* max-width: 736px; */
+    max-width: 42vw;
+    background: #F3F3F9;
+    border-radius: 6px;
+    /* padding: 8px; */
+    /* padding: 8px 8px 2px 12px; */
+    padding: 10px 8px 8px 12px;
+    /* align-self: stretch; */
+    cursor: pointer;
+    overflow-x: auto;
+}
+
+._housiko_listing_nav_city_select_ul {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 6px !important;
+    background-image: url("https://fontawesome.com/icons/chevron-left?style=solid");
+    background-repeat: no-repeat;
+}
+
+._multiselect_ul {
+    padding-bottom: 12px !important;
+}
+
+._navbar_city_input {
+    padding-top: 10px !important;
+    margin-bottom: 12px !important;
+}
+
+._housiko_listing_nav_city_select_wrap::-webkit-scrollbar {
+    height: 8px;
+}
+._housiko_listing_nav_city_select_wrap::-webkit-scrollbar-thumb {
+    background: rgb(91, 94, 98) !important;
+  }
+
+/* ._housiko_listing_nav_city_select_wrap::-webkit-scrollbar-thumb {
+    display: none;
+} */
+
+
+/* ._housiko_listing_nav_city_select_wrap::-webkit-scrollbar-track-piece:horizontal:start {
+    margin-left: -6px;
+} */
+
+/* ._housiko_listing_nav_city_select_wrap::-webkit-scrollbar-track-piece:horizontal:end {
+    margin-right: -6px;
+} */
+
+._housiko_listing_nav_city_select_wrap::-webkit-scrollbar-track-piece:vertical:start {
+    margin-top: -6px;
+}
+
+._housiko_listing_nav_city_select_wrap::-webkit-scrollbar-track-piece:vertical:end {
+    margin-bottom: -6px;
+}
+
+/* Forced Scrollbar Mode Styles */
+
+._housiko_listing_nav_city_select_wrap::-webkit-scrollbar-button:start:decrement,
+._housiko_listing_nav_city_select_wrap::-webkit-scrollbar-button:end:increment {
+    display: block;
+    /* background-color: #F3F3F9; */
+    background-color: #fff;
+    background-size: 6px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/271/271220.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    /* border-radius: 0 0 0 8px; */
+    border-radius: 8px;
+}
+
+._housiko_listing_nav_city_select_wrap::-webkit-scrollbar-button:end:increment {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/271/271228.png');
+    /* border-radius: 0 0px 8px 0px; */
+    border-radius: 8px;
+}
+
+._housiko_listing_nav_city_select_btn {
+    /* padding: 5px 7px; */
+    padding: 2px 7px;
+    height: 100%;
+    background: #F3F3F9;
+    border: 1px solid #CECCCC !important;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 0 4px;
+}
+
+._hero_search_input .chip {
+    padding: 2px 7px;
+    height: 100%;
+    background: #F3F3F9;
+    border: 1px solid #CECCCC !important;
+    border-radius: 6px;
+    /* display: flex; */
+    display: inline-flex;
+    align-items: center;
+    gap: 0 4px;
+    color: #121212;
+    margin-bottom: 0;
+}
+
+._housiko_listing_nav_city_select_btn ._housiko_listing_nav_city_select_txt {
+    font-size: 12px;
+}
+
+._housiko_listing_nav_city_select_search_txt {
+    font-size: 16px;
+    color: #686a75;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+._housiko_listing_nav_city_select_ic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._housiko_listing_nav_city_select_li {
+    height: 100%;
+    flex: 0 0 auto;
+}
+
+._housiko_drawer_ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+._housiko_drawer_ul2 {
+    list-style: none;
+}
+
+._housiko_drawer_li {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.ant-drawer-header {
+    border-bottom: 0;
+}
+
+.ant-drawer-close {
+    padding-left: 0;
+}
+
+._housiko_listing_nav_select_clear_btn button {
+    background-color: transparent !important;
+}
+
+/* Navbar */
+/* Modals */
+._saved_modal_wrap {
+    height: calc(100% - 300px);
+}
+
+._saved_modal_wrap .ant-modal-content {
+    height: 100%;
+    overflow: auto;
+}
+
+._saved_modal_content_li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ebeefa;
+    margin: 4px 0 8px;
+}
+
+._saved_modal_content_li_title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: #343434;
+    margin: 0px 0 8px;
+}
+
+._saved_modal_content_li_p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: #343434;
+}
+
+._saved_modal_content_li_btn_wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+._saved_modal_content_li_btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+._saved_modal_wrap ._del_btn {
+    background: #fff;
+}
+
+._saved_modal_wrap ._search_btn {
+    background-color: #2430b1;
+}
+
+._saved_modal_wrap ._search_btn svg path {
+    stroke: #fff;
+}
+
+._saved_modal_wrap ._search_btn svg circle {
+    stroke: #fff;
+}
+
+/* Modals */
+/*  */
+._mob_none {
+    display: block;
+}
+
+._des_none {
+    display: none;
+}
+
+._navbar_mbl_lft ._housiko_listing_nav_city_select_wrap {
+    display: none;
+}
+
+._deskk_none {
+    display: none;
+}
+
+._flag_select_btn {
+    width: 50px;
+}
+
+._flag_select_drop {
+    min-width: 50px !important;
+}
+
+/*  */
+._sort_popup_wrap {
+    min-width: 200px !important;
+    /* right: 30px !important;
+   left: auto !important; */
+}
+
+
+.nav-link._navbar_btn._navbar_btn_list._navbar_link {
+    padding: 14px !important;
+}
+
+/* New feature info animation*/
+._navbar_new_feature_info {
+    position: relative;
+    overflow: hidden;
+    min-height: 32px;
+    max-width: 100%;
+    transition: .3s all ease-in-out;
+}
+
+._navbar_new_feature_info_slide {
+    width: max-content;
+    white-space: nowrap;
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: to_left_slide;
+    transition: .3s all ease-in-out;
+}
+
+._navbar_new_feature_info:hover ._navbar_new_feature_info_slide {
+    animation-play-state: paused;
+}
+
+@keyframes to_left_slide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.admin-sidebar-item.active {
+    background-color: #ffba30;
+    color: #000;
+    padding-left: 4px;
+}
+
+.admin-sidebar-item.active:hover {
+    background: #ffba30;
+    color: #000;
+    cursor: pointer;
+}
+
+
+/* End New feature info animation*/
+.ant-dropdown-trigger {
+        background: #252e8d;
+        border-radius: 6px;
+        width: 110px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        gap: 0 10px;  
+}
+
+._housiko_profile_nav_dropdown_main_plus_box {
+    background: #efefef;
+    border-radius: 2px;
+    width: 44px;
+    padding: 2px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ._housiko_profile_nav_dropdown_main_plus_box_cont {
+    /* font-family: "Inter"; */
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #000000;
+  }
+
+
+  .flag {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+  }
+
+  nav .profile-list a.dropdown-toggle {
+    background: #252e8d;
+    border-radius: 6px;
+    width: 110px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 0 10px;
+    border: none;
+    box-shadow: none !important;
+}
+
+nav .profile-list a.dropdown-toggle img{
+    border-radius: 50px;
+}
+
+nav .profile-list div.dropdown-menu {
+    width: 298px;
+    max-width: 4298px;
+    padding: 24px 19px !important;
+    background: #fff;
+    box-shadow: 0 0 24px rgba(0,0,0,.05);
+    border-radius: 6px;
+    right: 0;
+    left: unset;
+}
+
+nav .profile-list div.dropdown-menu li {
+    margin: 0 0 15px;
+}
+
+nav .profile-list div.dropdown-menu li:last-child {
+    margin: 0;
+}
+
+nav .profile-list div.dropdown-menu li a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+}
+
+nav .profile-list div.dropdown-menu li a:hover {
+    background: #fff;
+}
+
+nav .profile-list div.dropdown-menu li a span:first-child {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .profile-list div.dropdown-menu li a span svg {
+    width: 22px;
+}
+
+nav .profile-list div.dropdown-menu li a span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #555;
+}
+
+._dropdown_profile_info {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 8px;
+}
+
+._dropdown_profile_info_txt {
+    flex: 1 1;
+}
+
+._dropdown_profile_info_select {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+p._dropdown_profile_info_select_txt {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #252e8d;
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-transform: capitalize;
+}
+
+._dropdown_profile_info_mail {
+    margin-bottom: 2px;
+}
+
+p._dropdown_profile_info_mail_txt {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #555;
+}
+
+._dropdown_profile_info_btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 8px 0;
+    flex: 1 1;
+}
+
+button._dropdown_profile_info_btn_link._housiko_profile_nav_dropdown_main_plus_box_cont {
+    color: #000;
+    background: #efefef;
+    border: none;
+    font-family: revert;
+}
+
+nav .profile-list div.dropdown-menu ul {
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    padding: 16px 0 20px;
+    margin: 0;
+}
+
+.language-list {
+    margin-left: 10px;
+}
+
+.language-list .dropdown-toggle {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none !important;
+}
+
+.language-list .dropdown-toggle::after {
+    display: none;
+}
+
+.language-list .dropdown-toggle button._flag_select_btn {
+    padding: 0 !important;
+    background: transparent;
+}
+
+.language-list ul.dropdown-menu {
+    left: unset;
+    right: 0;
+    min-width: auto;
+    width: 52px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.language-list ul.dropdown-menu li {
+    padding: 5px 12px;
+    text-align: center;
+}
+
+._dropdown_profile_logout_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+._dropdown_profile_logout_button_tag {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+._dropdown_profile_logout_button_ic {
+    margin: 0 16px 0 0;
+}
+._housiko_myads_btn_txt {
+    /* font-family: Inter; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #555;
+}
+
+
+/* End New feature info animation*/
