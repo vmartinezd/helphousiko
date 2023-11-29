@@ -8,6 +8,9 @@ Util.hasClass = function(el, className) {
 	if (el.classList) return el.classList.contains(className);
 	else return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)'));
 };
+Util.hide = function(el) {
+  Util.addClass(el, 'hidden'); 
+};
 
 Util.addClass = function(el, className) {
 	var classList = className.split(' ');
@@ -173,3 +176,6 @@ Math.easeInOutQuad = function (t, b, c, d) {
 	t--;
 	return -c/2 * (t*(t-2) - 1) + b;
 };
+
+
+//hide
