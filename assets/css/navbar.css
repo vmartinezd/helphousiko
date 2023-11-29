@@ -1314,5 +1314,19 @@ nav .profile-list div.dropdown-menu ul {
     color: #555;
 }
 
+@media only screen and (max-width: 420px) {
+    ._navbar_btn3_flag_wrap {
+        display: none;
+    }
+
+    .profile-list .dropdown {
+        text-align: end;
+    }
+}
+
+.dropdown-menu {
+    cursor: pointer;
+}
+
 
 /* End New feature info animation*/

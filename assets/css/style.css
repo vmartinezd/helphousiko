@@ -102,6 +102,7 @@ hr {
 }
 html {
   box-sizing: border-box;
+  font-family: "Inter";
 }
 body {
   background-color: hsl(0, 0%, 100%);
@@ -3166,6 +3167,8 @@ mark {
 }
 .cd-faq a {
   text-decoration: none;
+  font-weight: 400;
+  font-size: small;
 }
 @media (min-width: 64rem) {
   .cd-faq {
@@ -3275,8 +3278,9 @@ li:last-child .cd-faq__category {
     left: 0;
     height: 100%;
     width: 3px;
-    background-color: hsl(73, 46%, 55%);
-    background-color: var(--cd-color-2);
+    /* background-color: hsl(73, 46%, 55%); */
+    /* background-color: var(--cd-color-2); */
+    background-color: #ffba30;
     opacity: 0;
     transition: opacity 0.2s;
   }
@@ -3289,6 +3293,7 @@ li:last-child .cd-faq__category {
       var(--cd-color-1-s),
       calc(var(--cd-color-1-l) * 0.8)
     );
+    color: #2a6df4;
   }
   .cd-faq__category-selected:hover {
     background: hsl(213, 7%, 26.4%);
@@ -3371,15 +3376,17 @@ html:not(.js) .cd-faq__group,
 }
 .cd-faq__title h2 {
   text-transform: uppercase;
-  font-size: 0.83333em;
-  font-size: var(--text-sm);
-  font-weight: 700;
-  color: hsl(240, 1%, 74.7%);
-  color: hsl(
+  /* font-size: 0.83333em; */
+  /* font-size: var(--text-sm); */
+  font-size: 18px;
+  font-weight: bold;
+  color: hsl(253.75deg 64.86% 33.78%);
+  /* color: hsl(240, 1%, 74.7%); */
+  /* color: hsl(
     var(--color-contrast-low-h),
     var(--color-contrast-low-s),
     calc(var(--color-contrast-low-l) * 0.9)
-  );
+  ); */
 }
 @media (min-width: 64rem) {
   .cd-faq__title {
@@ -3387,8 +3394,9 @@ html:not(.js) .cd-faq__group,
     margin-bottom: var(--space-sm);
   }
   .cd-faq__title h2 {
-    font-size: 0.69444em;
-    font-size: var(--text-xs);
+    /* font-size: 0.69444em; */
+    /* font-size: var(--text-xs); */
+    font-size: 18px;
   }
 }
 @media (min-width: 64rem) {
@@ -3426,8 +3434,9 @@ html:not(.js) .cd-faq__group,
   position: relative;
   margin: 1.25em 0 0.5em;
   margin: var(--space-md) 0 var(--space-xs);
-  color: hsl(73, 46%, 55%);
-  color: var(--cd-color-2);
+  color: hsl(253.75deg 64.86% 33.78%);
+  /* color: hsl(73, 46%, 55%); */
+  /* color: var(--cd-color-2); */
 }
 @media (min-width: 64rem) {
   .cd-faq__trigger {
@@ -3586,33 +3595,7 @@ body {
   background-color: hsl(0, 0%, 95%);
   background-color: var(--color-contrast-lower);
 }
-.cd-header {
-  --header-height: 180px;
-  height: 180px;
-  height: var(--header-height);
-  background-color: hsl(73, 46%, 55%);
-  background-color: var(--cd-color-2);
-}
-@media (min-width: 80rem) {
-  .cd-header {
-    height: 240px;
-    height: var(--header-height);
-  }
-}
-.cd-header h1 {
-  font-size: 1.728em;
-  font-size: var(--text-xl);
-  font-weight: 300;
-  color: hsl(0, 0%, 100%);
-  color: var(--cd-color-4);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-@media (min-width: 80rem) {
-  .cd-header {
-    --header-height: 240px;
-  }
-}
+
 .cd-article-link {
   color: hsl(73, 46%, 27.5%);
   color: hsl(
