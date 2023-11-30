@@ -3380,7 +3380,7 @@ html:not(.js) .cd-faq__group,
   /* font-size: var(--text-sm); */
   font-size: 18px;
   font-weight: bold;
-  color: hsl(253.75deg 64.86% 33.78%);
+  color: #252e8d
   /* color: hsl(240, 1%, 74.7%); */
   /* color: hsl(
     var(--color-contrast-low-h),
@@ -3434,7 +3434,7 @@ html:not(.js) .cd-faq__group,
   position: relative;
   margin: 1.25em 0 0.5em;
   margin: var(--space-md) 0 var(--space-xs);
-  color: hsl(253.75deg 64.86% 33.78%);
+  color: #252e8d
   /* color: hsl(73, 46%, 55%); */
   /* color: var(--cd-color-2); */
 }
