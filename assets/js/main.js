@@ -18,10 +18,10 @@
         if (this.sections.length > 0) {
             this.sections[0].style.display = 'block';
             Util.addClass(this.faqsCategories[0], 'cd-faq__category-selected');
-			console.log('hii')
+			
         }
 		this.showSectionFromHash(window.location.hash.replace('#', '') || (this.sections[0].id || ''));
-        console.log(this,"thisss")
+    
         initFaqEvents(this);
 		
     };
