@@ -1,5 +1,5 @@
 const content = {
-  "en": {
+  "en-GB": {
     "Who We Are": {
       "title": "Who We Are",
       "Company Overview": {
@@ -89,7 +89,7 @@ const content = {
       }
     }
   },
-  "hu": {
+  "hu_Hu": {
   
     "Who We Are": {
       "title": "Kik Vagyunk",
