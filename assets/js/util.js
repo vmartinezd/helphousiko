@@ -63,7 +63,6 @@ Util.setHeight = function(start, to, element, duration, cb) {
     if (!currentTime) currentTime = timestamp;         
     var progress = timestamp - currentTime;
     var val = parseInt((progress/duration)*change + start);
-    // console.log(val);
     element.setAttribute("style", "height:"+val+"px;");
     if(progress < duration) {
         window.requestAnimationFrame(animateHeight);

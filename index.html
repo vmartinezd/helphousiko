@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="assets/css/navbar.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-<script src="./assets/js/translations.js"></script> 
+  <script src="./assets/js/translations.js"></script> 
   <title>Housiko FAQs</title>
 </head>
 
@@ -349,11 +349,28 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
-   
+
+
+   <script>
+    const updateFlagFromCookie = () => {
+    const lang = getCookie('housikolang') || 'en';
+    let flagSrc, flagAlt;
+    if(lang === 'hu_Hu') {
+      flagSrc = 'assets/images/hungflag.png';
+      flagAlt = 'hungary';
+    } else if(lang === 'en-GB') {
+      flagSrc = 'assets/images/engflag.png';
+      flagAlt = 'england';
+    }
+    document.getElementById("currentFlag").src = flagSrc;
+    document.getElementById("currentFlag").alt = flagAlt;
+  };
+   </script>
     <script>
       document.addEventListener('DOMContentLoaded', () => {
         const lang = getCookie('housikolang') || 'en';
         applyTranslation(lang);
+        updateFlagFromCookie();
       });
     </script>
     
@@ -366,6 +383,5 @@
     setCookie('housikolang', languageCode,'.housiko.com'); 
   }
 </script>
-
 </body>
 </html>
