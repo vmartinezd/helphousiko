@@ -3168,7 +3168,7 @@ mark {
 .cd-faq a {
   text-decoration: none;
   font-weight: 400;
-  font-size: small;
+  font-size: medium;
 }
 @media (min-width: 64rem) {
   .cd-faq {
@@ -3191,8 +3191,6 @@ mark {
     flex-shrink: 0;
     top: 20px;
     width: 20%;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.085), 0 1px 8px rgba(0, 0, 0, 0.1);
-    box-shadow: var(--shadow-sm);
     margin-top: 1.25em;
     margin-top: var(--space-md);
   }
@@ -3209,20 +3207,11 @@ mark {
   line-height: 50px;
   padding: 0 2em 0 1.05em;
   padding: 0 var(--space-lg) 0 calc(var(--space-sm) * 1.4);
-  color: hsl(0, 0%, 100%);
-  color: var(--cd-color-4);
-  background-color: hsl(213, 7%, 33%);
-  background-color: var(--cd-color-1);
+  color: #000;
+  background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --border-color: hsl(213, 7%, 36.3%);
-  --border-color: hsl(
-    var(--cd-color-1-h),
-    var(--cd-color-1-s),
-    calc(var(--cd-color-1-l) * 1.1)
-  );
-  border-bottom: 1px solid hsl(213, 7%, 36.3%);
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid #efefef;
 }
 .cd-faq__category::before,
 .cd-faq__category::after {
@@ -3245,9 +3234,6 @@ mark {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-li:last-child .cd-faq__category {
-  border-bottom: none;
-}
 @media (min-width: 64rem) {
   .cd-faq__category {
     font-size: 0.69444em;
@@ -3256,21 +3242,25 @@ li:last-child .cd-faq__category {
     padding: 0 1.25em;
     padding: 0 var(--space-md);
     transition: background 0.2s;
+    background: #f6f6f6;
   }
   .cd-faq__category::before,
   .cd-faq__category::after {
     display: none;
   }
   .cd-faq__category:hover {
-    background: hsl(213, 7%, 36.3%);
-    background: hsl(
-      var(--cd-color-1-h),
-      var(--cd-color-1-s),
-      calc(var(--cd-color-1-l) * 1.1)
-    );
+    background: #fff;
   }
 }
-@media (min-width: 80rem) {
+@media (min-width: 64rem) {
+  .cd-faq__category-selected::before {
+    opacity: 0!important;
+  }
+  .cd-faq__category-selected {
+    background: white;
+    border: 1px solid #dadada;
+    color: #252e8d;
+  }
   .cd-faq__category::before {
     display: block;
     top: 0;
@@ -3278,33 +3268,8 @@ li:last-child .cd-faq__category {
     left: 0;
     height: 100%;
     width: 3px;
-    /* background-color: hsl(73, 46%, 55%); */
-    /* background-color: var(--cd-color-2); */
-    background-color: #ffba30;
     opacity: 0;
     transition: opacity 0.2s;
-  }
-}
-@media (min-width: 80rem) {
-  .cd-faq__category-selected {
-    background: hsl(213, 7%, 26.4%);
-    background: hsl(
-      var(--cd-color-1-h),
-      var(--cd-color-1-s),
-      calc(var(--cd-color-1-l) * 0.8)
-    );
-    color: #2a6df4;
-  }
-  .cd-faq__category-selected:hover {
-    background: hsl(213, 7%, 26.4%);
-    background: hsl(
-      var(--cd-color-1-h),
-      var(--cd-color-1-s),
-      calc(var(--cd-color-1-l) * 0.8)
-    );
-  }
-  .cd-faq__category-selected::before {
-    opacity: 1;
   }
 }
 .cd-faq__items {
@@ -3376,17 +3341,9 @@ html:not(.js) .cd-faq__group,
 }
 .cd-faq__title h2 {
   text-transform: uppercase;
-  /* font-size: 0.83333em; */
-  /* font-size: var(--text-sm); */
   font-size: 18px;
   font-weight: bold;
   color: #252e8d
-  /* color: hsl(240, 1%, 74.7%); */
-  /* color: hsl(
-    var(--color-contrast-low-h),
-    var(--color-contrast-low-s),
-    calc(var(--color-contrast-low-l) * 0.9)
-  ); */
 }
 @media (min-width: 64rem) {
   .cd-faq__title {
@@ -3394,8 +3351,6 @@ html:not(.js) .cd-faq__group,
     margin-bottom: var(--space-sm);
   }
   .cd-faq__title h2 {
-    /* font-size: 0.69444em; */
-    /* font-size: var(--text-xs); */
     font-size: 18px;
   }
 }
@@ -3435,8 +3390,6 @@ html:not(.js) .cd-faq__group,
   margin: 1.25em 0 0.5em;
   margin: var(--space-md) 0 var(--space-xs);
   color: #252e8d
-  /* color: hsl(73, 46%, 55%); */
-  /* color: var(--cd-color-2); */
 }
 @media (min-width: 64rem) {
   .cd-faq__trigger {
@@ -3457,12 +3410,7 @@ html:not(.js) .cd-faq__group,
     top: 50%;
     height: 2px;
     width: 13px;
-    background: hsl(73, 46%, 71.5%);
-    background: hsl(
-      var(--cd-color-2-h),
-      var(--cd-color-2-s),
-      calc(var(--cd-color-2-l) * 1.3)
-    );
+    background: #252e8d;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: -webkit-transform 0.2s;
