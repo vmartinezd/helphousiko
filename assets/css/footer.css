@@ -98,7 +98,7 @@
 }
 
 ._housiko_footer_bottom_content_title {
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -111,17 +111,17 @@
 }
 
 ._housiko_footer_bottom_content_link {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    color: rgba(255, 255, 255, 0.6);
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    margin: 0px 0 16px;
+  /* font-family: 'Inter'; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0px 0 16px;
+  text-decoration: none;
 }
-
 ._housiko_footer_bottom_content_link:hover {
     color: rgba(255, 255, 255, 1);
 }
@@ -149,11 +149,19 @@
 
 ._housiko_footer_top_app_btn_wrap {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     gap: 14px 0;
+    padding-bottom: 20px;
 }
-
+div#footer_bottom {
+  padding-left: 0;
+  padding-right: 0;
+}
+._housiko_footer_bottom_wrap .container 
+{
+  padding: 0;
+}
 ._housiko_footer_top_app_btn_li {
     margin: 0;
 }
@@ -182,9 +190,8 @@
 ._housiko_footer_bottom_qr_code_main {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 32px;
-    margin-right: 103px;
 }
 
 ._housiko_footer_bottom_text {
@@ -195,3 +202,158 @@
     color: rgba(255, 255, 255, 0.6);
     text-align: center;
 }
+
+._clear_btn_footer {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1023px) {
+  .qrCOde
+  {
+    margin: 0 !important;
+  }
+  ._housiko_footer_top_content_ul
+  {
+    margin-top: 10px;
+  }
+}
+  @media only screen and (max-width: 420px) {
+._housiko_footer_bottom_qr_code_main {
+    margin-right: 74px;
+  }
+
+  ._housiko_footer_bottom_qr_code_main {
+    margin-right: 44px;
+  }
+
+  ._housiko_footer_wrapper {
+    padding: 50px 0 0;
+  }
+
+  ._housiko_footer_top_app_btn_wrap._tab {
+    align-items: flex-start;
+  }
+
+
+  ._housiko_footer_bottom_qr_code_main {
+    margin-right: 0;
+  }
+
+  ._housiko_footer_top_content_ul {
+    margin: 20px 0 !important;
+  }
+
+  ._housiko_footer_top_app_btn_wrap {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  ._housiko_footer_bottom_qr_code_main {
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+
+  ._housiko_footer_top_app_btn_ul {
+    flex-wrap: wrap;
+  }
+
+  ._housiko_footer_top_wrap_mobile_design {
+    display: block;
+  }
+
+  ._housiko_footer_top_more_info ._clear_btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  ._housiko_footer_wrapper {
+    padding: 20px 0 0;
+  }
+
+  ._housiko_footer_top_content_ul {
+    margin: 16px 0 !important;
+  }
+
+
+  ._housiko_footer_top_app_btn_wrap {
+    align-items: flex-start;
+  }
+
+  ._housiko_footer_bottom_qr_code_main {
+    margin-top: 0px;
+  }
+
+  ._housiko_footer_top_app_btn_wrap {
+    margin: 20px 0;
+  }
+
+  ._housiko_footer_top_app_btn_wrap {
+    gap: 16px 0;
+  }
+
+  ._housiko_footer_bottom_text {
+    font-size: 13px;
+  }
+
+  }
+
+  #lengthy_footer {
+    display: flex;
+    gap: 14px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mb-block
+{
+  display: none;
+}
+  @media only screen and (max-width: 767px){
+    div#footer_bottom
+    {
+      padding-right: calc(var(--bs-gutter-x) * .5);
+      padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    .language-list
+    {
+      display: none;
+    }
+    .cd-header .container-fluid 
+    {
+      flex-wrap: nowrap !important;
+    }
+ ._clear_btn_footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: transparent;
+    transition: all .2s ease;
+    /* padding: 8px 24px; */
+    height: auto;
+    /* border-radius: 8px; */
+    border: none;
+}
+.mb-hide
+{
+  display: none;
+}
+._housiko_footer_bottom_wrap
+{
+  display: none;
+}
+
+  #lengthy_footer {
+      display: none;
+      justify-content: flex-start;
+  }
+  .mb-block
+  {
+    display: flex;
+  }
+  }

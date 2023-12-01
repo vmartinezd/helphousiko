@@ -1,25 +1,83 @@
 (function(){
 	// FAQ Template - by CodyHouse.co
-  var FaqTemplate = function(element) {
-		this.element = element;
-		this.sections = this.element.getElementsByClassName('cd-faq__group');
-		this.triggers = this.element.getElementsByClassName('cd-faq__trigger');
-		this.faqContainer = this.element.getElementsByClassName('cd-faq__items')[0];
-		this.faqsCategoriesContainer = this.element.getElementsByClassName('cd-faq__categories')[0];
-		this.faqsCategories = this.faqsCategoriesContainer.getElementsByClassName('cd-faq__category');
-  	this.faqOverlay = this.element.getElementsByClassName('cd-faq__overlay')[0];
-  	this.faqClose = this.element.getElementsByClassName('cd-faq__close-panel')[0];
-  	this.scrolling = false;
-  	initFaqEvents(this);
-  };
+	var FaqTemplate = function(element) {
+        this.element = element;
+        this.sections = this.element.getElementsByClassName('cd-faq__group');
+        this.triggers = this.element.getElementsByClassName('cd-faq__trigger');
+        this.faqContainer = this.element.getElementsByClassName('cd-faq__items')[0];
+        this.faqsCategoriesContainer = this.element.getElementsByClassName('cd-faq__categories')[0];
+        this.faqsCategories = this.faqsCategoriesContainer.getElementsByClassName('cd-faq__category');
+        this.faqOverlay = this.element.getElementsByClassName('cd-faq__overlay')[0];
+        this.faqClose = this.element.getElementsByClassName('cd-faq__close-panel')[0];
+        this.scrolling = false;
 
+        Array.from(this.sections).forEach(function(section) {
+            section.style.display = 'none';
+        });
+
+        if (this.sections.length > 0) {
+            this.sections[0].style.display = 'block';
+            Util.addClass(this.faqsCategories[0], 'cd-faq__category-selected');
+			
+        }
+		this.showSectionFromHash(window.location.hash.replace('#', '') || (this.sections[0].id || ''));
+    
+        initFaqEvents(this);
+		
+    };
+
+	FaqTemplate.prototype.showSectionFromHash = function(hash) {
+        Array.from(this.sections).forEach(function(section) {
+            section.style.display = 'none';
+        });
+
+        Array.from(this.faqsCategories).forEach(function(cat) {
+            cat.classList.remove('cd-faq__category-selected');
+        });
+
+        var selectedSection = document.getElementById(hash);
+        if(selectedSection) {
+            selectedSection.style.display = 'block';
+            var selectedCategory = document.querySelector(`.cd-faq__category[href="#${hash}"]`);
+            if(selectedCategory) {
+                selectedCategory.classList.add('cd-faq__category-selected');
+            }
+        } else {
+            // Fallback: show first section if hash is invalid
+            this.sections[0].style.display = 'block';
+            this.faqsCategories[0].classList.add('cd-faq__category-selected');
+        }
+    };
   function initFaqEvents(faqs) {
   	// click on a faq category
-		faqs.faqsCategoriesContainer.addEventListener('click', function(event){
-			var category = event.target.closest('.cd-faq__category');
-			if(!category) return;
-			var mq = getMq(faqs),
-				selectedCategory = category.getAttribute('href').replace('#', '');
+	  faqs.faqsCategoriesContainer.addEventListener('click', function(event){
+		var category = event.target.closest('.cd-faq__category');
+		if(!category) return;
+		var mq = getMq(faqs),
+			selectedCategory = category.getAttribute('href').replace('#', '');
+		window.location.hash = selectedCategory;
+		window.addEventListener('hashchange', function() {
+            faqs.showSectionFromHash(window.location.hash.replace('#', ''));
+        });
+    
+		
+		Array.from(faqs.faqsCategories).forEach(function(cat) {
+			cat.classList.remove('cd-faq__category-selected');
+		});
+	
+		// Add the 'selected' class to the clicked category
+		category.classList.add('cd-faq__category-selected');
+	
+		// Hide all sections
+		Array.from(faqs.sections).forEach(function(section) {
+			section.style.display = 'none';
+		});
+	
+		// Show the selected section
+		var selectedSection = document.getElementById(selectedCategory);
+		if(selectedSection) {
+			selectedSection.style.display = 'block';
+		}
 			if(mq == 'mobile') { // on mobile, open faq panel
 				event.preventDefault();
 				faqs.faqContainer.scrollTop = 0;
@@ -52,6 +110,7 @@
 		faqs.faqContainer.addEventListener('click', function(event){
 			if(getMq(faqs) != 'desktop') return;
 			var trigger = event.target.closest('.cd-faq__trigger');
+			console.log('trigger')
 			if(!trigger) return;
 			event.preventDefault();
 			var content = trigger.nextElementSibling,
@@ -119,4 +178,5 @@
 			faqArray.push(new FaqTemplate(faqTemplate[i])); 
 		}
   };
+
 })();

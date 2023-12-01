@@ -1,515 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script>
-      document.getElementsByTagName("html")[0].className += " js";
-    </script>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/navbar.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <title>Housiko FAQs</title>
-  </head>
-  <body>
-    <!-- header start -->
-    <header class="cd-header flex flex-column">
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-light _navbar_wrap _mob_none"
-      >
-        <div class="container-fluid">
-          <a href="/"
-            ><div class="navbar-brand _navbar_logo">
-              <img
-                src="assets/images/logo.svg"
-                class="_navbar_logo_img"
-                alt="logo"
-              /></div></a
-          ><button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 _navbar_ul2">
-				  <li class="nav-item">
-					<div
-					  class="_housiko_listing_nav_dropdown_wrap _housiko_listing_nav_select _housiko_myads_search_list_space"
-					>
-					  <div
-						class="ant-dropdown-trigger _housiko_profile_nav_dropdown_main _housiko_profile_nav_dropdown"
-					  >
-						<div
-						  class="_housiko_profile_nav_dropdown_main_ic _active_prof"
-						>
-						  <img
-							src="https://avatars.dicebear.com/api/initials/bhushanlalala.svg?chars=1"
-							alt="icon"
-							class="_housiko_profile_nav_dropdown_main_ic_tag"
-							width="24px"
-							height="24px"
-						  />
-						</div>
-						<div class="_housiko_profile_nav_dropdown_main_plus_box free">
-						  <p class="_housiko_profile_nav_dropdown_main_plus_box_cont">
-							Free
-						  </p>
-						</div>
-					  </div>
-					</div>
-				  </li>
-				  <li class="nav-item">
-					<button class="nav-link _navbar_btn3 _flag_select_btn">
-					  <div
-						class="ant-select ant-select-single ant-select-show-arrow"
-						style="padding-right: 0; width: 50px"
-					  >
-						<div class="ant-select-selector">
-						  <span class="ant-select-selection-search"
-							><input
-							  type="search"
-							  autocomplete="off"
-							  class="ant-select-selection-search-input"
-							  role="combobox"
-							  aria-haspopup="listbox"
-							  aria-owns="rc_select_1_list"
-							  aria-autocomplete="list"
-							  aria-controls="rc_select_1_list"
-							  aria-activedescendant="rc_select_1_list_0"
-							  readonly=""
-							  unselectable="on"
-							  style="opacity: 0"
-							  value=""
-							  id="rc_select_1" /></span
-						  ><span class="ant-select-selection-item"
-							><div class="option-label-item d-flex">
-							  <span
-								class="_navbar_btn3_flag_wrap"
-								role="img"
-								aria-label="england"
-								><img
-								  src="assets/images/engflag.png"
-								  alt=""
-								  class="_navbar_btn3_flag"
-							  /></span></div
-						  ></span>
-						</div>
-						<span
-						  class="ant-select-arrow"
-						  style="user-select: none; -webkit-user-select: none"
-						  unselectable="on"
-						  aria-hidden="true"
-						></span>
-					  </div>
-					</button>
-				  </li>
-				</ul>
-			  </div> -->
-          <div class="flex">
-            <div class="profile-list dropdown">
-              <a
-                class="btn btn-secondary dropdown-toggle"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <img
-                  src="https://avatars.dicebear.com/api/initials/bhushanlalala.svg?chars=1"
-                  alt="icon"
-                  class="_housiko_profile_nav_dropdown_main_ic_tag"
-                  width="24px"
-                  height="24px"
-                />
-                <div class="_housiko_profile_nav_dropdown_main_plus_box free">
-                  <p class="_housiko_profile_nav_dropdown_main_plus_box_cont">
-                    Free
-                  </p>
-                </div>
-              </a>
-              <div></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script>
+    document.getElementsByTagName("html")[0].className += " js"; 
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="assets/css/navbar.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+<script src="./assets/js/translations.js"></script> 
+  <title>Housiko FAQs</title>
+</head>
 
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <div class="_dropdown_profile_info">
-                  <div class="_dropdown_profile_info_txt">
-                    <div class="_dropdown_profile_info_select">
-                      <p class="_dropdown_profile_info_select_txt">
-                        Housiko<span></span>
-                      </p>
-                    </div>
-                    <div class="_dropdown_profile_info_mail">
-                      <p class="_dropdown_profile_info_mail_txt">
-                        info@housiko.com
-                      </p>
-                    </div>
-                  </div>
-                  <div class="_dropdown_profile_info_btn">
-                    <div
-                      class="_housiko_profile_nav_dropdown_main_plus_box free"
-                    >
-                      <button
-                        class="_dropdown_profile_info_btn_link _housiko_profile_nav_dropdown_main_plus_box_cont"
-                      >
-                        Free
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <ul>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><span
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="25"
-                          height="24"
-                          fill="none"
-                          viewBox="0 0 25 24"
-                        >
-                          <path
-                            stroke="#252E8D"
-                            stroke-linecap="round"
-                            stroke-width="2"
-                            d="M20.227 20.447c-.455-1.276-1.46-2.403-2.857-3.207-1.397-.804-3.109-1.24-4.87-1.24-1.761 0-3.473.436-4.87 1.24-1.397.804-2.402 1.931-2.857 3.207"
-                          ></path>
-                          <circle
-                            cx="12.5"
-                            cy="8"
-                            r="4"
-                            stroke="#252E8D"
-                            stroke-linecap="round"
-                            stroke-width="2"
-                          ></circle></svg></span
-                      ><span>Profile</span></a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><span
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            fill="#252E8D"
-                            d="M2 4h15v2H2V4Zm13 13h2v-3h1v-2l-1-5H2l-1 5v2h1v6h9v-6h4v3Zm-6 1H4v-4h5v4Zm-5.96-6 .6-3h11.72l.6 3H3.04Z"
-                          ></path>
-                          <path
-                            fill="#252E8D"
-                            d="M23 18h-3v-3h-2v3h-3v2h3v3h2v-3h3v-2Z"
-                          ></path></svg></span
-                      ><span>Properties</span></a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><span
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            stroke="#FFBF00"
-                            stroke-width="2"
-                            d="M4 12a8 8 0 1 1 16 0v5.09c0 .848 0 1.27-.126 1.609a2 2 0 0 1-1.175 1.175C18.36 20 17.937 20 17.09 20H12a8 8 0 0 1-8-8Z"
-                          ></path>
-                          <path
-                            stroke="#FFBF00"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 11h6m-3 4h3"
-                          ></path></svg></span
-                      ><span>Messages</span></a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><span
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="25"
-                          height="24"
-                          fill="none"
-                          viewBox="0 0 25 24"
-                        >
-                          <path
-                            fill="#A32C2C"
-                            d="M3.5 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1.001 1.001 0 0 0 .707-1.707l-9-9a1 1 0 0 0-1.414 0l-9 9A1 1 0 0 0 3.5 13Zm9-8.586 6 6V20h-12v-9.586l6-6Z"
-                          ></path>
-                          <path
-                            fill="#A32C2C"
-                            d="M12.5 18c3.703 0 4.9-3.539 4.95-3.689l-1.9-.62c-.008.022-.781 2.31-3.05 2.31-2.238 0-3.02-2.222-3.051-2.317l-1.9.627c.05.15 1.248 3.69 4.95 3.69Z"
-                          ></path></svg></span
-                      ><span>Products</span></a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><span
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            stroke="#FFBF00"
-                            stroke-width="2"
-                            d="M6.448 8.97a5.586 5.586 0 0 1 11.104 0l.252 2.266.006.057a8 8 0 0 0 1.074 3.18l.03.05.577.963c.525.874.787 1.311.73 1.67a1 1 0 0 1-.345.61c-.279.234-.789.234-1.808.234H5.932c-1.02 0-1.53 0-1.808-.233a1 1 0 0 1-.346-.611c-.056-.359.206-.796.73-1.67l.579-.964.03-.05a8 8 0 0 0 1.073-3.179l.006-.057.252-2.267Z"
-                          ></path>
-                          <path
-                            stroke="#FFBF00"
-                            stroke-linecap="round"
-                            stroke-width="2"
-                            d="M9.102 18.406c.171.744.548 1.402 1.072 1.87.524.47 1.166.724 1.826.724.66 0 1.302-.254 1.826-.723.524-.47.9-1.127 1.072-1.871"
-                          ></path></svg></span
-                      ><span>Alerts</span></a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><span
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            stroke="#A32C2C"
-                            stroke-width="2"
-                            d="m4.45 13.908 6.953 6.531c.24.225.36.338.5.366a.5.5 0 0 0 .193 0c.142-.028.261-.14.5-.366l6.953-6.53a5.203 5.203 0 0 0 .549-6.983l-.31-.399c-1.968-2.536-5.918-2.111-7.301.787a.54.54 0 0 1-.974 0C10.13 4.416 6.18 3.99 4.212 6.527l-.31.4a5.203 5.203 0 0 0 .549 6.981Z"
-                          ></path></svg></span
-                      ><span>Favourite</span></a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      ><span
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            stroke="#A32C2C"
-                            stroke-linecap="round"
-                            stroke-width="2"
-                            d="M10 15v-3m4 3v-3M3 7h18v0c-.932 0-1.398 0-1.765.152a2 2 0 0 0-1.083 1.083C18 8.602 18 9.068 18 10v6c0 1.886 0 2.828-.586 3.414C16.828 20 15.886 20 14 20h-4c-1.886 0-2.828 0-3.414-.586C6 18.828 6 17.886 6 16v-6c0-.932 0-1.398-.152-1.765a2 2 0 0 0-1.083-1.083C4.398 7 3.932 7 3 7v0Zm7.068-3.63c.114-.106.365-.2.715-.267A6.68 6.68 0 0 1 12 3c.44 0 .868.036 1.217.103.35.067.6.161.715.268"
-                          ></path></svg></span
-                      ><span>Discard</span></a
-                    >
-                  </li>
-                </ul>
-                <div class="_dropdown_profile_logout_button">
-                  <button class="_dropdown_profile_logout_button_tag">
-                    <span class="_dropdown_profile_logout_button_ic"
-                      ><svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          fill="#555"
-                          d="m2 12-.78-.625-.5.625.5.625L2 12Zm9 1a1 1 0 1 0 0-2v2ZM5.22 6.375l-4 5 1.56 1.25 4-5-1.56-1.25Zm-4 6.25 4 5 1.56-1.25-4-5-1.56 1.25ZM2 13h9v-2H2v2Z"
-                        ></path>
-                        <path
-                          stroke="#555"
-                          stroke-width="2"
-                          d="M10 8.132v-.743c0-1.619 0-2.428.474-2.987.474-.56 1.272-.693 2.868-.96l1.672-.278c3.243-.54 4.864-.81 5.925.088C22 4.151 22 5.795 22 9.082v5.835c0 3.288 0 4.932-1.06 5.83-1.062.9-2.683.63-5.926.089l-1.672-.279c-1.596-.266-2.394-.399-2.868-.958C10 19.039 10 18.229 10 16.61v-.545"
-                        ></path></svg></span
-                    ><span class="_housiko_myads_btn_txt">Log out</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="language-list dropdown">
-              <a
-                class="btn dropdown-toggle"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <button class="nav-link _navbar_btn3 _flag_select_btn">
-                  <span
-                    class="_navbar_btn3_flag_wrap"
-                    role="img"
-                    aria-label="england"
-                    ><img
-                      src="assets/images/engflag.png"
-                      alt=""
-                      class="_navbar_btn3_flag"
-                  /></span>
-                </button>
-              </a>
-
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li>
-                  <img
-                    src="assets/images/engflag.png"
-                    alt=""
-                    class="_navbar_btn3_flag"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="assets/images/hungflag.png"
-                    alt=""
-                    class="_navbar_btn3_flag"
-                  />
-                </li>
-                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-              </ul>
-            </div>
+<body>
+  <!-- header start -->
+  <header class="cd-header flex flex-column">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light _navbar_wrap _mob_none">
+      <div class="container-fluid">
+        <a href="/">
+          <div class="navbar-brand _navbar_logo">
+            <img src="assets/images/logo.svg" class="_navbar_logo_img" alt="logo" />
           </div>
+        </a>
+        <div class="language-list dropdown">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <button class="nav-link _navbar_btn3 _flag_select_btn" id="flagButton">
+              <span class="_navbar_btn3_flag_wrap" role="img" aria-label="england"><img src="assets/images/engflag.png"
+                  alt="" class="_navbar_btn3_flag" id="currentFlag" /></span>
+            </button>
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <img src="assets/images/engflag.png" alt="" class="_navbar_btn3_flag"
+                onclick="changeFlag('assets/images/engflag.png', 'england')" />
+            </li>
+            <li>
+              <img src="assets/images/hungflag.png" alt="" class="_navbar_btn3_flag"
+                onclick="changeFlag('assets/images/hungflag.png', 'hungary')" />
+            </li>
+          </ul>
         </div>
-      </nav>
-      <div class="text-component text-center">
-        <h1>FAQs</h1>
       </div>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <!-- header end -->
+  <!-- header end -->
 
-    <!-- <main> -->
-    <section
-      class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg"
-    >
+  <!-- <main> -->
+    <section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
       <ul class="cd-faq__categories">
+        <!-- <li>
+          <a class="cd-faq__category cd-faq__category-selected truncate" href="#aboutus">About Us</a>
+        </li> -->
+        <li><a class="cd-faq__category cd-faq__category-selected truncate" href="#whoweare" data-translate-key="Who We Are.title">Who We Are</a></li>
         <li>
-          <a
-            class="cd-faq__category cd-faq__category-selected truncate"
-            href="#basics"
-            >Basics</a
-          >
-        </li>
-        <li><a class="cd-faq__category truncate" href="#mobile">Mobile</a></li>
-        <li>
-          <a class="cd-faq__category truncate" href="#account">Account</a>
+          <a class="cd-faq__category truncate" href="#generaltermsandconditions" data-translate-key="General Terms and Conditions.title">General Terms and Conditions</a>
         </li>
         <li>
-          <a class="cd-faq__category truncate" href="#payments">Payments</a>
+          <a class="cd-faq__category truncate" href="#privacypolicy" data-translate-key="Privacy Policy.title">Privacy Policy</a>
         </li>
         <li>
-          <a class="cd-faq__category truncate" href="#privacy">Privacy</a>
-        </li>
-        <li>
-          <a class="cd-faq__category truncate" href="#delivery">Delivery</a>
+          <a class="cd-faq__category truncate" href="#cookiepolicy" data-translate-key="Cookie Policy.title">Cookie Policy</a>
         </li>
       </ul>
       <!-- cd-faq__categories -->
-
+  
       <div class="cd-faq__items">
-        <ul id="basics" class="cd-faq__group">
-          <li class="cd-faq__title"><h2>Basics</h2></li>
+
+        <ul id="whoweare" class="cd-faq__group">
+          <li class="cd-faq__title">
+            <h2 data-translate-key="Who We Are.title">Who We Are</h2>
+          </li>
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How do I change my password?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0" ><span data-translate-key="Who We Are.Company Overview.title">Company Overview</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
-                  quidem blanditiis delectus corporis, possimus officia sint
-                  sequi ex tenetur id impedit est pariatur iure animi non a
-                  ratione reiciendis nihil sed consequatur atque repellendus
-                  fugit perspiciatis rerum et. Dolorum consequuntur fugit
-                  deleniti, soluta fuga nobis. Ducimus blanditiis velit sit iste
-                  delectus obcaecati debitis omnis, assumenda accusamus cumque
-                  perferendis eos aut quidem! Aut, totam rerum, cupiditate quae
-                  aperiam voluptas rem inventore quas, ex maxime culpa nam
-                  soluta labore at amet nihil laborum? Explicabo numquam, sit
-                  fugit, voluptatem autem atque quis quam voluptate fugiat earum
-                  rem hic, reprehenderit quaerat tempore at. Aperiam.
+                <p data-translate-key="Who We Are.Company Overview.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
             <!-- cd-faq__content -->
           </li>
-
+  
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How do I sign up?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0" ><span data-translate-key="Who We Are.Leadership Team.title"> Leadership Team</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quasi cupiditate et laudantium esse adipisci consequatur modi
-                  possimus accusantium vero atque excepturi nobis in doloremque
-                  repudiandae soluta non minus dolore voluptatem enim reiciendis
-                  officia voluptates, fuga ullam? Voluptas reiciendis cumque
-                  molestiae unde numquam similique quas doloremque non,
-                  perferendis doloribus necessitatibus itaque dolorem quam
-                  officia atque perspiciatis dolore laudantium dolor voluptatem
-                  eligendi? Aliquam nulla unde voluptatum molestiae, eos fugit
-                  ullam, consequuntur, saepe voluptas quaerat deleniti.
-                  Repellendus magni sint temporibus, accusantium rem commodi?
+                <p data-translate-key="Who We Are.Leadership Team.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
             <!-- cd-faq__content -->
           </li>
-
+  
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>Can I remove a post?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0" ><span data-translate-key="Who We Are.Our Team.title">Our Team</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
+                <p data-translate-key="Who We Are.Our Team.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
             <!-- cd-faq__content -->
           </li>
-
+  
+          <!--cd-fa1__content-->
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How do reviews work?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0" ><span data-translate-key= "Who We Are.Achievements and Awards.title">Achievements and Awards</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
+                <p data-translate-key= "Who We Are.Achievements and Awards.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
@@ -517,73 +127,65 @@
           </li>
         </ul>
         <!-- cd-faq__group -->
-
-        <ul id="mobile" class="cd-faq__group">
-          <li class="cd-faq__title"><h2>Mobile</h2></li>
+  
+        <ul id="generaltermsandconditions" class="cd-faq__group">
+          <li class="cd-faq__title">
+            <h2 data-translate-key="General Terms and Conditions.title">General Terms and Conditions</h2>
+          </li>
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How does syncing work?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="General Terms and Conditions.Introduction.title">Introduction</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Impedit quidem delectus rerum eligendi mollitia, repudiandae
-                  quae beatae. Et repellat quam atque corrupti iusto architecto
-                  impedit explicabo repudiandae qui similique aut iure ipsum
-                  quis inventore nulla error aliquid alias quia dolorem dolore,
-                  odio excepturi veniam odit veritatis. Quo iure magnam, et cum.
-                  Laudantium, eaque non? Tempore nihil corporis cumque dolor
-                  ipsum accusamus sapiente aliquid quis ea assumenda deserunt
-                  praesentium voluptatibus, accusantium a mollitia
-                  necessitatibus nostrum voluptatem numquam modi ab, sint rem.
+                <p data-translate-key="General Terms and Conditions.Introduction.content"> 
+                  lorem ipsum
                 </p>
               </div>
             </div>
             <!-- cd-faq__content -->
           </li>
-
+  
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How do I upload files from my phone or tablet?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="General Terms and Conditions.User Responsibilities.title">User Responsibilities</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-                  tempore, placeat quisquam rerum! Eligendi fugit dolorum
-                  tenetur modi fuga nisi rerum, autem officiis quaerat quos.
-                  Magni quia, quo quibusdam odio. Error magni aperiam amet
-                  architecto adipisci aspernatur! Officia, quaerat magni
-                  architecto nostrum magnam fuga nihil, ipsum laboriosam
-                  similique voluptatibus facilis nobis? Eius non asperiores,
-                  nesciunt suscipit veniam blanditiis veritatis provident
-                  possimus iusto voluptas, eveniet architecto quidem quos
-                  molestias, aperiam eum reprehenderit dolores ad deserunt eos
-                  amet. Vero molestiae commodi unde dolor dicta maxime alias,
-                  velit, nesciunt cum dolorem, ipsam soluta sint suscipit
-                  maiores mollitia assumenda ducimus aperiam neque enim! Quas
-                  culpa dolorum ipsam? Ipsum voluptatibus numquam natus?
-                  Eligendi explicabo eos, perferendis voluptatibus hic sed ipsam
-                  rerum maiores officia! Beatae, molestias!
+                <p data-translate-key="General Terms and Conditions.User Responsibilities.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
             <!-- cd-faq__content -->
           </li>
-
+  
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How do I link to a file or folder?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="General Terms and Conditions.Service Description.title">Service Description</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
+                <p data-translate-key="General Terms and Conditions.Service Description.content">
+                  lorem ipsum
+                </p>
+              </div>
+            </div>
+            <!-- cd-faq__content -->
+          </li>
+  
+          <li class="cd-faq__item">
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="General Terms and Conditions.Payment and Billing.title">Payment and Billing</span></a>
+            <div class="cd-faq__content">
+              <div class="text-component">
+                <p data-translate-key="General Terms and Conditions.Payment and Billing.content">
+                  lorem ipsum
+                </p>
+              </div>
+            </div>
+            <!-- cd-faq__content -->
+          </li>
+  
+          <li class="cd-faq__item">
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="General Terms and Conditions.Termination.title">Termination</span></a>
+            <div class="cd-faq__content">
+              <div class="text-component">
+                <p data-translate-key="General Terms and Conditions.Termination.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
@@ -591,98 +193,65 @@
           </li>
         </ul>
         <!-- cd-faq__group -->
-
-        <ul id="account" class="cd-faq__group">
-          <li class="cd-faq__title"><h2>Account</h2></li>
+  
+        <ul id="privacypolicy" class="cd-faq__group">
+          <li class="cd-faq__title">
+            <h2 data-translate-key="Privacy Policy.title">Privacy Policy</h2>
+          </li>
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How do I change my password?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.Information Collection.title">Information Collection</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Perferendis earum autem consectetur labore eius tenetur esse,
-                  in temporibus sequi cum voluptatem vitae repellat nostrum odio
-                  perspiciatis dolores recusandae necessitatibus, unde, deserunt
-                  voluptas possimus veniam magni soluta deleniti! Architecto,
-                  quidem, totam. Fugit minus odit unde ea cupiditate ab aperiam
-                  sed dolore facere nihil laboriosam dolorum repellat deleniti
-                  aliquam fugiat laudantium delectus sint iure odio,
-                  necessitatibus rem quisquam! Ipsum praesentium quam nisi sint,
-                  impedit sapiente facilis laudantium mollitia quae fugiat
-                  similique. Dolor maiores aliquid incidunt commodi doloremque
-                  rem! Quaerat, debitis voluptatem vero qui enim, sunt
-                  reiciendis tempore inventore maxime quasi fugiat accusamus
-                  beatae modi voluptates iste officia esse soluta tempora labore
-                  quisquam fuga, cum. Sint nemo iste nulla accusamus quam qui
-                  quos, vero, minus id. Eius mollitia consequatur fugit nam
-                  consequuntur nesciunt illo id quis reprehenderit obcaecati
-                  voluptates corrupti, minus! Possimus, perspiciatis!
+                <p data-translate-key="Privacy Policy.Information Collection.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
             <!-- cd-faq__content -->
           </li>
-
+  
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How do I delete my account?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.Data Usage.title">Data Usage</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
-                  tempore soluta, minus magnam non blanditiis dolore, in nam
-                  voluptas nobis minima deserunt deleniti id animi amet,
-                  suscipit consequuntur corporis nihil laborum facere
-                  temporibus. Qui inventore, doloribus facilis, provident soluta
-                  voluptas excepturi perspiciatis fugiat odit vero! Optio
-                  assumenda animi at! Assumenda doloremque nemo est sequi eaque,
-                  ipsum id, labore rem nisi, amet similique vel autem dolore
-                  totam facilis deserunt. Mollitia non ut libero unde accusamus
-                  praesentium sint maiores, illo, nemo aliquid?
+                <p data-translate-key="Privacy Policy.Data Usage.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
             <!-- cd-faq__content -->
           </li>
-
+  
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How do I change my account settings?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.Data Protection.title">Data Protection</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
+                <p data-translate-key="Privacy Policy.Data Protection.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
             <!-- cd-faq__content -->
           </li>
-
+  
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>I forgot my password. How do I reset it?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.User Rights.title">User Rights</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Ipsum at aspernatur iure facere ab a corporis mollitia
-                  molestiae quod omnis minima, est labore quidem nobis
-                  accusantium ad totam sunt doloremque laudantium impedit
-                  similique iste quasi cum! Libero fugit at praesentium vero.
-                  Maiores non consequuntur rerum, nemo a qui repellat quibusdam
-                  architecto voluptatem? Sequi, possimus, cupiditate autem
-                  soluta ipsa rerum officiis cum libero delectus explicabo
-                  facilis, odit ullam aperiam reprehenderit! Vero ad non harum
-                  veritatis tempore beatae possimus, ex odio quo.
+                <p data-translate-key="Privacy Policy.User Rights.content">
+                  lorem ipsum
+                </p>
+              </div>
+            </div>
+            <!-- cd-faq__content -->
+          </li>
+  
+          <li class="cd-faq__item">
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.Third-Party Disclosure.title">Third-Party Disclosure</span></a>
+            <div class="cd-faq__content">
+              <div class="text-component">
+                <p data-translate-key="Privacy Policy.Third-Party Disclosure.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
@@ -690,78 +259,64 @@
           </li>
         </ul>
         <!-- cd-faq__group -->
-
-        <ul id="payments" class="cd-faq__group">
-          <li class="cd-faq__title"><h2>Payments</h2></li>
+  
+        <ul id="cookiepolicy" class="cd-faq__group">
+          <li class="cd-faq__title">
+            <h2 data-translate-key="Cookie Policy.title">Cookie Policy</h2>
+          </li>
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>Can I have an invoice for my subscription?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Types of Cookies.title">Types of Cookies</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Impedit quidem delectus rerum eligendi mollitia, repudiandae
-                  quae beatae. Et repellat quam atque corrupti iusto architecto
-                  impedit explicabo repudiandae qui similique aut iure ipsum
-                  quis inventore nulla error aliquid alias quia dolorem dolore,
-                  odio excepturi veniam odit veritatis. Quo iure magnam, et cum.
-                  Laudantium, eaque non? Tempore nihil corporis cumque dolor
-                  ipsum accusamus sapiente aliquid quis ea assumenda deserunt
-                  praesentium voluptatibus, accusantium a mollitia
-                  necessitatibus nostrum voluptatem numquam modi ab, sint rem.
+                <p data-translate-key="Cookie Policy.Types of Cookies.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
             <!-- cd-faq__content -->
           </li>
-
+  
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>Why did my credit card or PayPal payment fail?</span></a
-            >
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Cookie Usage.title">Cookie Usage</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Tenetur accusantium dolorem vel, ad, nostrum natus eos, nemo
-                  placeat quos nisi architecto rem dolorum amet consectetur
-                  molestiae reprehenderit cum harum commodi beatae
-                  necessitatibus. Mollitia a nostrum enim earum minima doloribus
-                  illum autem, provident vero et, aspernatur quae sunt illo
-                  dolorem. Corporis blanditiis, unde, neque, adipisci debitis
-                  quas ullam accusantium repudiandae eum nostrum quis! Velit
-                  esse harum qui, modi ratione debitis alias laboriosam minus
-                  eaque, quod, itaque labore illo totam aut quia fuga nemo.
-                  Perferendis ipsa laborum atque assumenda tempore aspernatur a
-                  eos harum non id commodi excepturi quaerat ullam, explicabo,
-                  incidunt ipsam, accusantium quo magni ut! Ratione, magnam.
-                  Delectus nesciunt impedit praesentium sed, aliquam architecto
-                  dolores quae, distinctio consectetur obcaecati esse,
-                  consequuntur vel sit quis blanditiis possimus dolorum. Eaque
-                  architecto doloremque aliquid quae cumque, vitae perferendis
-                  enim, iure fugiat, soluta aut!
+                <p data-translate-key="Cookie Policy.Cookie Usage.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
             <!-- cd-faq__content -->
           </li>
-
+  
           <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span
-                >Why does my bank statement show multiple charges for one
-                upgrade?</span
-              ></a
-            >
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Managing Cookies.title">Managing Cookies</span></a>
             <div class="cd-faq__content">
               <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
+                <p data-translate-key="Cookie Policy.Managing Cookies.content">lorem ipsum
+                </p>
+              </div>
+            </div>
+            <!-- cd-faq__content -->
+          </li>
+  
+          <li class="cd-faq__item">
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Analytics and Tracking.title">Analytics and Tracking</span></a>
+            <div class="cd-faq__content">
+              <div class="text-component">
+                <p data-translate-key="Cookie Policy.Analytics and Tracking.content">
+                  lorem ipsum
+                </p>
+              </div>
+            </div>
+            <!-- cd-faq__content -->
+          </li>
+  
+          <li class="cd-faq__item">
+            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Updates to the Cookie Policy.title">Updates to the Cookie Policy</span></a>
+            <div class="cd-faq__content">
+              <div class="text-component">
+                <p data-translate-key="Cookie Policy.Updates to the Cookie Policy.content">
+                  lorem ipsum
                 </p>
               </div>
             </div>
@@ -769,639 +324,48 @@
           </li>
         </ul>
         <!-- cd-faq__group -->
-
-        <ul id="privacy" class="cd-faq__group">
-          <li class="cd-faq__title"><h2>Privacy</h2></li>
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>Can I specify my own private key?</span></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Impedit quidem delectus rerum eligendi mollitia, repudiandae
-                  quae beatae. Et repellat quam atque corrupti iusto architecto
-                  impedit explicabo repudiandae qui similique aut iure ipsum
-                  quis inventore nulla error aliquid alias quia dolorem dolore,
-                  odio excepturi veniam odit veritatis. Quo iure magnam, et cum.
-                  Laudantium, eaque non? Tempore nihil corporis cumque dolor
-                  ipsum accusamus sapiente aliquid quis ea assumenda deserunt
-                  praesentium voluptatibus, accusantium a mollitia
-                  necessitatibus nostrum voluptatem numquam modi ab, sint rem.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>My files are missing! How do I get them back?</span></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How can I access my account data?</span></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Possimus magni vero deserunt enim et quia in aliquam, rem
-                  tempore voluptas illo nisi veritatis quas quod placeat ipsa!
-                  Error qui harum accusamus incidunt at libero ipsum, suscipit
-                  dolorum esse explicabo in eius voluptates quidem voluptatem
-                  inventore amet eaque deserunt veniam dignissimos excepturi?
-                  Dolore, quo amet nostrum autem nemo. Sit nam assumenda,
-                  corporis ea sunt distinctio nostrum doloribus alias, beatae
-                  nesciunt dolore saepe consequuntur minima eveniet porro dolor
-                  officiis maiores ab obcaecati officia enim aliquam. Itaque
-                  fuga molestiae hic accusantium atque corporis quia id sequi
-                  enim vero? Hic aperiam sint facilis aliquam quia, accusamus
-                  tenetur earum totam enim est, error. Iusto, reiciendis
-                  necessitatibus molestias. Voluptatibus eos explicabo repellat
-                  nesciunt nam vero minima.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span
-                >How can I control if other search engines can link to my
-                profile?</span
-              ></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-        </ul>
-        <!-- cd-faq__group -->
-
-        <ul id="delivery" class="cd-faq__group">
-          <li class="cd-faq__title"><h2>Delivery</h2></li>
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span
-                >What should I do if my order hasn't been delivered yet?</span
-              ></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Impedit quidem delectus rerum eligendi mollitia, repudiandae
-                  quae beatae. Et repellat quam atque corrupti iusto architecto
-                  impedit explicabo repudiandae qui similique aut iure ipsum
-                  quis inventore nulla error aliquid alias quia dolorem dolore,
-                  odio excepturi veniam odit veritatis. Quo iure magnam, et cum.
-                  Laudantium, eaque non? Tempore nihil corporis cumque dolor
-                  ipsum accusamus sapiente aliquid quis ea assumenda deserunt
-                  praesentium voluptatibus, accusantium a mollitia
-                  necessitatibus nostrum voluptatem numquam modi ab, sint rem.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span
-                >How can I find your international delivery information?</span
-              ></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>Who takes care of shipping?</span></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How do returns or refunds work?</span></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Impedit quidem delectus rerum eligendi mollitia, repudiandae
-                  quae beatae. Et repellat quam atque corrupti iusto architecto
-                  impedit explicabo repudiandae qui similique aut iure ipsum
-                  quis inventore nulla error aliquid alias quia dolorem dolore,
-                  odio excepturi veniam odit veritatis. Quo iure magnam, et cum.
-                  Laudantium, eaque non? Tempore nihil corporis cumque dolor
-                  ipsum accusamus sapiente aliquid quis ea assumenda deserunt
-                  praesentium voluptatibus, accusantium a mollitia
-                  necessitatibus nostrum voluptatem numquam modi ab, sint rem.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How do I use shipping profiles?</span></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How does your UK Next Day Delivery service work?</span></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>How does your Next Day Delivery service work?</span></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>When will my order arrive?</span></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"
-              ><span>When will my order ship?</span></a
-            >
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Blanditiis provident officiis, reprehenderit numquam.
-                  Praesentium veritatis eos tenetur magni debitis inventore
-                  fugit, magnam, reiciendis, saepe obcaecati ex vero quaerat
-                  distinctio velit.
-                </p>
-              </div>
-            </div>
-            <!-- cd-faq__content -->
-          </li>
-        </ul>
+  
+        
         <!-- cd-faq__group -->
       </div>
       <!-- cd-faq__items -->
-
+  
       <a href="#0" class="cd-faq__close-panel text-replace">Close</a>
-
+  
       <div class="cd-faq__overlay" aria-hidden="true"></div>
     </section>
     <!-- </main> -->
+  <!-- cd-faq -->
+  <!-- footer start -->
 
-    <!-- cd-faq -->
-    <!-- footer start -->
 
-    <footer class="_housiko_footer_wrapper">
-      <div class="_housiko_footer_bg">
-        <img src="../../assets/images/ft-img.png" alt="imaage" />
-      </div>
-      <div class="_housiko_footer_top_wrap_dekstop_design">
-        <div class="_housiko_footer_top_wrap">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12">
-                <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-                    <div class="_housiko_footer_top_img_content">
-                      <img
-                        src="../../assets/images/ft-logo.svg"
-                        alt=""
-                        class="_housiko_footer_top_img"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <ul class="_housiko_footer_top_content_ul">
-                      <li class="_housiko_footer_top_content_li">
-                        <a class="_housiko_footer_top_content_a"
-                          ><span class="_housiko_footer_top_content_a_ic"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="18"
-                              height="18"
-                              fill="none"
-                              viewBox="0 0 25 24"
-                            >
-                              <path
-                                fill="#252E8D"
-                                fill-rule="evenodd"
-                                d="m2 5.25.75-.75h19.5l.75.75v13.5l-.75.75H2.75L2 18.75V5.25Zm1.5 1.553V18h18V6.804l-8.535 6.546h-.915L3.5 6.803ZM20.045 6H4.955l7.545 5.803L20.045 6Z"
-                                clip-rule="evenodd"
-                              ></path></svg></span
-                        ></a>
-                      </li>
-                      <li class="_housiko_footer_top_content_li">
-                        <a
-                          href="https://www.facebook.com/Housiko"
-                          target="_blank"
-                          class="_housiko_footer_top_content_a"
-                          ><span class="_housiko_footer_top_content_a_ic"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="18"
-                              height="18"
-                              fill="none"
-                              viewBox="0 0 11 22"
-                            >
-                              <path
-                                fill="#252E8D"
-                                fill-rule="evenodd"
-                                d="M3.805 21.871v-9.276H.955V8.73h2.85V5.638C3.805 2.443 5.67.871 8.298.871c1.258 0 2.34.102 2.656.147v3.34H9.131c-1.429 0-1.762.737-1.762 1.818V8.73h3.563l-.713 3.864H7.37l.057 9.277"
-                                clip-rule="evenodd"
-                              ></path></svg></span
-                        ></a>
-                      </li>
-                      <li class="_housiko_footer_top_content_li">
-                        <a
-                          href="https://instagram.com/housiko_official?igshid=Y2I2MzMwZWM3ZA=="
-                          target="_blank"
-                          class="_housiko_footer_top_content_a"
-                          ><span class="_housiko_footer_top_content_a_ic"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="18"
-                              height="18"
-                              fill="none"
-                              viewBox="0 0 22 23"
-                            >
-                              <path
-                                fill="#252E8D"
-                                d="M10.954.721c-2.89 0-3.253.013-4.389.064-1.136.053-1.909.232-2.587.495a5.214 5.214 0 0 0-1.886 1.23A5.228 5.228 0 0 0 .863 4.395C.6 5.072.42 5.846.368 6.978c-.05 1.138-.064 1.5-.064 4.394 0 2.892.013 3.254.064 4.39.053 1.134.232 1.907.495 2.585a5.23 5.23 0 0 0 1.229 1.886 5.197 5.197 0 0 0 1.885 1.229c.679.264 1.451.443 2.585.495 1.137.05 1.5.064 4.392.064 2.893 0 3.254-.013 4.39-.064 1.133-.053 1.91-.232 2.587-.495a5.212 5.212 0 0 0 1.885-1.229 5.23 5.23 0 0 0 1.229-1.886c.262-.678.442-1.451.495-2.586.05-1.135.064-1.497.064-4.39s-.013-3.255-.064-4.392c-.053-1.133-.233-1.907-.495-2.584a5.226 5.226 0 0 0-1.229-1.886A5.206 5.206 0 0 0 17.93 1.28c-.68-.263-1.454-.443-2.587-.495-1.137-.05-1.497-.064-4.392-.064h.005-.002ZM10 2.641h.956c2.843 0 3.18.009 4.302.061 1.038.047 1.603.221 1.978.366.497.193.852.425 1.225.797.373.373.603.727.796 1.225.147.374.32.939.366 1.977.052 1.122.063 1.46.063 4.301 0 2.843-.01 3.18-.063 4.303-.046 1.038-.22 1.602-.366 1.977-.17.462-.443.88-.797 1.223a3.292 3.292 0 0 1-1.225.796c-.373.147-.937.32-1.977.368-1.122.05-1.459.062-4.302.062-2.844 0-3.182-.012-4.304-.062-1.039-.048-1.602-.221-1.977-.368a3.3 3.3 0 0 1-1.225-.796 3.3 3.3 0 0 1-.799-1.224c-.145-.374-.32-.939-.366-1.977-.05-1.123-.061-1.46-.061-4.304 0-2.844.01-3.18.061-4.302.048-1.038.221-1.602.367-1.978.194-.496.425-.852.798-1.225a3.29 3.29 0 0 1 1.225-.796c.375-.146.938-.32 1.977-.367.982-.045 1.363-.059 3.348-.06v.003Zm6.64 1.768a1.279 1.279 0 1 0 0 2.557 1.279 1.279 0 0 0 0-2.557Zm-5.684 1.493a5.47 5.47 0 1 0-.171 10.939 5.47 5.47 0 0 0 .17-10.939Zm0 1.919a3.55 3.55 0 1 1 0 7.1 3.55 3.55 0 0 1 0-7.1Z"
-                              ></path></svg></span
-                        ></a>
-                      </li>
-                      <li class="_housiko_footer_top_content_li">
-                        <a
-                          href="https://twitter.com/housikogroup?s=11&amp;t=vzFDbFODXSA7r7Z6aH87EA"
-                          target="_blank"
-                          class="_housiko_footer_top_content_a"
-                          ><span class="_housiko_footer_top_content_a_ic"
-                            ><svg
-                              width="22"
-                              height="20"
-                              viewBox="0 0 22 20"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M17.2439 0.25H20.5519L13.3249 8.51L21.8269 19.75H15.1699L9.95591 12.933L3.98991 19.75H0.679906L8.40991 10.915L0.253906 0.25H7.07991L11.7929 6.481L17.2439 0.25ZM16.0829 17.77H17.9159L6.08391 2.126H4.11691L16.0829 17.77Z"
-                                fill="#252E8D"
-                              ></path></svg></span
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="_housiko_footer_top_app_btn_wrap _tab">
-                  <div class="_housiko_footer_top_app_comming_soon_btns">
-                    <button class="_housiko_footer_top_app_comming_soon_btn">
-                      Comming Soon
-                    </button>
-                  </div>
-                  <ul class="_housiko_footer_top_app_btn_ul">
-                    <li class="_housiko_footer_top_app_btn_li">
-                      <button class="_housiko_footer_top_app_btn">
-                        <img
-                          src="../../assets/images/google.png"
-                          alt="play"
-                          class="img-fluid _housiko_footer_top_app_btn_img"
-                        />
-                      </button>
-                    </li>
-                    <li class="_housiko_footer_top_app_btn_li">
-                      <button class="_housiko_footer_top_app_btn">
-                        <img
-                          src="../../assets/images/apple.png"
-                          alt="app"
-                          class="img-fluid _housiko_footer_top_app_btn_img"
-                        />
-                      </button>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="_ft_divider" />
-        <div class="_housiko_footer_bottom_wrap">
-          <div class="container">
-            <div class="_housiko_footer_bottom_content_wrap">
-              <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                  <div class="_housiko_footer_bottom_content">
-                    <h4 class="_housiko_footer_bottom_content_title">
-                      About us
-                    </h4>
-                    <ul class="_housiko_footer_bottom_content_ul">
-                      <li class="_housiko_footer_bottom_content_li">
-                        <a href="#0" class="_housiko_footer_bottom_content_link"
-                          >Who We Are</a
-                        >
-                      </li>
-                      <li class="_housiko_footer_bottom_content_li">
-                        <a href="#0" class="_housiko_footer_bottom_content_link"
-                          >General Terms and Conditions</a
-                        >
-                      </li>
-                      <li class="_housiko_footer_bottom_content_li">
-                        <a href="#0" class="_housiko_footer_bottom_content_link"
-                          >Privacy Policy</a
-                        >
-                      </li>
-                      <li class="_housiko_footer_bottom_content_li">
-                        <a href="#0" class="_housiko_footer_bottom_content_link"
-                          >Cookie Policy</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-                  <div class="_housiko_footer_bottom_content">
-                    <h4 class="_housiko_footer_bottom_content_title">
-                      Contact
-                    </h4>
-                    <ul class="_housiko_footer_bottom_content_ul">
-                      <li class="_housiko_footer_bottom_content_li">
-                        <a href="#0" class="_housiko_footer_bottom_content_link"
-                          >Phone: +36 30 691 1343</a
-                        >
-                      </li>
-                      <li class="_housiko_footer_bottom_content_li">
-                        <a
-                          href="mailto:info@housiko.com"
-                          class="_housiko_footer_bottom_content_link"
-                          >Email: info@housiko.com</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12">
-                  <div class="_housiko_footer_bottom_qr_code_main">
-                    <div class="_housiko_footer_bottom_qr_code">
-                      <button class="_housiko_footer_top_qr_btn">
-                        <img
-                          src="../../assets/images/qrcode.png"
-                          alt="qr"
-                          class="img-fluid _housiko_footer_top_qr_img"
-                        />
-                      </button>
-                    </div>
-                    <div class="_housiko_footer_bottom_qr_code">
-                      <button class="_housiko_footer_top_qr_btn">
-                        <img
-                          src="../../assets/images/qrcode.png"
-                          alt="qr"
-                          class="img-fluid _housiko_footer_top_qr_img"
-                        />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="_ft_divider" />
-        <div class="_housiko_footer_bottom_wrap">
-          <div class="container">
-            <div class="_housiko_footer_bottom_text_wrap">
-              <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                  <div class="_housiko_footer_bottom_texts">
-                    <p class="_housiko_footer_bottom_text">
-                      © 2023 Housiko Group Kft.
-                      <!-- -->All Rights Reserved<!-- -->.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="_housiko_footer_top_wrap_mobile_design">
-        <div class="_housiko_footer_top_wrap">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
-                <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
-                    <div class="_housiko_footer_top_img_content">
-                      <img
-                        src="../../assets/images/ft-logo.svg"
-                        alt=""
-                        class="_housiko_footer_top_img"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                    <ul class="_housiko_footer_top_content_ul">
-                      <li class="_housiko_footer_top_content_li">
-                        <a href="#0" class="_housiko_footer_top_content_a"
-                          ><span class="_housiko_footer_top_content_a_ic"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="18"
-                              height="18"
-                              fill="none"
-                              viewBox="0 0 25 24"
-                            >
-                              <path
-                                fill="#252E8D"
-                                fill-rule="evenodd"
-                                d="m2 5.25.75-.75h19.5l.75.75v13.5l-.75.75H2.75L2 18.75V5.25Zm1.5 1.553V18h18V6.804l-8.535 6.546h-.915L3.5 6.803ZM20.045 6H4.955l7.545 5.803L20.045 6Z"
-                                clip-rule="evenodd"
-                              ></path></svg></span
-                        ></a>
-                      </li>
-                      <li class="_housiko_footer_top_content_li">
-                        <a href="#0" class="_housiko_footer_top_content_a"
-                          ><span class="_housiko_footer_top_content_a_ic"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="18"
-                              height="18"
-                              fill="none"
-                              viewBox="0 0 11 22"
-                            >
-                              <path
-                                fill="#252E8D"
-                                fill-rule="evenodd"
-                                d="M3.805 21.871v-9.276H.955V8.73h2.85V5.638C3.805 2.443 5.67.871 8.298.871c1.258 0 2.34.102 2.656.147v3.34H9.131c-1.429 0-1.762.737-1.762 1.818V8.73h3.563l-.713 3.864H7.37l.057 9.277"
-                                clip-rule="evenodd"
-                              ></path></svg></span
-                        ></a>
-                      </li>
-                      <li class="_housiko_footer_top_content_li">
-                        <a href="#0" class="_housiko_footer_top_content_a"
-                          ><span class="_housiko_footer_top_content_a_ic"
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="18"
-                              height="18"
-                              fill="none"
-                              viewBox="0 0 22 23"
-                            >
-                              <path
-                                fill="#252E8D"
-                                d="M10.954.721c-2.89 0-3.253.013-4.389.064-1.136.053-1.909.232-2.587.495a5.214 5.214 0 0 0-1.886 1.23A5.228 5.228 0 0 0 .863 4.395C.6 5.072.42 5.846.368 6.978c-.05 1.138-.064 1.5-.064 4.394 0 2.892.013 3.254.064 4.39.053 1.134.232 1.907.495 2.585a5.23 5.23 0 0 0 1.229 1.886 5.197 5.197 0 0 0 1.885 1.229c.679.264 1.451.443 2.585.495 1.137.05 1.5.064 4.392.064 2.893 0 3.254-.013 4.39-.064 1.133-.053 1.91-.232 2.587-.495a5.212 5.212 0 0 0 1.885-1.229 5.23 5.23 0 0 0 1.229-1.886c.262-.678.442-1.451.495-2.586.05-1.135.064-1.497.064-4.39s-.013-3.255-.064-4.392c-.053-1.133-.233-1.907-.495-2.584a5.226 5.226 0 0 0-1.229-1.886A5.206 5.206 0 0 0 17.93 1.28c-.68-.263-1.454-.443-2.587-.495-1.137-.05-1.497-.064-4.392-.064h.005-.002ZM10 2.641h.956c2.843 0 3.18.009 4.302.061 1.038.047 1.603.221 1.978.366.497.193.852.425 1.225.797.373.373.603.727.796 1.225.147.374.32.939.366 1.977.052 1.122.063 1.46.063 4.301 0 2.843-.01 3.18-.063 4.303-.046 1.038-.22 1.602-.366 1.977-.17.462-.443.88-.797 1.223a3.292 3.292 0 0 1-1.225.796c-.373.147-.937.32-1.977.368-1.122.05-1.459.062-4.302.062-2.844 0-3.182-.012-4.304-.062-1.039-.048-1.602-.221-1.977-.368a3.3 3.3 0 0 1-1.225-.796 3.3 3.3 0 0 1-.799-1.224c-.145-.374-.32-.939-.366-1.977-.05-1.123-.061-1.46-.061-4.304 0-2.844.01-3.18.061-4.302.048-1.038.221-1.602.367-1.978.194-.496.425-.852.798-1.225a3.29 3.29 0 0 1 1.225-.796c.375-.146.938-.32 1.977-.367.982-.045 1.363-.059 3.348-.06v.003Zm6.64 1.768a1.279 1.279 0 1 0 0 2.557 1.279 1.279 0 0 0 0-2.557Zm-5.684 1.493a5.47 5.47 0 1 0-.171 10.939 5.47 5.47 0 0 0 .17-10.939Zm0 1.919a3.55 3.55 0 1 1 0 7.1 3.55 3.55 0 0 1 0-7.1Z"
-                              ></path></svg></span
-                        ></a>
-                      </li>
-                      <li class="_housiko_footer_top_content_li">
-                        <a href="#0" class="_housiko_footer_top_content_a"
-                          ><span class="_housiko_footer_top_content_a_ic"
-                            ><svg
-                              width="22"
-                              height="20"
-                              viewBox="0 0 22 20"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M17.2439 0.25H20.5519L13.3249 8.51L21.8269 19.75H15.1699L9.95591 12.933L3.98991 19.75H0.679906L8.40991 10.915L0.253906 0.25H7.07991L11.7929 6.481L17.2439 0.25ZM16.0829 17.77H17.9159L6.08391 2.126H4.11691L16.0829 17.77Z"
-                                fill="#252E8D"
-                              ></path></svg></span
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="_housiko_footer_top_more_info">
-                  <button class="_clear_btn">
-                    <span class="text-decoration-underline">Show more</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- footer end -->
-    <script src="assets/js/util.js"></script>
-    <!-- util functions included in the CodyHouse framework -->
-    <script src="assets/js/main.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- footer end -->
+  <script src="assets/js/util.js"></script>
+  <!-- util functions included in the CodyHouse framework -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+   
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const lang = getCookie('housikolang') || 'en';
+        applyTranslation(lang);
+      });
+    </script>
+    
+<script>
+  const changeFlag = (src, alt) => {
+    document.getElementById("currentFlag").src = src;
+    document.getElementById("currentFlag").alt = alt;
+    let languageCode = alt === 'hungary' ? "hu" : "en";
+    applyTranslation(languageCode);
+    setCookie('housikolang', languageCode,'.housiko.com'); 
+  }
+</script>
+
+</body>
 </html>
