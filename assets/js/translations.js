@@ -184,16 +184,16 @@ const content = {
 
 
 function applyTranslation(language) {
-  console.log("Applying translation for language:", language);
+
   document.querySelectorAll('[data-translate-key]').forEach(elem => {
     const keyPath = elem.getAttribute('data-translate-key').split('.');
-    console.log("Key path:", keyPath);
+
     let translation = content[language];
 
     keyPath.forEach(key => {
       if (translation) {
         translation = translation[key];
-        console.log("Current translation:", translation);
+
       }
     });
 
@@ -213,7 +213,8 @@ function getCookie(name) {
 }
 
 function setCookie(name, value, domain) {
-  let cookieString = `${name}=${encodeURIComponent(value)};path=/;secure`;
+  const maxAge = 60 * 60 * 24 * 365 * 20; // 20 years
+  let cookieString = `${name}=${encodeURIComponent(value)};path=/;secure;max-age=${maxAge}`;
   if (domain) {
     cookieString += `;domain=${domain}`;
   }

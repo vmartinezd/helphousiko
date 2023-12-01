@@ -10,18 +10,18 @@
         this.faqOverlay = this.element.getElementsByClassName('cd-faq__overlay')[0];
         this.faqClose = this.element.getElementsByClassName('cd-faq__close-panel')[0];
         this.scrolling = false;
-
+                               
         Array.from(this.sections).forEach(function(section) {
             section.style.display = 'none';
         });
-
+        
         if (this.sections.length > 0) {
             this.sections[0].style.display = 'block';
             Util.addClass(this.faqsCategories[0], 'cd-faq__category-selected');
 			
         }
 		this.showSectionFromHash(window.location.hash.replace('#', '') || (this.sections[0].id || ''));
-    
+      
         initFaqEvents(this);
 		
     };
@@ -34,7 +34,7 @@
         Array.from(this.faqsCategories).forEach(function(cat) {
             cat.classList.remove('cd-faq__category-selected');
         });
-
+        
         var selectedSection = document.getElementById(hash);
         if(selectedSection) {
             selectedSection.style.display = 'block';
@@ -110,7 +110,7 @@
 		faqs.faqContainer.addEventListener('click', function(event){
 			if(getMq(faqs) != 'desktop') return;
 			var trigger = event.target.closest('.cd-faq__trigger');
-			console.log('trigger')
+		
 			if(!trigger) return;
 			event.preventDefault();
 			var content = trigger.nextElementSibling,
