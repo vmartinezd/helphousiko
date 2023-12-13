@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,13 +10,14 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/footer.css" />
   <link rel="stylesheet" href="assets/css/navbar.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <script src="./assets/js/translations.js"></script> 
+  <script src="./assets/js/translations.js"></script>
   <title>Housiko FAQs</title>
 </head>
 
-<body>
+<body class="h-100 d-flex flex-column">
   <!-- header start -->
   <header class="cd-header flex flex-column">
     <nav class="navbar navbar-expand-lg navbar-light bg-light _navbar_wrap _mob_none">
@@ -53,291 +55,384 @@
   <!-- header end -->
 
   <!-- <main> -->
-    <section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
-      <ul class="cd-faq__categories">
-        <!-- <li>
+  <section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+    <ul class="cd-faq__categories">
+      <!-- <li>
           <a class="cd-faq__category cd-faq__category-selected truncate" href="#aboutus">About Us</a>
         </li> -->
-        <li><a class="cd-faq__category cd-faq__category-selected truncate" href="#whoweare" data-translate-key="Who We Are.title">Who We Are</a></li>
-        <li>
-          <a class="cd-faq__category truncate" href="#generaltermsandconditions" data-translate-key="General Terms and Conditions.title">General Terms and Conditions</a>
-        </li>
-        <li>
-          <a class="cd-faq__category truncate" href="#privacypolicy" data-translate-key="Privacy Policy.title">Privacy Policy</a>
-        </li>
-        <li>
-          <a class="cd-faq__category truncate" href="#cookiepolicy" data-translate-key="Cookie Policy.title">Cookie Policy</a>
-        </li>
-      </ul>
-      <!-- cd-faq__categories -->
-  
-      <div class="cd-faq__items">
+      <li><a class="cd-faq__category cd-faq__category-selected truncate" href="#whoweare"
+          data-translate-key="Who We Are.title">Who We Are</a></li>
+      <li>
+        <a class="cd-faq__category truncate" href="#generaltermsandconditions"
+          data-translate-key="General Terms and Conditions.title">General Terms and Conditions</a>
+      </li>
+      <li>
+        <a class="cd-faq__category truncate" href="#privacypolicy" data-translate-key="Privacy Policy.title">Privacy
+          Policy</a>
+      </li>
+      <li>
+        <a class="cd-faq__category truncate" href="#cookiepolicy" data-translate-key="Cookie Policy.title">Cookie
+          Policy</a>
+      </li>
+    </ul>
+    <!-- cd-faq__categories -->
 
-        <ul id="whoweare" class="cd-faq__group">
-          <!-- <li class="cd-faq__title">
+    <div class="cd-faq__items">
+
+      <ul id="whoweare" class="cd-faq__group">
+        <!-- <li class="cd-faq__title">
             <h2 data-translate-key="Who We Are.title">Who We Are</h2>
           </li> -->
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0" ><span data-translate-key="Who We Are.Company Overview.title">Company Overview</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Who We Are.Company Overview.content">
-                  lorem ipsum
-                </p>
-              </div>
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span data-translate-key="Who We Are.Company Overview.title">Company
+              Overview</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Who We Are.Company Overview.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0" ><span data-translate-key="Who We Are.Leadership Team.title"> Leadership Team</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Who We Are.Leadership Team.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span data-translate-key="Who We Are.Leadership Team.title"> Leadership
+              Team</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Who We Are.Leadership Team.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0" ><span data-translate-key="Who We Are.Our Team.title">Our Team</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Who We Are.Our Team.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span data-translate-key="Who We Are.Our Team.title">Our Team</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Who We Are.Our Team.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <!--cd-fa1__content-->
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0" ><span data-translate-key= "Who We Are.Achievements and Awards.title">Achievements and Awards</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key= "Who We Are.Achievements and Awards.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <!--cd-fa1__content-->
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span
+              data-translate-key="Who We Are.Achievements and Awards.title">Achievements and Awards</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Who We Are.Achievements and Awards.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-        </ul>
-        <!-- cd-faq__group -->
-  
-        <ul id="generaltermsandconditions" class="cd-faq__group">
-          <!-- <li class="cd-faq__title">
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+      </ul>
+      <!-- cd-faq__group -->
+
+      <ul id="generaltermsandconditions" class="cd-faq__group">
+        <!-- <li class="cd-faq__title">
             <h2 data-translate-key="General Terms and Conditions.title">General Terms and Conditions</h2>
           </li> -->
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="General Terms and Conditions.Introduction.title">Introduction</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="General Terms and Conditions.Introduction.content"> 
-                  lorem ipsum
-                </p>
-              </div>
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span
+              data-translate-key="General Terms and Conditions.Introduction.title">Introduction</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="General Terms and Conditions.Introduction.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="General Terms and Conditions.User Responsibilities.title">User Responsibilities</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="General Terms and Conditions.User Responsibilities.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span
+              data-translate-key="General Terms and Conditions.User Responsibilities.title">User
+              Responsibilities</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="General Terms and Conditions.User Responsibilities.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="General Terms and Conditions.Service Description.title">Service Description</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="General Terms and Conditions.Service Description.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span
+              data-translate-key="General Terms and Conditions.Service Description.title">Service Description</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="General Terms and Conditions.Service Description.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="General Terms and Conditions.Payment and Billing.title">Payment and Billing</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="General Terms and Conditions.Payment and Billing.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span
+              data-translate-key="General Terms and Conditions.Payment and Billing.title">Payment and Billing</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="General Terms and Conditions.Payment and Billing.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="General Terms and Conditions.Termination.title">Termination</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="General Terms and Conditions.Termination.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span
+              data-translate-key="General Terms and Conditions.Termination.title">Termination</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="General Terms and Conditions.Termination.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-        </ul>
-        <!-- cd-faq__group -->
-  
-        <ul id="privacypolicy" class="cd-faq__group">
-          <!-- <li class="cd-faq__title">
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+      </ul>
+      <!-- cd-faq__group -->
+
+      <ul id="privacypolicy" class="cd-faq__group">
+        <!-- <li class="cd-faq__title">
             <h2 data-translate-key="Privacy Policy.title">Privacy Policy</h2>
           </li> -->
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.Information Collection.title">Information Collection</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Privacy Policy.Information Collection.content">
-                  lorem ipsum
-                </p>
-              </div>
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span
+              data-translate-key="Privacy Policy.Information Collection.title">Information Collection</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Privacy Policy.Information Collection.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.Data Usage.title">Data Usage</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Privacy Policy.Data Usage.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.Data Usage.title">Data
+              Usage</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Privacy Policy.Data Usage.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.Data Protection.title">Data Protection</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Privacy Policy.Data Protection.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.Data Protection.title">Data
+              Protection</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Privacy Policy.Data Protection.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.User Rights.title">User Rights</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Privacy Policy.User Rights.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.User Rights.title">User
+              Rights</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Privacy Policy.User Rights.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Privacy Policy.Third-Party Disclosure.title">Third-Party Disclosure</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Privacy Policy.Third-Party Disclosure.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span
+              data-translate-key="Privacy Policy.Third-Party Disclosure.title">Third-Party Disclosure</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Privacy Policy.Third-Party Disclosure.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-        </ul>
-        <!-- cd-faq__group -->
-  
-        <ul id="cookiepolicy" class="cd-faq__group">
-          <!-- <li class="cd-faq__title">
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+      </ul>
+      <!-- cd-faq__group -->
+
+      <ul id="cookiepolicy" class="cd-faq__group">
+        <!-- <li class="cd-faq__title">
             <h2 data-translate-key="Cookie Policy.title">Cookie Policy</h2>
           </li> -->
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Types of Cookies.title">Types of Cookies</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Cookie Policy.Types of Cookies.content">
-                  lorem ipsum
-                </p>
-              </div>
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Types of Cookies.title">Types of
+              Cookies</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Cookie Policy.Types of Cookies.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Cookie Usage.title">Cookie Usage</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Cookie Policy.Cookie Usage.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Cookie Usage.title">Cookie
+              Usage</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Cookie Policy.Cookie Usage.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Managing Cookies.title">Managing Cookies</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Cookie Policy.Managing Cookies.content">lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Managing Cookies.title">Managing
+              Cookies</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Cookie Policy.Managing Cookies.content">lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Analytics and Tracking.title">Analytics and Tracking</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Cookie Policy.Analytics and Tracking.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span
+              data-translate-key="Cookie Policy.Analytics and Tracking.title">Analytics and Tracking</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Cookie Policy.Analytics and Tracking.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-  
-          <li class="cd-faq__item">
-            <a class="cd-faq__trigger" href="#0"><span data-translate-key="Cookie Policy.Updates to the Cookie Policy.title">Updates to the Cookie Policy</span></a>
-            <div class="cd-faq__content">
-              <div class="text-component">
-                <p data-translate-key="Cookie Policy.Updates to the Cookie Policy.content">
-                  lorem ipsum
-                </p>
-              </div>
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+
+        <li class="cd-faq__item">
+          <a class="cd-faq__trigger" href="#0"><span
+              data-translate-key="Cookie Policy.Updates to the Cookie Policy.title">Updates to the Cookie
+              Policy</span></a>
+          <div class="cd-faq__content">
+            <div class="text-component">
+              <p data-translate-key="Cookie Policy.Updates to the Cookie Policy.content">
+                lorem ipsum
+              </p>
             </div>
-            <!-- cd-faq__content -->
-          </li>
-        </ul>
-        <!-- cd-faq__group -->
-  
-        
-        <!-- cd-faq__group -->
-      </div>
-      <!-- cd-faq__items -->
-  
-      <a href="#0" class="cd-faq__close-panel text-replace">Close</a>
-  
-      <div class="cd-faq__overlay" aria-hidden="true"></div>
-    </section>
-    <!-- </main> -->
+          </div>
+          <!-- cd-faq__content -->
+        </li>
+      </ul>
+      <!-- cd-faq__group -->
+
+
+      <!-- cd-faq__group -->
+    </div>
+    <!-- cd-faq__items -->
+
+    <a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+
+    <div class="cd-faq__overlay" aria-hidden="true"></div>
+  </section>
+  <!-- </main> -->
   <!-- cd-faq -->
   <!-- footer start -->
-
+  <footer class="_housiko_footer_wrapper mt-auto">
+    <div class="_housiko_footer_bg"><img src="../../assets/images/ft-img.png" alt="imaage"></div>
+    <div class="_housiko_footer_top_wrap_dekstop_design">
+      <div class="_housiko_footer_top_wrap">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-8 col-lg-8 col-12">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-12">
+                  <div class="d-flex align-items-center">
+                    <div class="_housiko_footer_top_img_content"><img src="../../assets/images/ft-logo.svg" alt=""
+                      class="_housiko_footer_top_img"></div>
+                      <ul class="_housiko_footer_top_content_ul ms-lg-5 ms-3 mb-0">
+                        <li class="_housiko_footer_top_content_li"><a class="_housiko_footer_top_content_a"><span
+                              class="_housiko_footer_top_content_a_ic"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                height="18" fill="none" viewBox="0 0 25 24">
+                                <path fill="#252E8D" fill-rule="evenodd"
+                                  d="m2 5.25.75-.75h19.5l.75.75v13.5l-.75.75H2.75L2 18.75V5.25Zm1.5 1.553V18h18V6.804l-8.535 6.546h-.915L3.5 6.803ZM20.045 6H4.955l7.545 5.803L20.045 6Z"
+                                  clip-rule="evenodd"></path>
+                              </svg></span></a></li>
+                        <li class="_housiko_footer_top_content_li"><a href="https://www.facebook.com/Housiko"
+                            target="_blank" class="_housiko_footer_top_content_a"><span
+                              class="_housiko_footer_top_content_a_ic"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                height="18" fill="none" viewBox="0 0 11 22">
+                                <path fill="#252E8D" fill-rule="evenodd"
+                                  d="M3.805 21.871v-9.276H.955V8.73h2.85V5.638C3.805 2.443 5.67.871 8.298.871c1.258 0 2.34.102 2.656.147v3.34H9.131c-1.429 0-1.762.737-1.762 1.818V8.73h3.563l-.713 3.864H7.37l.057 9.277"
+                                  clip-rule="evenodd"></path>
+                              </svg></span></a></li>
+                        <li class="_housiko_footer_top_content_li"><a
+                            href="https://instagram.com/housiko_official?igshid=Y2I2MzMwZWM3ZA==" target="_blank"
+                            class="_housiko_footer_top_content_a"><span class="_housiko_footer_top_content_a_ic"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 22 23">
+                                <path fill="#252E8D"
+                                  d="M10.954.721c-2.89 0-3.253.013-4.389.064-1.136.053-1.909.232-2.587.495a5.214 5.214 0 0 0-1.886 1.23A5.228 5.228 0 0 0 .863 4.395C.6 5.072.42 5.846.368 6.978c-.05 1.138-.064 1.5-.064 4.394 0 2.892.013 3.254.064 4.39.053 1.134.232 1.907.495 2.585a5.23 5.23 0 0 0 1.229 1.886 5.197 5.197 0 0 0 1.885 1.229c.679.264 1.451.443 2.585.495 1.137.05 1.5.064 4.392.064 2.893 0 3.254-.013 4.39-.064 1.133-.053 1.91-.232 2.587-.495a5.212 5.212 0 0 0 1.885-1.229 5.23 5.23 0 0 0 1.229-1.886c.262-.678.442-1.451.495-2.586.05-1.135.064-1.497.064-4.39s-.013-3.255-.064-4.392c-.053-1.133-.233-1.907-.495-2.584a5.226 5.226 0 0 0-1.229-1.886A5.206 5.206 0 0 0 17.93 1.28c-.68-.263-1.454-.443-2.587-.495-1.137-.05-1.497-.064-4.392-.064h.005-.002ZM10 2.641h.956c2.843 0 3.18.009 4.302.061 1.038.047 1.603.221 1.978.366.497.193.852.425 1.225.797.373.373.603.727.796 1.225.147.374.32.939.366 1.977.052 1.122.063 1.46.063 4.301 0 2.843-.01 3.18-.063 4.303-.046 1.038-.22 1.602-.366 1.977-.17.462-.443.88-.797 1.223a3.292 3.292 0 0 1-1.225.796c-.373.147-.937.32-1.977.368-1.122.05-1.459.062-4.302.062-2.844 0-3.182-.012-4.304-.062-1.039-.048-1.602-.221-1.977-.368a3.3 3.3 0 0 1-1.225-.796 3.3 3.3 0 0 1-.799-1.224c-.145-.374-.32-.939-.366-1.977-.05-1.123-.061-1.46-.061-4.304 0-2.844.01-3.18.061-4.302.048-1.038.221-1.602.367-1.978.194-.496.425-.852.798-1.225a3.29 3.29 0 0 1 1.225-.796c.375-.146.938-.32 1.977-.367.982-.045 1.363-.059 3.348-.06v.003Zm6.64 1.768a1.279 1.279 0 1 0 0 2.557 1.279 1.279 0 0 0 0-2.557Zm-5.684 1.493a5.47 5.47 0 1 0-.171 10.939 5.47 5.47 0 0 0 .17-10.939Zm0 1.919a3.55 3.55 0 1 1 0 7.1 3.55 3.55 0 0 1 0-7.1Z">
+                                </path>
+                              </svg></span></a></li>
+                        <li class="_housiko_footer_top_content_li"><a
+                            href="https://twitter.com/housikogroup?s=11&amp;t=vzFDbFODXSA7r7Z6aH87EA" target="_blank"
+                            class="_housiko_footer_top_content_a"><span class="_housiko_footer_top_content_a_ic"><svg
+                                width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                  d="M17.2439 0.25H20.5519L13.3249 8.51L21.8269 19.75H15.1699L9.95591 12.933L3.98991 19.75H0.679906L8.40991 10.915L0.253906 0.25H7.07991L11.7929 6.481L17.2439 0.25ZM16.0829 17.77H17.9159L6.08391 2.126H4.11691L16.0829 17.77Z"
+                                  fill="#252E8D"></path>
+                              </svg></span></a></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="_ft_divider">
+      <div class="_housiko_footer_bottom_wrap">
+        <div class="container">
+          <div class="_housiko_footer_bottom_text_wrap">
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="_housiko_footer_bottom_texts">
+                  <p class="_housiko_footer_bottom_text">© 2023 Housiko Group Kft. <!-- -->All Rights Reserved<!-- -->.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </footer>
 
   <!-- footer end -->
   <script src="assets/js/util.js"></script>
@@ -351,37 +446,38 @@
     crossorigin="anonymous"></script>
 
 
-   <script>
+  <script>
     const updateFlagFromCookie = () => {
-    const lang = getCookie('housikolang') || 'en';
-    let flagSrc, flagAlt;
-    if(lang === 'hu_Hu') {
-      flagSrc = 'assets/images/hungflag.png';
-      flagAlt = 'hungary';
-    } else if(lang === 'en-GB') {
-      flagSrc = 'assets/images/engflag.png';
-      flagAlt = 'england';
+      const lang = getCookie('housikolang') || 'en';
+      let flagSrc, flagAlt;
+      if (lang === 'hu_Hu') {
+        flagSrc = 'assets/images/hungflag.png';
+        flagAlt = 'hungary';
+      } else if (lang === 'en-GB') {
+        flagSrc = 'assets/images/engflag.png';
+        flagAlt = 'england';
+      }
+      document.getElementById("currentFlag").src = flagSrc;
+      document.getElementById("currentFlag").alt = flagAlt;
+    };
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const lang = getCookie('housikolang') || 'en';
+      applyTranslation(lang);
+      updateFlagFromCookie();
+    });
+  </script>
+
+  <script>
+    const changeFlag = (src, alt) => {
+      document.getElementById("currentFlag").src = src;
+      document.getElementById("currentFlag").alt = alt;
+      let languageCode = alt === 'hungary' ? "hu_Hu" : "en-GB";
+      applyTranslation(languageCode);
+      setCookie('housikolang', languageCode, '.housiko.com');
     }
-    document.getElementById("currentFlag").src = flagSrc;
-    document.getElementById("currentFlag").alt = flagAlt;
-  };
-   </script>
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const lang = getCookie('housikolang') || 'en';
-        applyTranslation(lang);
-        updateFlagFromCookie();
-      });
-    </script>
-    
-<script>
-  const changeFlag = (src, alt) => {
-    document.getElementById("currentFlag").src = src;
-    document.getElementById("currentFlag").alt = alt;
-    let languageCode = alt === 'hungary' ? "hu_Hu" : "en-GB";
-    applyTranslation(languageCode);
-    setCookie('housikolang', languageCode,'.housiko.com'); 
-  }
-</script>
+  </script>
 </body>
+
 </html>
