@@ -46,7 +46,7 @@ const content = {
       "title": "Privacy Policy",
       "Information Collection": {
         "title": "Information Collection",
-        "content": "lorem ipsum"
+        "content": "This is the privacy policy test"
       },
       "Data Usage": {
         "title": "Data Usage",
