@@ -43,10 +43,9 @@ const content = {
       }
     },
     "Privacy Policy": {
+
       "title": "Privacy Policy",
-      "Privacy Policy": {
-        "title": "Privacy Policy",
-        "content": "
+      "content": `
 Privacy Policy of Housiko Group Kft
 
 The person of the data controller, the purpose of the policy The name of the data controller: Housiko Group Kft. (hereinafter: "Housiko.com") Headquarters: 3580 Tiszaújváros Lórántffy Zsuzsanna 1. 2/2. Data Protection Officer: .......... Email:info@housiko.comPhone: (working days 10.00 a.m. – 5.00 p.m.)
@@ -183,8 +182,7 @@ The contract must state that the data processor will assist Housiko.com in exerc
 . The contract must state that upon completion of data processing, based on Housiko.com's decision, the data processor deletes or returns all personal data to Housiko.com and deletes existing copies, unless EU or Hungarian law prohibits the storage of personal data prescribes.
 The contract must stipulate that the data processor provides Housiko.com with all information necessary to verify the fulfillment of the obligations set out in the General Data Protection Regulation, and which also enables and facilitates audits carried out by Housiko.com or another auditor commissioned by it, including field tests.
 The contract must stipulate that the data processor immediately informs Housiko.com if it believes that any of its instructions violate this General Data Protection Regulation or any other Hungarian or EU data protection provision.
-"
-      },
+`
     },
     "Cookie Policy": {
       "title": "Cookie Policy",
