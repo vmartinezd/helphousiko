@@ -162,10 +162,6 @@ textarea {
 input::-ms-clear {
   display: none;
 }
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 img,
 video,
 svg {
@@ -3553,4 +3549,80 @@ body {
   );
   font-size: 0.83333em;
   font-size: var(--text-sm);
+}
+.text-semibold{
+  font-weight: 500;
+}
+.text-nornal{
+  font-weight: 300;
+}
+.mt-3{
+  margin-top: 1.25rem;
+}
+.font-normal{
+  font-size: 1.10rem;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.mb-2{
+  margin-bottom: 1rem;
+}
+.box-arrange{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.box-arrange-sm{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.width-80{
+  width: 80%;
+}
+.width-90{
+  width: 90%; 
+}
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: normal;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+.hyphen::before{
+  
+  content: "-";
+  margin-right: 5px;
+  color: #333;
+}
+.hyphen{
+  list-style: none;
+}
+.circle{
+  list-style: circle;
+}
+
+section ul li  {
+  margin-left: 20px;
 }
