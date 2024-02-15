@@ -154,17 +154,17 @@
 		return window.getComputedStyle(faqs.element, '::before').getPropertyValue('content').replace(/'|"/g, "");
   };
 
-  function updateCategory() { // update selected category -> show green rectangle to the left of the category
-  	var selected = false;
-		for(var i = 0; i < this.sections.length; i++) {
-			var top = this.sections[i].getBoundingClientRect().top,
-				bool = (top <= 0) && (-1*top < this.sections[i].offsetHeight);
-			Util.toggleClass(this.faqsCategories[i], 'cd-faq__category-selected', bool);
-			if(bool) selected = true;
-		}
-		if(!selected) Util.addClass(this.faqsCategories[0], 'cd-faq__category-selected');
-		this.scrolling = false;
-  };
+//   function updateCategory() { // update selected category -> show green rectangle to the left of the category
+//   	var selected = false;
+// 		for(var i = 0; i < this.sections.length; i++) {
+// 			var top = this.sections[i].getBoundingClientRect().top,
+// 				bool = (top <= 0) && (-1*top < this.sections[i].offsetHeight);
+// 			Util.toggleClass(this.faqsCategories[i], 'cd-faq__category-selected', bool);
+// 			if(bool) selected = true;
+// 		}
+// 		if(!selected) Util.addClass(this.faqsCategories[0], 'cd-faq__category-selected');
+// 		this.scrolling = false;
+//   };
 
   function heighAnimationCb(content, bool) {
 		content.removeAttribute("style");

@@ -6,6 +6,10 @@
     overflow: hidden;
     z-index: 2;
 }
+._housiko_footer{
+    background-color: #252e8d;
+    position: relative;
+}
 
 ._housiko_footer_bg {
     position: absolute;
