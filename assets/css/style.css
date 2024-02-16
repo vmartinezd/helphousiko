@@ -3335,11 +3335,12 @@ html:not(.js) .cd-faq__group,
   margin: 1.25em 0;
   margin: var(--space-md) 0;
 }
-.cd-faq__title h2 {
+.cd-faq__title h2 , .cd-faq__title_heading{
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
-  color: #252e8d
+  color: #252e8d;
+  margin-bottom: 20px;
 }
 @media (min-width: 64rem) {
   .cd-faq__title {
@@ -3588,6 +3589,10 @@ table {
   width: 70%;
   border-collapse: collapse;
   margin-bottom: 20px;
+<<<<<<< HEAD
+  margin: 0 auto;
+=======
+>>>>>>> master
 }
 
 th, td {
@@ -3625,4 +3630,31 @@ tr:hover {
 
 section ul li  {
   margin-left: 20px;
+}
+.GTC p , .GTC ul
+{
+  margin-bottom: 15px !important;
+}
+.GTC ul li
+{
+  list-style-type: disc;
+  margin-left: 30px !important;
+}
+.hash li 
+{
+  list-style-type: none !important;
+}
+.hash li:before {
+  content: '- ';
+}
+.GTC table
+{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.GTC table thead th
+{
+  text-align: center;
+  font-weight: bold;
+  background: #bbb;
 }
