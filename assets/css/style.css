@@ -162,10 +162,6 @@ textarea {
 input::-ms-clear {
   display: none;
 }
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 img,
 video,
 svg {
@@ -3593,7 +3589,10 @@ table {
   width: 70%;
   border-collapse: collapse;
   margin-bottom: 20px;
+<<<<<<< HEAD
   margin: 0 auto;
+=======
+>>>>>>> master
 }
 
 th, td {
