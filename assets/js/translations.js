@@ -1269,7 +1269,989 @@ const content = {
     },
     "General Terms and Conditions": {
       "title": "Általános Szerződési Feltételek",
-      "content": `comming soon`
+      "content": ` <section class="container">
+      <!-- table section -->
+      <section>
+          <div>
+              <!-- heading -->
+          <h4><strong>Szolgáltató megnevezése:</strong></h4>
+          <table class="border">
+              <tr>
+                <td>Cégnév:</td>
+                <td>Housiko Group Kft.</td>
+              </tr>
+              <tr>
+                <td>Székhely:</td>
+                <td>3580 Tiszaújváros, Lorántffy Zsuzsanna utca 1. 2. em. 2. ajtó</td>
+              </tr>
+              <tr>
+                <td>Adószám:</td>
+                <td>32136858-2-05</td>
+              </tr>
+              <tr>
+                <td>Képviseli:</td>
+                <td>Gere Márton Pál</td>
+              </tr>
+              <tr>
+                <td>e-mail:</td>
+                <td>info@housiko.com</td>
+              </tr>
+            </table>
+          </div>
+          <div>
+              <!-- heading -->
+          <h4><strong>Tárhely Szolgáltató adatai:</strong></h4>
+          <table class="border">
+              <tr>
+                  <td>Cégnév:</td>
+                  <td>Amazon Web Services Hungary Korlátolt Felelősségű Társaság</td>
+                </tr>
+                <tr>
+                  <td>Székhely:</td>
+                  <td>1062 Budapest, Andrássy út 100.</td>
+                </tr>
+                <tr>
+                  <td>Cégjegyzékszám:</td>
+                  <td>01-09-410672</td>
+                </tr>
+                <tr>
+                  <td>Adószám:</td>
+                  <td>32136858-2-05</td>
+                </tr>
+                <tr>
+                  <td>Képviseli:</td>
+                  <td>Joseph Hoolachan</td>
+                </tr>
+                <tr>
+                  <td>e-mail:</td>
+                  <td>emea-subsidiaries-hungary@amazon.com</td>
+                </tr>
+            </table>
+          </div>
+      </section>
+      <!-- content section -->
+      <section>
+      <!-- heading -->
+      <h4><strong>Az Általános Szerződési Feltételek tartalma</strong></h4>
+      <p>elen Általános Szerződési Feltételek dokumentum létrejön a Housiko Group Kft. (a továbbiakban, mint Szolgáltató) és annak – <a href="https://www.houseiko.com">https://www.houseiko.com</a> címen elérhető – szolgáltatásait igénybe vevő Megrendelő (a továbbiakban: Megrendelő), a továbbiakban együtt, mint Felek között. 
+          A dokumentumot készítette: Dr. Bodó Gergely – <a href="https://www.drbodo.hu/https://www.drbodo.hu/adatvedelem/Az">https://www.drbodo.hu/https://www.drbodo.hu/adatvedelem/Az</a> ÁSZF a Felek között létrejövő, a szolgáltatás igénybevételéhez kapcsolódó szabályokat, Felek jogait és kötelezettségeit hivatott lefektetni. Jelen ÁSZF elfogadásával a Megrendelő elfogadja, és magára érvényesnek veszi a Szolgáltató által szabott részvételi és egyéb feltételeket, szabályokat.</p>
+  
+      <!-- heading -->
+      <h4><strong>A Housiko Group Kft. szolgáltatásai és a szolgáltatások feltételei</strong></h4>
+      <p>A Szolgáltató online ingatlan piactér szolágáltatói tevékenységet nyújt ingátlan hírdetési felület útján Megrendelő részére. A Megrendelő a <a href="https://www.houseiko.com">https://www.houseiko.com</a> címen veheti igénybe meg a Szolgáltatást.</p>
+  
+      <!-- sub-heading -->
+      <strong>A fenti szolgáltatásokhoz kapcsolódó kiegészítő szolgáltatások</strong>    
+      <p><strong>Online ügyintézés. </strong>A Szolgáltató a megrendelés teljes folyamatát online felületén keresztül bonyolítja. Megrendelő köteles a weblapon keresztül történő megrendelés részleteiről tájékozódni.</p>
+      <p><strong>Tájékoztatás. </strong> A Szolgáltató a szolgáltatás igénybevétele során és a szolgáltatás igénybevételének időtartamában vállalja Megrendelő teljes körű tájékoztatását. A Megrendelő részére az alábbi, a megrendeléshez kapcsolódó tájékoztató jellegű elektronikus üzeneteket küld Megrendelő részére:</p>
+      <p>Online bankkártyás fizetés esetén:</p>
+      <ul>
+          <li>visszaigazoló e-mail, amely tartalmazza a számlát.</li>
+          <li>Megrendelő felelősségi körébe tartozik a levelezési e-mail fiókjának folyamatos figyelése, mert a fenti üzenet a megadott címre érkezik. </li>
+          <li>Amennyiben a levelezési rendszer tiltásai miatt, vagy egyéb okokból kifolyólag a megfelelő levelek nem érkeznek meg Megrendelő részére, úgy ezek pótlását a info@housiko.com e-mail címen kérheti.</li>
+      </ul>
+      <p><strong>Ügyfélszolgálat. </strong>A Szolgáltató felhívja a Megrendelő figyelmét, hogy a szolgáltatás megrendelését követően a Szolgáltató elektronikus levelezési rendszer keretében a info@housiko.com e-mail címen ügyfélszolgálati tevékenységet lát el.<br>
+  
+      A Szolgáltató egyéb online Szolgáltatást e körben nem végez.</p>
+      <strong>A szolgáltatási díjak kiegyenlítése</strong>
+      <p>A Megrendelő köteles az általa megrendelt szolgáltatások díjának megfizetésére az alábbiakban részletezett módon:</p>
+      <ul>
+          <li>Online bankkártyás fizetés.</li>
+          <li>Fizetés közvetlenül a Szolgáltató bankszámlájára.</li>
+      </ul>
+      <p>A megrendelés leadása után 8 napon belül a megadott e-mail címre a Szolgáltató számlát küld. A számla tartalmazza a megrendelt szolgáltatás megnevezését, a szolgáltatás árát, a Megrendelő és a Szolgáltató adatait.</p>
+      <p>Szolgáltató bankkártyás fizetés esetén az összeg beérkezését azonnal nyugtázza, a megrendelt szolgáltatás teljesítését haladéktalanul megkezdi.</p>
+      <strong>A Megrendelés lépései</strong>
+      <p>A Megrendelő a Szolgáltatást Regisztrációt követően veheti igénybe.</p>
+      <p>A Regisztrációhoz természetes személy Megrendelő esetén a következő adatok megadása szüksége:</p>
+      <ul>
+          <li>Vezetéknév</li>
+          <li>Keresztnév</li>
+          <li>E-mail cím</li>
+          <li>Telefonszám</li>
+      </ul>
+  
+      <p>A Regisztrációhoz jogi személy Megrendelő esetén a következő adatok megadása szüksége:</p>
+      <ul>
+          <li>Cégnév</li>
+          <li>Adószám</li>
+          <li>Székhely</li>
+      </ul>
+      <p>A Regisztrációt követően a Megrendelő az általa megadott e-mail címre visszaigazoló e-mailt kap. A visszaigazoló e-mail a következő adatokat rögzíti természetes személy Megrendelő esetén:</p>
+      <ul>
+          <li>Név</li>
+      </ul>
+      <p>A visszaigazoló e-mail a következő adatokat rögzíti jogi személy Megrendelő esetén:</p>
+      <ul>
+          <li>Cégnév</li>
+      </ul>
+  <p>A Megrendelő a Szolgáltatás igénybevételére irányuló rendelését a <a href="https://www.housiko.com">https://www.housiko.com</a> adhatja le.</p>
+  <p>A Megrendelés során a természetes személy Megrendelő esetén a következő adatok megadása szüksége:</p>
+  <ul>
+      <li>Vezetéknév</li>
+      <li>Keresztnév</li>
+      <li>Lakcím
+          <ul>
+              <li>irányítószám</li>
+              <li>város</li>
+              <li>utca</li>
+              <li>házszám</li>
+          </ul>
+      </li>
+  </ul>
+  <p>A Megrendelés során a jogi személy Megrendelő esetén a következő adatok megadása szüksége:</p>
+  <ul>
+      <li>Cégnév</li>
+      <li>Székhely Adószám</li>
+      <li>Székhely</li>
+  </ul>
+  <p>A Megrendelő által a következő Szolgáltatások megrendelésére kerülhet sor:</p>
+  <p>A Megrendelő jogosult az oldal használata során külön díj nélkül 2 db ingatlan hirdetésének közzétételére.</p>
+  <p>Ezen túl</p>
+  <p>Ezt követően a Megrendelő a Fizetési módok közül választhat.</p>
+  <ul>
+      <li>Online bankkártyás fizetés</li>
+  </ul>
+  <p>Az Online bankkártyás fizetést követően a Megrendelő az általa megadott elektronikus levelezési címre visszaigazoló e-mailt kap mely a következő adatokat rögzíti:</p>
+  <ul>
+      <li>Felhasználó név</li>
+      <li>E-mail</li>
+  </ul>
+  <strong>A fizetési kötelezettség teljesítése</strong>
+  <p>Megrendelő a Szolgáltatás díját a Szolgáltatás megrendelését követően a Szolgáltatás igénybevétele előtt köteles megfizetni.</p>
+  
+  <span><strong>Megrendelő kötelezettségei</strong></span>
+  <p>Megrendelő hozzájárul, hogy a Szolgáltató üzenetet küldjön a megadott e-mail címre felek jogviszonyában bekövetkezett változásokról. Megrendelő jogosult a fent megadott e-mail címre küldött üzenettel az e pontban írt szolgáltatást megtiltani.</p>
+  <span><strong>Szolgáltató kötelezettségei</strong></span>
+  <p>A Szolgáltató garantálja, hogy a szolgáltatások megrendeléskori árát nem változtatja meg.</p>
+  <p>A Szolgáltató fenntartja a jogot a szolgáltatásai körének bővítésére, amelyről nem köteles a Megrendelőt értesíteni.</p>
+  <p>Szolgáltató fenntartja a jogot, hogy amennyiben tudomására jut, hogy a szolgáltatás igénybevételekor megadott adatok a valóságnak nem felelnek meg, a szolgáltatást felfüggessze, a létrejött Fiókot deaktiválja. Megrendelő e rendelkezést tudomásul veszi és elfogadja.Szolgáltató tájékoztatja Megrendelőt, hogy a Szerződés teljesítéséhez a Szolgáltató adatkezelési tájékoztatója szerinti adatokat, az ott meghatározott módon és céllal kezeli.</p>
+  <span><strong>A szolgáltatásai díj</strong></span>
+  <span><strong>Elállási/Felmondási jog jogi személy Megrendelő esetén</strong></span>
+  <p>A Szolgáltató felhívja a jogi személy Megrendelő figyelmét, hogy a Megrendelő köteles megtéríteni a Szolgáltató ésszerű költségeit, ha a teljesítés megkezdését követően gyakorolja a felmondási jogát.</p>
+  <span><strong>A Szerződés megszűnése</strong></span>
+  <p>A Szerződés megszűnik:</p>
+  <ul>
+      <li>Teljesítéssel</li>
+      <li>Megrendelő elállásával/felmondással</li>
+  </ul>
+  <p>Jelen szerződés megszűnik</p>
+  <ul>
+      <li>bármely fél jogutód nélküli megszűnésével,</li>
+      <li>teljesítéssel,</li>
+      <li>törvényben meghatározott más esetben.</li>
+  </ul>
+  <p>Jelen szerződés megszüntethető</p>
+  <ul>
+      <li>Bármely fél jelen szerződést a másik fél súlyos szerződésszegése esetén, a másik félhez intézett írásbeli, indokolt nyilatkozattal felmondhatja.</li>
+      <li>A felek bármikor jogosultak jelen szerződést közös megegyezéssel megszüntetni.</li>
+  </ul>
+  
+  <h4><strong>Elállási/Felmondási természetes személy Megrendelő esetén</strong></h4>
+  <p>A Szolgáltató felhívja a természetes személy Megrendelő figyelmét, hogy a Megrendelő köteles megtéríteni a Szolgáltató ésszerű költségeit, ha a teljesítés megkezdését követően gyakorolja a felmondási jogát.</p>
+  <p>A természetes személy Megrendelő elállási és felmondási jogát a fogyasztó és a vállalkozás közötti szerződések részletes szabályairól szóló 45/2014. (II.26.) Kormányrendeltben foglaltak szerint gyakorolhatja.</p>
+  
+  <!-- sections part -->
+  <strong>Szolgáltató felhívja a Megrendelő figyelmét a Szolgáltatás jellegére, erre tekintettel a 45/2014. (II.26.) Kormányrendelt 29. § a) pontjára.</strong>
+  <p><i><strong>20. §</strong>(1) Az üzlethelyiségen kívül kötött és a távollévők között kötött szerződés esetén a fogyasztót a (2) bekezdésben meghatározott határidőn belül indokolás nélküli elállási jog illeti meg. Olyan üzlethelyiségen kívül kötött és távollévők között kötött szerződés esetén, amely szolgáltatás nyújtására irányul, ha a 13. § vagy a 19. § szerinti nyilatkozat megtételét követően a teljesítés megkezdődik, a fogyasztót a (2) bekezdésben meghatározott határidőn belül indokolás nélküli felmondási jog illeti meg.<br><br>
+      (2) A fogyasztó az (1) bekezdés szerinti elállási vagy felmondási jogát<br><br>
+      a) áru adásvételére irányuló szerződés esetén<br><br>
+      aa) az árunak,<br><br>
+      ab) több áru adásvételekor, ha az egyes áruk szolgáltatása eltérő időpontban történik, az utoljára szolgáltatott árunak,<br><br>
+      ac) több tételből vagy darabból álló áru esetén az utoljára szolgáltatott tételnek vagy darabnak,<br><br>
+      ad) ha az árut meghatározott időszakon belül rendszeresen kell szolgáltatni, az első szolgáltatásnak,<br><br>
+      a) fogyasztó vagy az általa megjelölt, a fuvarozótól eltérő harmadik személy általi átvételének napjától;<br><br>
+      b) szolgáltatás nyújtására irányuló szerződés esetében a szerződés megkötésének napjátólszámított tizennégy napon belül gyakorolhatja.<br><br>
+      (3) A (2) bekezdés a) pontjában foglaltak nem érintik a fogyasztó azon jogát, hogy az e §-ban meghatározott elállási jogát a szerződés megkötésének napja és az áru átvételének napja közötti időszakban is gyakorolja.<br><br>
+      (4) Ha a szerződés megkötésére a fogyasztó tett ajánlatot, a fogyasztót a szerződés megkötése előtt megilleti az ajánlat visszavonásának joga, ami a szerződés megkötésére kiterjedő ajánlati kötöttséget megszünteti.
+  </i></p>
+  
+  <!-- sections part -->
+  <strong>A fogyasztót megillető elállási vagy felmondási jogra vonatkozó tájékoztatás elmulasztásának jogkövetkezménye</strong>
+  <p><i><strong>21. § </strong>(1) Ha a vállalkozás a 11. § (1) bekezdésének i) pontjában meghatározott tájékoztatási kötelezettségének nem tett eleget, a 20. § (2) bekezdésében meghatározott elállási határidő tizenkét hónappal meghosszabbodik.<br><br>
+      (2) Ha a vállalkozás a 20. § (2) bekezdésében meghatározott határidő lejártát követő tizenkét hónapon belül megadta a fogyasztónak az (1) bekezdésben meghatározott tájékoztatást, az elállásra vagy a felmondásra nyitva álló határidő az e tájékoztatás közlésétől számított tizennegyedik napon jár le.
+  </i></p>
+  
+  <!-- sections part -->
+  <strong>A fogyasztót megillető elállási vagy felmondási jog gyakorlása</strong>
+  <p><i><strong>22. § </strong>(1) A fogyasztó a 20. §-ban biztosított jogát<br><br>
+      a) a 2. mellékletben található nyilatkozat-minta felhasználásával; vagy<br><br>
+      b) az erre vonatkozó egyértelmű nyilatkozat útján<br><br>
+      gyakorolhatja.<br><br>
+      (2) A vállalkozás internetes honlapján is biztosíthatja a fogyasztó számára a 20. §-ban meghatározott jog (1) bekezdés szerinti gyakorlását. Ebben az esetben a vállalkozás tartós adathordozón haladéktalanul visszaigazolja a fogyasztói nyilatkozat megérkezését.<br><br>
+      (3) A 20. §-ban meghatározott jogot határidőben érvényesítettnek kell tekinteni, ha a fogyasztó nyilatkozatát a 20. § (2) bekezdésében, illetve a 21. §-ban meghatározott határidő lejárta előtt elküldi.<br><br>
+      (4) A fogyasztót terheli annak bizonyítása, hogy a 20. §-ban meghatározott jogot e §-sal összhangban gyakorolta.
+  </i></p>
+  
+  <!-- sections part -->
+  <strong>A vállalkozás kötelezettségei a fogyasztó elállása vagy felmondása esetén</strong>
+  <p><i><strong>23. §</strong>(1) Ha a fogyasztó a 22. §-nak megfelelően eláll az üzlethelyiségen kívül kötött vagy a távollevők között kötött szerződéstől, a vállalkozás haladéktalanul, de legkésőbb az elállásról való tudomásszerzésétől számított tizennégy napon belül visszatéríti a fogyasztó által ellenszolgáltatásként megfizetett teljes összeget, ideértve a teljesítéssel összefüggésben felmerült költségeket is.<br><br>
+      (2) A 22. §-nak megfelelő elállás vagy felmondás esetén a vállalkozás a fogyasztónak visszajáró összeget a fogyasztó által igénybe vett fizetési móddal megegyező módon téríti vissza. A fogyasztó kifejezett beleegyezése alapján a vállalkozás a visszatérítésre más fizetési módot is alkalmazhat, de a fogyasztót ebből adódóan semmilyen többletdíj nem terhelheti.<br><br>
+      (3) Ha a fogyasztó kifejezetten a legkevésbé költséges szokásos fuvarozási módtól eltérő fuvarozási módot választ, a vállalkozás nem köteles visszatéríteni az ebből eredő többletköltségeket.<br><br>
+      (4) Áru adásvételére irányuló szerződés esetén a vállalkozás mindaddig visszatarthatja az (1) bekezdésben meghatározott összeget, amíg a fogyasztó az árut vissza nem szolgáltatta, vagy kétséget kizáróan nem igazolta, hogy azt visszaküldte; a kettő közül a korábbi időpontot kell figyelembe venni. Nem illeti meg a vállalkozást a visszatartás joga, ha vállalta, hogy az árut maga fuvarozza vissza.<br><br>
+      (5) A fogyasztó személyes adatainak kezelése tekintetében a vállalkozás eleget tesz a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon kívül helyezéséről (általános adatvédelmi rendelet) szóló, 2016. április 27-i (EU) 2016/679 parlamenti és tanácsi rendelet szerinti kötelezettségeinek.<br><br>
+      (6) A vállalkozás tartózkodik a fogyasztó által szolgáltatott vagy létrehozott, a vállalkozás által biztosított digitális tartalom vagy digitális szolgáltatás használata során keletkezett, személyes adatoktól eltérő bármely tartalom felhasználásától, kivéve, ha az ilyen tartalom<br><br>
+      a) a vállalkozás által szolgáltatott digitális tartalommal vagy nyújtott digitális szolgáltatással összefüggésben nem használható,<br><br>
+      b) kizárólag a fogyasztónak a vállalkozás által biztosított digitális tartalom vagy digitális szolgáltatás felhasználása során végzett tevékenységére vonatkozik,<br><br>
+      c) a vállalkozás által más adatokkal összevonásra került, és nem lehet, vagy csak aránytalan erőfeszítéssel lehetne azt szétválasztani, vagy<br><br>
+      d) a fogyasztó által más személyekkel közösen került előállításra, és azt más fogyasztók továbbra is használhatják.<br><br>
+      (7) A (6) bekezdés a), b) vagy c) pontjában foglaltak kivételével a vállalkozás a fogyasztó kérésére a fogyasztó rendelkezésére bocsát minden olyan, a személyes adatoktól különböző tartalmat, amelyet a fogyasztó a vállalkozás által biztosított digitális tartalom vagy digitális szolgáltatás használata során szolgáltatott vagy hozott létre.<br><br>
+      (8) A fogyasztó jogosult a digitális tartalmakat ingyenesen, korlátozásmentesen, észszerű időn belül, általánosan használt és géppel olvasható adatformátumban lehívni.<br><br>
+      (9) A szerződéstől való elállás esetén a vállalkozás - a (7) bekezdés sérelme nélkül - megakadályozhatja, hogy a fogyasztó tovább használja a digitális tartalmat, valamint a digitális szolgáltatást, különösen a digitális tartalomnak, valamint a digitális szolgáltatásnak a fogyasztó számára hozzáférhetetlenné tételével, vagy a fogyasztó felhasználói fiókjának letiltásával.
+  </i></p>
+  
+  <!-- sections part -->
+  <strong>A fogyasztó kötelezettségei elállása vagy felmondása esetén</strong>
+  <p><i><strong>24. § </strong>(1) Ha a fogyasztó a 22. §-nak megfelelően eláll az üzlethelyiségen kívül kötött vagy a távollevők között kötött szerződéstől, köteles az árut haladéktalanul, de legkésőbb az elállás közlésétől számított tizennégy napon belül visszaküldeni, illetve a vállalkozásnak vagy a vállalkozás által az áru átvételére meghatalmazott személynek átadni, kivéve, ha a vállalkozás vállalta, hogy az árut maga fuvarozza vissza. A visszaküldés határidőben teljesítettnek minősül, ha a fogyasztó az árut a határidő lejárta előtt elküldi.<br><br>
+      (2) A fogyasztó kizárólag az áru visszaküldésének közvetlen költségét viseli, kivéve, ha a vállalkozás vállalta e költség viselését.<br><br>
+      (3) Ha az üzlethelyiségen kívül kötött szerződés megkötésével egyidejűleg az árut kifuvarozták a fogyasztónak, a vállalkozás saját költségén fuvarozza vissza az árut, ha az jellegénél fogva postai küldeményként nem küldhető vissza.
+  </i></p>
+  
+  <!-- sections part -->
+  <p><i><strong>25. §</strong>A fogyasztó csak az áru jellegének, tulajdonságainak és működésének megállapításához szükséges használatot meghaladó használatból eredő értékcsökkenésért felel. Nem felel a fogyasztó az értékcsökkenésért, ha a vállalkozás a 11. § (1) bekezdésének i) pontjában előírt tájékoztatási kötelezettségének nem tett eleget.<br><br>
+     <strong>25/A. § </strong> A szerződéstől való elállás esetén a fogyasztó tartózkodik a digitális tartalom vagy a digitális szolgáltatás használatától és ezek elérhetővé tételétől harmadik fél számára.
+  </i></p>
+  
+  <!-- sections part -->
+  <p><i><strong>26. § </strong>(1) Ha a 13. § vagy a 19. § szerinti esetben a fogyasztó a teljesítés megkezdését követően felmondja az üzlethelyiségen kívül vagy távollévők között kötött szerződést, köteles a felmondás vállalkozással való közlése időpontjáig teljesített szolgáltatással arányos díjat a vállalkozás számára megfizetni. A fogyasztó által arányosan fizetendő összeget a szerződésben megállapított ellenszolgáltatás adóval növelt teljes összege alapján kell megállapítani. Ha a fogyasztó bizonyítja, hogy az ily módon megállapított teljes összeg túlzottan magas, az arányos összeget a szerződés megszűnésének időpontjáig teljesített szolgáltatások piaci értéke alapján kell kiszámítani.<br><br>
+      (2) E § alkalmazásában a piaci érték megállapításánál az azonos tevékenységet végző vállalkozások azonos szolgáltatásának a szerződés megkötésének időpontja szerinti ellenértékét kell figyelembe venni
+  </i></p>
+  
+  <!-- sections part -->
+  <p><i><strong>27. § </strong>A fogyasztó a 20. § szerinti joga gyakorlása esetén nem viseli az alábbi költségeket:<br><br>
+      a) a szolgáltatás nyújtására irányuló szerződés teljesítésének teljes vagy részleges költségeit, ha<br><br>
+      aa) a vállalkozás a 11. § (1) bekezdésének i) vagy k) pontjában előírt tájékoztatási kötelezettségének nem tett eleget, vagy<br><br>
+      ab) a fogyasztó nem kérte a 13. § és a 19. § szerint a szolgáltatás teljesítésének megkezdését a 20. § (2) bekezdésében meghatározott határidő lejárta előtt;<br><br>
+      b) a nem tárgyi adathordozón nyújtott digitális tartalom szolgáltatásának teljes vagy részleges költségeit, ha<br><br>
+      ba) a fogyasztó nem adta kifejezett, előzetes beleegyezését ahhoz, hogy a teljesítés a 20. § (2) bekezdésében meghatározott határidő lejárta előtt megkezdődjön,<br><br>
+      bb) a fogyasztó a ba) pont szerinti beleegyezése megadásával egyidejűleg nem nyilatkozott annak tudomásulvételéről, hogy beleegyezésével elveszti a 20. § szerinti jogát, vagy<br><br>
+      bc) a vállalkozás elmulasztotta megadni a 12. § (2) bekezdésében vagy a 18. §-ban előírt visszaigazolást.<br><br>
+  </i></p>
+  
+  <!-- sections part -->
+  <p><i><strong>28. §</strong>A fogyasztót a 20. § szerinti joga gyakorlásával összefüggésben a 23. § (3) bekezdésében, valamint 24-26. §-ban meghatározottakon felül további költség és egyéb kötelezettség nem terheli.
+  </i></p>
+  
+  <!-- sections part -->
+  <strong>A fogyasztót megillető elállási és felmondási jog alóli kivételek</strong>
+  <p><i><strong>29. § </strong>(1) A fogyasztó nem gyakorolhatja a 20. § szerinti jogát<br><br>
+      a) szolgáltatás nyújtására irányuló szerződés esetében a szolgáltatás maradéktalan teljesítése után, azonban, ha szerződés fizetési kötelezettséget keletkeztet a fogyasztó számára, csak akkor, ha a teljesítés a fogyasztó kifejezett előzetes beleegyezésével és annak a fogyasztó általi tudomásulvételével kezdődött meg, hogy elveszíti elállási jogát, amint a vállalkozás maradéktalanul teljesítette a szerződést;<br><br>
+      b) olyan áru vagy szolgáltatás tekintetében, amelynek ára, illetve díja a pénzpiac vállalkozás által nem befolyásolható, a 20. § (2) bekezdésében meghatározott határidő alatt is lehetséges ingadozásától függ;<br><br>
+      c) olyan nem előre gyártott áru esetében, amelyet a fogyasztó utasítása alapján vagy kifejezett kérésére állítottak elő, vagy olyan áru esetében, amelyet egyértelműen a fogyasztó személyére szabtak;<br><br>
+      d) romlandó vagy minőségét rövid ideig megőrző áru tekintetében;<br><br>
+      e) olyan zárt csomagolású áru tekintetében, amely egészségvédelmi vagy higiéniai okokból az átadást követő felbontása után nem küldhető vissza;<br><br>
+      f) olyan áru tekintetében, amely jellegénél fogva az átadást követően elválaszthatatlanul vegyül más áruval;<br><br>
+      g) olyan alkoholtartalmú ital tekintetében, amelynek tényleges értéke a vállalkozás által nem befolyásolható módon a piaci ingadozásoktól függ, és amelynek áráról a felek az adásvételi szerződés megkötésekor állapodtak meg, azonban a szerződés teljesítésére csak a megkötéstől számított harmincadik napot követően kerül sor;<br><br>
+      h) - a (2) bekezdésben foglalt kivétellel - olyan vállalkozási szerződés esetében, amelynél a vállalkozás a fogyasztó kifejezett kérésére keresi fel a fogyasztót sürgős javítási vagy karbantartási munkálatok elvégzése céljából;<br><br>
+      i) lezárt csomagolású hang-, illetve képfelvétel, valamint számítógépes szoftver példányának adásvétele tekintetében, ha az átadást követően a fogyasztó a csomagolást felbontotta;<br><br>
+      j) hírlap, folyóirat és időszaki lap tekintetében, az előfizetéses szerződések kivételével;<br><br>
+      k) nyilvános árverésen megkötött szerződések esetében;<br><br>
+      l) lakáscélú szolgáltatás kivételével szállásnyújtásra irányuló szerződés, fuvarozás, személygépjármű-kölcsönzés, étkeztetés vagy szabadidős tevékenységekhez kapcsolódó szolgáltatásra irányuló szerződés esetében, ha a szerződésben meghatározott teljesítési határnapot vagy határidőt kötöttek ki;<br><br>
+      <br><br>
+      m) a nem tárgyi adathordozón nyújtott digitális tartalom tekintetében, ha a vállalkozás a fogyasztó kifejezett, előzetes beleegyezésével kezdte meg a teljesítést, és a fogyasztó e beleegyezésével egyidejűleg nyilatkozott annak tudomásul vételéről, hogy a teljesítés megkezdését követően elveszíti a 20. § szerinti jogát, továbbá a vállalkozás a 12. § (2) bekezdés vagy a 18. § szerint visszaigazolást küldött a fogyasztó részére.<br><br>
+      (2) Az (1) bekezdés h) pontjában meghatározott esetben a 20. § szerinti jog a fogyasztó által kifejezetten kért szolgáltatásokon és a karbantartás vagy a javítás elvégzéséhez felhasznált cserealkatrészeken felül kínált szolgáltatásokra vagy árukra kiterjed.<br><br>
+      (3) Az (1) bekezdés a)-c) és e) pontjában meghatározott esetekben a fogyasztó gyakorolhatja a 20. § szerinti jogát, ha a szerződést a kereskedelemről szóló törvényben meghatározott üzleten kívüli kereskedés vagy az árubemutatóval egybekötött termékértékesítés keretében kötötte meg.<br><br>
+  </i></p>
+  
+  
+  <span><strong>Teljesítés</strong></span>
+  <p>A Szolgáltató a szolgáltatás teljesítését a Megrendelést követően megkezdi.</p>
+  <span><strong>Egyéb rendelkezések</strong></span>
+  <p>Jelen Általános Szerződési Feltétel című dokumentum nyelve a magyar nyelv.
+  </p>
+  <p>A Szolgáltató az ÁSZF 3. pontjában megjelölt szolgáltatás használati jogát átengedi, egyebekben fenntart minden jogot. Az ÁSZF 3. pontjában megjelölt szolgáltatása szerzői jogi védelem alatt áll. Megrendelő a Szolgáltató e pontban tett tájékoztatását kifejezetten tudomásul veszi.
+  </p>
+  <p>Szolgáltató tájékoztatja a Megrendelőt, hogy a weboldalán található képek, videók, szövegek, ebookok, egyéb anyagok a Szolgáltató tulajdonát képezik.
+  </p>
+  <p>Szerződő felek kijelentik, hogy a szerződés teljesítése során egymással együttműködnek, a szükséges tájékoztatást egymásnak megadják, az esetleges vitás kérdésekben elsősorban békés úton történő megoldást részesítik előnyben.
+  </p>
+  <p>A felek szabadon köthetnek szerződést, és szabadon választhatják meg a másik szerződő felet.
+  </p>
+  <p>A felek szabadon állapíthatják meg a szerződés tartamát. A szerződéseknek a felek jogaira és kötelezettségeire vonatkozó szabályaitól egyező akarattal eltérhetnek, ha a törvény az eltérést nem tiltja.
+  </p>
+  <p>A felek közös megegyezéssel módosíthatják a szerződés tartalmát vagy megváltoztathatják kötelezettségvállalásuk jogcímét.
+  </p>
+  <p>A szerződésnek a módosítással nem érintett része változatlan marad.
+  </p>
+  <p>A szerződés módosítására a szerződés megkötésére vonatkozó rendelkezéseket kell megfelelően alkalmazni.
+  </p>
+  <p>A szerződés tartalmát valamelyik fél egyoldalúan akkor módosíthatja, ha ezt a szerződésben kikötötték, vagy ha a felet erre jogszabály feljogosítja.
+  </p>
+  <p>A Szolgáltató a módosítás lényegi elemeit a <a href="https://www.houseiko.com">https://www.houseiko.com</a> oldalon jól látható módon köteles elhelyezni.
+  </p>
+  <p>A digitális adattartalom működését a Tárhely Szolgáltató végzi. A www.housiko.com tűzfallal védett. Az alkalmazandó műszaki védelmi intézkedésekre továbbá a hardverrel és szoftverrel való együttműködési képességérre a Tárhely Szolgáltató szabályai irányadók.
+  </p>
+  <p>A Szolgáltató felhívja a Megrendelő figyelmét, hogy a Megrendelő nyilatkozata fizetési kötelezettséget von maga után.
+  </p>
+  <p><strong>A Megrendelő a szerződési nyilatkozatának megtételekor a kifejezetten tudomásul veszi, hogy annak megtétele fizetési kötelezettséget von maga után.
+  </strong></p>
+  <p>A Szolgáltató felhívja a Megrendelő figyelmét, hogy az adatbeviteli hibáknak a szerződéses nyilatkozat elküldését megelőzően történő kijavítására a info@housiko.com e-mail címre történő való jelzéssel van mód.
+  </p>
+  
+  <span><strong>Jogviták rendezése
+  </strong></span>
+  <p>Amennyiben Szolgáltató és Megrendelő között esetlegesen fennálló jogvita Szolgáltatóval való tárgyalások során nem rendeződnek, a jogi személy Megrendelő, a Szolgáltató székhelye szerint illetékes békéltető testülethez fordulhat és kezdeményezheti a Testület eljárását.
+  </p>
+  <span><strong>Ezen túl a Megrendelő Bírósági eljárást kezdeményezhet.</strong></span>
+  <p>Szolgáltató székhelye szerint illetékes Békéltető Testület:</p>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Borsod-Abaúj-Zemplén Vármegyei Békéltető Testület
+          </th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím:</td>
+              <td>3525 Miskolc, Szentpáli u. 1.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:		
+              </td>
+              <td>46/501-090 (új ügyek)46/501-871 (folyamatban lévő ügyek)
+              </td>
+          </tr>
+  
+          <tr>
+              <td>E-mail:	</td>
+              <td>bekeltetes@bokik.hu
+                  www.bekeltetes.borsodmegye.hu</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <p>A Szolgáltatót a Békéltető Testület előtti eljárásban együttműködési kötelezettség terheli.
+  </p>
+  <p>Amennyiben Szolgáltató és természetes személy Megrendelő között esetlegesen fennálló Fogyasztói jogvita Szolgáltatóval való tárgyalások során nem rendeződnek, a természetes személynek minősülő Megrendelő, a lakóhelye vagy tartózkodási helye szerint illetékes békéltető testülethez fordulhat és kezdeményezheti a Testület eljárását, illetve fordulhat a Szolgáltató székhelye szerint illetékes Békéltet Testülethez is, továbbá a következő jogérvényesítési lehetőségek állnak nyitva természetes személy Megrendelő számára.
+  </p>
+  
+  <ul>
+      <li>Panasztétel a Fogyasztóvédelmi hatóságnál,
+      </li>
+      <li>Vitarendezési eljárás az Európai Unió online vitarendezési platformján keresztül: <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.show&lng=HU"></a>https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.show&lng=HU
+          </li>
+  </ul>
+  
+  <p>Magyarországon a Budapesti Békéltető Testület (BBT) jogosult eljárni az online adásvételi vagy szolgáltatási szerződésekhez kapcsolódó határon átnyúló Megrendelő és kereskedő közötti jogvitákban.
+  </p>
+  <ul>
+      <li>Békéltető testület eljárásának kezdeményezése</li>
+      <li>Bírósági eljárás kezdeményezése.</li>
+  </ul>
+  <p>Szolgáltató székhelye szerint illetékes Békéltető Testület:</p>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Heves Vármegyei Békéltető Testület
+  
+          </th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>3300 Eger, Hadnagy utca 6. földszint
+              </td>
+          </tr>
+          <tr>
+              <td>Telefonszám:		
+              </td>
+              <td>+36 36 416-660/105 mellék
+              </td>
+          </tr>
+  
+          <tr>
+              <td>
+                  E-mail:	</td>
+              <td>bekeltetes@hkik.hu
+              </td>
+          </tr>
+  
+          <tr>
+              <td>
+                  Levélezési cím:	
+              </td>
+              <td>3300 Eger, Postafiók 440.
+              </td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <p>A Szolgáltatót a békéltető testületi eljárásban együttműködési kötelezettség terheli.
+  </p>
+  <p>A természetes személy Megrendelő a lakóhelye/tartózkodási helye alapján az alábbi békéltető testületekhez fordulhat a Megrendelői jogvita rendezése érdekében:
+  </p>
+  
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Baranya Vármegyei Békéltető Testület
+  
+          </th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím:</td>
+              <td>7625 Pécs, Majorossy Imre u. 36.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:		
+              </td>+36-72/507-154; 20/283-3422
+              <td>
+              </td>
+          </tr>
+  
+          <tr>
+              <td>
+                  E-mail:	</td>
+              <td>info@baranyabekeltetes.hu
+              </td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Bács-Kiskun Vármegyei Békéltető Testület
+  
+          </th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím:</td>
+              <td>6000 Kecskemét, Árpád krt. 4.</td>
+          </tr>
+          <tr>
+              <td>Levelezési cím:		
+              </td>
+              <td>Bács-Kiskun Megyei Kereskedelmi és Iparkamara által működtetett Bács-Kiskun Megyei Békéltető Testület6001 Kecskemét Pf. 228.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>(+36) 76 501 525, 501 532</td>
+          </tr>
+          <tr>
+              <td>Fax:</td>
+              <td>(+36) 76 501 538</td>
+          </tr>
+          <tr>
+              <td>Mobil:</td>
+              <td>(+36) 70 938 4765</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekeltetes@bacsbekeltetes.hu</td>
+          </tr>
+          <tr>
+              <td>Honlap:</td>
+              <td>www.bacsbekeltetes.hu</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Békés Vármegyei Békéltető Testület
+  
+          </th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>5600 Békéscsaba, Penza ltp. 5.</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekeltetes@bmkik.hu</td>
+          </tr>
+          <tr>
+              <td>Telefonszám: </td>
+              <td>06-66-324-976</td>
+          </tr>
+          <tr>
+              <td>Fax:</td>
+              <td>06-66-324-976</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Borsod-Abaúj-Zemplén Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>3525 Miskolc, Szentpáli u. 1.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>46/501-090 (új ügyek)<br>
+                  46/501-871 (folyamatban lévő ügyek)
+                  </td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekeltetes@bokik.hu<br>
+                  www.bekeltetes.borsodmegye.hu
+                  </td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Budapesti Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>1016 Budapest, Krisztina krt. 99.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>06-1-488-2131
+                  </td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekelteto.testulet@bkik.hu
+                  </td>
+          </tr>
+          <tr>
+              <td>Honlap:</td>
+              <td>bekeltet.bkik.hu</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Csongrád-Csanád Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>6721 Szeged, Párizsi krt. 8-12.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>+36-62/554-250/118</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekelteto.testulet@csmkik.hu</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Fejér Vármegyei Békéltető Testület
+          </th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>8000 Székesfehérvár, Hosszúsétatér 4-6.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>06-22/510-310</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekeltetes@fmkik.hu</td>
+          </tr>
+          <tr>
+              <td>Honlap:</td>
+              <td>https://www.bekeltetesfejer.hu/</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Győr-Moson-Sopron Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>9021 Győr, Szent István út 10/a.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>06-96-520-217</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekelteto.testulet@gymsmkik.hu</td>
+          </tr>
+          <tr>
+              <td>Honlap:</td>
+              <td>https://bekeltetesgyor.hu/</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Hajdú-Bihar Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Székhely: </td>
+              <td>4025 Debrecen, Petőfi tér 10.</td>
+          </tr>
+          <tr>
+              <td>Ügyintézés helyszíne:</td>
+              <td>4025 Debrecen Vörösmarty u. 13-15.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám: </td>
+              <td>06-52-500-710, 06-52-500-745</td>
+          </tr>
+          <tr>
+              <td>Fax: </td>
+              <td>06-52-500-720</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekelteto.testulet@gymsmkik.hu</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Heves Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>3300 Eger, Hadnagy utca 6. földszint</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>+36 36 416-660/105 mellék</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekelteto.testulet@gymsmkik.hu</td>
+          </tr>
+          <tr>
+              <td>Levélezési cím:</td>
+              <td>3300 Eger, Postafiók 440.</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Jász-Nagykun-Szolnok Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>5000 Szolnok, Verseghy park. 8.</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekeltetotestulet@iparkamaraszolnok.hu</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>20/373-2570</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Komárom-Esztergom Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>2800 Tatabánya, Fő tér 36.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>06-34-513-010</td>
+          </tr>
+          <tr>
+              <td>Fax:</td>
+              <td>06-34-316-259</td>
+          </tr>
+          <tr>
+              <td>Email:</td>
+              <td>https://bekeltetesgyor.hu/</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Nógrád Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>3100 Salgótarján, Mártírok útja 4. fsz 14.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>06-32-520-860</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>nkik@nkik.hu</td>
+          </tr>
+          <tr>
+              <td>Honlap:</td>
+              <td>www.nkik.hu,<br>www.bekeltetes-nograd.hu</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Pest Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>1055 Budapest, Balassi Bálint utca 25. IV/2.</td>
+          </tr>
+          <tr>
+              <td>Levelezési cím:</td>
+              <td>1055 Budapest, Balassi Bálint utca 25. IV/2.</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>pmbekelteto@pmkik.hu</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>06-1-792-7881</td>
+          </tr>
+          <tr>
+              <td>Honlap:</td>
+              <td>http://www.panaszrendezes.hu/homepage/index.php<br>www.pestmegyeibekelteto.hu</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Somogy Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Címe: </td>
+              <td>7400 Kaposvár, Anna u. 6.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>06-82-501-000; 06-82-501-026</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>skik@skik.hu</td>
+          </tr>
+          <tr>
+              <td>Honlap:</td>
+              <td>www.skik.hu</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Szabolcs-Szatmár-Bereg Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>4400 Nyíregyháza, Széchenyi u. 2.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>06-42-420-180</td>
+          </tr>
+          <tr>
+              <td>Fax:</td>
+              <td>06-42-420-180</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bekelteto@szabkam.hu</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Tolna Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>7100 Szekszárd, Arany J. u. 23-25.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>06-74-411-661</td>
+          </tr>
+          <tr>
+              <td>Mobil:</td>
+              <td>06-30-664-2130</td>
+          </tr>
+          <tr>
+              <td>Fax:</td>
+              <td>06-74-411-456</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>kamara@tmkik.hu;<br>monus.greta@tmkik.hu</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Vas Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>9700 Szombathely, Rákóczi Ferenc u. 23.</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>bea@vmkik.hu</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>30/9566-708</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Veszprém Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>8200 Veszprém, Radnóti tér 1. Pf.: 220</td>
+          </tr>
+          <tr>
+              <td>Telefon:</td>
+              <td>06-88-814-121; 06 88 814-111</td>
+          </tr>
+          <tr>
+              <td>Fax:</td>
+              <td>06-92-550-525</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>zmbekelteto@zmkik.hu</td>
+          </tr>
+          <tr>
+              <td>Honlap:</td>
+              <td>http://www.bekelteteszala.hu/</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <table class="border">
+      <thead>
+          <th colspan="4">Zala Vármegyei Békéltető Testület</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Cím: </td>
+              <td>8900 Zalaegerszeg, Petőfi u. 24.</td>
+          </tr>
+          <tr>
+              <td>Telefonszám:</td>
+              <td>06-92-550-513</td>
+          </tr>
+          <tr>
+              <td>Fax:</td>
+              <td>06-92-550-525</td>
+          </tr>
+          <tr>
+              <td>E-mail:</td>
+              <td>zmbekelteto@zmkik.hu</td>
+          </tr>
+          <tr>
+              <td>Honlap:</td>
+              <td>http://www.bekelteteszala.hu/</td>
+          </tr>
+      </tbody>
+  </table>
+  
+  <p>Jogszabályhely: A Polgári Törvénykönyvről szóló 2013. évi V. törvény, továbbá a fogyasztó és vállalkozás közötti szerződések részletes szabályairól szóló 45/2014 (II.26.) Kormányrendelet.</p>
+  <span>1.sz. melléklet</span>
+  
+  <p>Housiko Group Kft.</p>
+  <p>3580 Tiszaújváros, Lorántffy Zsuzsanna utca 1. 2. em. 2. ajtó</p>
+      </section>
+  
+    <section>
+        <div>
+          <h4><strong>Elállási Nyilatkozat természetes személy Megrendelő részére</strong></h4>
+          <p>Alulírott kijelentem, hogy gyakorlom elállási jogomat az alábbi szolgáltatások megrendelésére</p>
+  
+            <div>
+                <label for="contract_name">irányuló szerződés tekintetében:</label>
+            </div>
+        
+            <div>
+                <label for="service_description">Szerződés megnevezése: </label>
+            </div>
+        
+            <div>
+                <label for="contract_date">Szolgáltatás pontos megjelölése:</label>
+            </div>
+        
+            <div>
+                <label for="customer_name">Szerződéskötés időpontja:</label>
+            </div>
+        
+            <div>
+                <label for="customer_address">A Megrendelő neve:</label>
+            </div>
+        
+            <div>
+                <label for="bank_name">A Megrendelő címe:</label>
+            </div>
+        
+            <div>
+                <label for="account_holder">Szolgáltatás díjának visszatérítését a következő bankszámlára kérem:</label>
+            </div>
+        
+            <div>
+                <label for="account_number">Bank Neve:</label>
+            </div>
+        
+            <div>
+                <label for="dated">Bankszámla jogosultja:</label>
+            </div>
+        
+            <div>
+                <label for="signature">Bakszámla száma:</label>
+            </div>
+            
+            <div>
+                <label for="signature">Kelt:</label>
+            </div>
+          
+        </div>
+    </section>
+        </section>`
     },
     "Privacy Policy": {
       "title":  "Adatvédelmi Szabályzat",
