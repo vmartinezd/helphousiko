@@ -1364,7 +1364,7 @@ const content = {
       <strong>A Megrendelés lépései</strong>
       <p>A Megrendelő a Szolgáltatást Regisztrációt követően veheti igénybe.</p>
       <p>A Regisztrációhoz természetes személy Megrendelő esetén a következő adatok megadása szüksége:</p>
-      <ul>
+      <ul class="hash" >
           <li>Vezetéknév</li>
           <li>Keresztnév</li>
           <li>E-mail cím</li>
@@ -1372,22 +1372,22 @@ const content = {
       </ul>
   
       <p>A Regisztrációhoz jogi személy Megrendelő esetén a következő adatok megadása szüksége:</p>
-      <ul>
+      <ul class="hash" >
           <li>Cégnév</li>
           <li>Adószám</li>
           <li>Székhely</li>
       </ul>
       <p>A Regisztrációt követően a Megrendelő az általa megadott e-mail címre visszaigazoló e-mailt kap. A visszaigazoló e-mail a következő adatokat rögzíti természetes személy Megrendelő esetén:</p>
-      <ul>
+      <ul class="hash" >
           <li>Név</li>
       </ul>
       <p>A visszaigazoló e-mail a következő adatokat rögzíti jogi személy Megrendelő esetén:</p>
-      <ul>
+      <ul class="hash" >
           <li>Cégnév</li>
       </ul>
   <p>A Megrendelő a Szolgáltatás igénybevételére irányuló rendelését a <a href="https://www.housiko.com">https://www.housiko.com</a> adhatja le.</p>
   <p>A Megrendelés során a természetes személy Megrendelő esetén a következő adatok megadása szüksége:</p>
-  <ul>
+  <ul class="hash">
       <li>Vezetéknév</li>
       <li>Keresztnév</li>
       <li>Lakcím
@@ -1400,7 +1400,7 @@ const content = {
       </li>
   </ul>
   <p>A Megrendelés során a jogi személy Megrendelő esetén a következő adatok megadása szüksége:</p>
-  <ul>
+  <ul class="hash">
       <li>Cégnév</li>
       <li>Székhely Adószám</li>
       <li>Székhely</li>
@@ -1409,11 +1409,11 @@ const content = {
   <p>A Megrendelő jogosult az oldal használata során külön díj nélkül 2 db ingatlan hirdetésének közzétételére.</p>
   <p>Ezen túl</p>
   <p>Ezt követően a Megrendelő a Fizetési módok közül választhat.</p>
-  <ul>
+  <ul class="hash" >
       <li>Online bankkártyás fizetés</li>
   </ul>
   <p>Az Online bankkártyás fizetést követően a Megrendelő az általa megadott elektronikus levelezési címre visszaigazoló e-mailt kap mely a következő adatokat rögzíti:</p>
-  <ul>
+  <ul class="hash" >
       <li>Felhasználó név</li>
       <li>E-mail</li>
   </ul>
