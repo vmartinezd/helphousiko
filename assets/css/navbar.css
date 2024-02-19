@@ -1315,8 +1315,13 @@ nav .profile-list div.dropdown-menu ul {
 }
 
 @media only screen and (max-width: 420px) {
-    ._navbar_btn3_flag_wrap {
+    /* ._navbar_btn3_flag_wrap {
         display: none;
+    } */
+    ._navbar_wrap {
+        padding: 0px;
+        background-color: #fff !important;
+        box-shadow: 0px 0px 60px rgba(48, 114, 255, 0.06);
     }
 
     .profile-list .dropdown {
