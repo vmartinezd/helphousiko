@@ -1241,7 +1241,7 @@ const content = {
   "hu_Hu": {
   
     "Who We Are": {
-        "title": "Who We Are",
+        "title": "Kik vagyunk",
         "content": `
      <h4>Kivételes, költséghatékony, korszakalkotó.</h4>
      <p>Az ötlet születésekor ez a hármas lebegett a szemünk előtt, ezeket a tulajdonságokat előtérbe helyezve tettük le a Housiko alapköveit.</p>
