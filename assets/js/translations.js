@@ -2,22 +2,14 @@ const content = {
   "en-GB": {
     "Who We Are": {
       "title": "Who We Are",
-      "Company Overview": {
-        "title": "Company Overview",
-        "content": "lorem ipsum"
-      },
-      "Leadership Team": {
-        "title": "Leadership Team",
-        "content": "lorem ipsum"
-      },
-      "Our Team": {
-        "title": "Our Team",
-        "content": "lorem ipsum"
-      },
-      "Achievements and Awards": {
-        "title": "Achievements and Awards",
-        "content": "lorem ipsum"
-      }
+      "content": `
+   <h4>   Exceptional, cost-effective, ground-breaking.</h4>
+   <p>We had this trifecta in mind when we came up with the idea, and it was with these qualities in mind that we laid the foundations for Housiko.</p>
+   <p>We wanted to provide property sellers and buyers with an easy-to-use platform that would save them time, energy and, of course, money. </p>
+   <p>The phone app allows anyone, anywhere, anytime to find the perfect apartments, holiday homes, shops, plots or even offices for sale or rent in just a few clicks. </p>
+   <p>Thanks to its unique features, users also have options that make selling, renting and buying even easier.</p>
+   <p>Housiko: all in one place. </p>
+`
     },
     "General Terms and Conditions": {
       "title": "General Terms and Conditions",
@@ -1249,24 +1241,16 @@ const content = {
   "hu_Hu": {
   
     "Who We Are": {
-      "title": "Kik Vagyunk",
-      "Company Overview": {
-        "title": "Cég áttekintése",
-        "content": "lorem ipsum in Hungarian"
+        "title": "Who We Are",
+        "content": `
+     <h4>Kivételes, költséghatékony, korszakalkotó.</h4>
+     <p>Az ötlet születésekor ez a hármas lebegett a szemünk előtt, ezeket a tulajdonságokat előtérbe helyezve tettük le a Housiko alapköveit.</p>
+     <p>Egy olyan egyszerűen használható felületet szeretnénk biztosítani az ingatlanok értékesítői és vásárlói számára, amivel időt, energiát, és persze pénzt is megtakaríthatnak. </p>
+     <p>A telefonos alkalmazás lehetővé teszi, hogy bárki, bárhol és bármikor néhány kattintással megtalálhassa a tökéletes eladó vagy kiadó lakásokat, nyaralókat, üzlethelységeket, telkeket, vagy akár irodákat. </p>
+     <p>Az egyedi funkcióknak köszönhetően olyan lehetőségek is a felhasználók rendelkezésére állnak, melyek még könnyebbé teszik az eladást, kiadást és a vásárlást is.</p>
+     <p>Housiko: minden egy helyen. </p>
+  `
       },
-      "Leadership Team": {
-        "title": "Vezetőség",
-        "content": "lorem ipsum in Hungarian"
-      },
-      "Our Team": {
-        "title": "Csapatunk",
-        "content": "lorem ipsum in Hungarian"
-      },
-      "Achievements and Awards": {
-        "title": "Eredmények és Díjak",
-        "content": "lorem ipsum in Hungarian"
-      }
-    },
     "General Terms and Conditions": {
       "title": "Általános Szerződési Feltételek",
       "content": ` <section class="container">
