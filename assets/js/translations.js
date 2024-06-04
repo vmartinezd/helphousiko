@@ -1238,7 +1238,7 @@ const content = {
       }
     }
   },
-  "hu_Hu": {
+  "hu": {
   
     "Who We Are": {
         "title": "Kik vagyunk",
