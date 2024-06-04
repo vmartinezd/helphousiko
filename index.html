@@ -1896,7 +1896,7 @@
 
     <script>
         const updateFlagFromCookie = () => {
-            const lang = getCookie('housikolang') || 'en';
+            const lang = getCookie('housikolang') || 'en-GB';
             let flagSrc, flagAlt;
             if (lang === 'hu') {
                 flagSrc = 'assets/images/hungflag.png';
@@ -1911,7 +1911,7 @@
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const lang = getCookie('housikolang') || 'en';
+            const lang = getCookie('housikolang') || 'en-GB';
             applyTranslation(lang);
             updateFlagFromCookie();
         });
