@@ -3655,3 +3655,7 @@ section ul li  {
   font-weight: bold;
   background: #bbb;
 }
+.container p {
+  font-size: 15px;
+  color: #000;
+}

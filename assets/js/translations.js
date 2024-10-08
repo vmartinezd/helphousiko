@@ -2638,6 +2638,1059 @@ const content = {
   </ul>
   <div class="container mt-2">
     <table class="table table-bordered">
+        <thead class="table-light">
+            <tr>
+            <th scope="col">S.sz.</th>
+            <th scope="col">Személyes adat</th>
+            <th scope="col">Adatkezelés célja</th>
+            <th scope="col">Adatkezelés jogalapja</th>
+            <th scope="col">Kik férhetnek hozzá az adathoz</th>
+            <th scope="col">Tárolás módja</th>
+            <th scope="col">Tárolás helye</th>
+            <th scope="col">Tárolás időtartama</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>1</td>
+            <td>Név</td>
+            <td>A Szolgáltatás értékesítése, számlázás</td>
+            <td>
+                Szerződés teljesítéséhez, vagy a szerződés megkötését megelőző
+                lépésekhez szükséges
+            </td>
+            <td>
+                Ügyvezetés, Értékesítési feladatokkal megbízott munkatársak,
+                Számlázás
+            </td>
+            <td>E</td>
+            <td>Elektronikus irattár</td>
+            <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
+            </tr>
+            <tr>
+            <td>2</td>
+            <td>Lakcím</td>
+            <td>A Szolgáltatás értékesítése, számlázás</td>
+            <td>
+                Szerződés teljesítéséhez, vagy a szerződés megkötését megelőző
+                lépésekhez szükséges
+            </td>
+            <td>Ügyvezetés, Értékesítési feladatokkal megbízott munkatársak, Számlázás</td>
+            <td>E</td>
+            <td>Elektronikus irattár</td>
+            <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
+            </tr>
+            <tr>
+            <td>3</td>
+            <td>Online azonosító</td>
+            <td>A Szolgáltatás értékesítése, számlázás</td>
+            <td>
+                Szerződés teljesítéséhez, vagy a szerződés megkötését megelőző
+                lépésekhez szükséges
+            </td>
+            <td>
+                Ügyvezetés, Értékesítési feladatokkal megbízott munkatársak,
+                Számlázás
+            </td>
+            <td>E</td>
+            <td>Elektronikus irattár</td>
+            <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
+            </tr>
+            <tr>
+            <td>4</td>
+            <td>E-mail cím</td>
+            <td>A Szolgáltatás értékesítése, számlázás</td>
+            <td>
+                Szerződés teljesítéséhez, vagy a szerződés megkötését megelőző
+                lépésekhez szükséges
+            </td>
+            <td>
+                Ügyvezetés, Értékesítési feladatokkal megbízott munkatársak,
+                Számlázás
+            </td>
+            <td>E</td>
+            <td>Elektronikus irattár</td>
+            <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
+            </tr>
+            <tr>
+            <td>5</td>
+            <td>Telefonszám</td>
+            <td>A Szolgáltatás értékesítése, számlázás</td>
+            <td>
+                Szerződés teljesítéséhez, vagy a szerződés megkötését megelőző
+                lépésekhez szükséges
+            </td>
+            <td>
+                Ügyvezetés, Értékesítési feladatokkal megbízott munkatársak,
+                Számlázás
+            </td>
+            <td>E</td>
+            <td>Elektronikus irattár</td>
+            <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</section>
+`
+    },
+    "Cookie Policy": {
+      "title": "Sütikre Vonatkozó Szabályzat",
+      "Types of Cookies": {
+        "title": "Sütikkel kapcsolatos adatkezelés",
+        "content": `<section class="container">
+  <div class="text-center">
+    <h3>Adatkezelési tájékoztató</h3>
+    <p>cookie használat vonatkozásában</p>
+  </div>
+
+  <h4>I. Adatkezelő megnevezése</h4>
+  <table class="table-bordered">
+    <tbody>
+      <tr>
+        <td>Cégnév:</td>
+        <td>Housiko Group Kft.</td>
+      </tr>
+      <tr>
+        <td>Székhely:</td>
+        <td>3580 Tiszaújváros, Lorántffy Zsuzsanna utca 1. 2. em. 2. ajtó</td>
+      </tr>
+      <tr>
+        <td>Adószám:</td>
+        <td>32136858-2-05</td>
+      </tr>
+      <tr>
+        <td>Képviseli:</td>
+        <td>Gere Márton Pál</td>
+      </tr>
+      <tr>
+        <td>e-mail:</td>
+        <td>info@housiko.com</td>
+      </tr>
+    </tbody>
+  </table>
+  <h4>II. Az adatkezelés alapjául szolgáló jogszabályok</h4>
+  <p>
+    A weboldalon történő adatkezelésekre az alábbi jogszabályok vonatkoznak:
+  </p>
+  <ul>
+    <li>
+      Az Európai Parlament és a Tanács (EU) 2016/679 rendelete (2016. április
+      27.) a természetes személyeknek a személyes adatok kezelése tekintetében
+      történő védelméről és az ilyen adatok szabad áramlásáról, valamint a
+      95/46/EK rendelet hatályon kívül helyezéséről, hatályos szövege:
+      <a
+        href="https://eur-lex.europa.eu/legalcontent/HU/TXT/PDF/?uri=CELEX:32016R0679&from=HU"
+        target="_blank"
+        >https://eur-lex.europa.eu/legalcontent/HU/TXT/PDF/?uri=CELEX:32016R0679&from=HU</a
+      >
+    </li>
+    <li>
+      Az információs önrendelkezési jogról és az információszabadságról szóló
+      2011. évi CXII. törvény (a továbbiakban: Info tv.), hatályos szövege:
+      <a
+        href="https://net.jogtar.hu/jogszabaly?docid=A1100112.TV"
+        target="_blank"
+        >https://net.jogtar.hu/jogszabaly?docid=A1100112.TV</a
+      >
+    </li>
+    <li>
+      A gazdasági reklámtevékenység alapvető feltételeiről és egyes korlátairól
+      szóló 2008. évi XLVIII. törvény, hatályos szövege:
+      <a
+        href="https://net.jogtar.hu/jogszabaly?docid=A0800048.TV"
+        target="_blank"
+        >https://net.jogtar.hu/jogszabaly?docid=A0800048.TV</a
+      >
+    </li>
+    <li>
+      A fogyasztóvédelemről szóló 1997. évi CLV. törvény, hatályos szövege:
+      <a
+        href="https://net.jogtar.hu/jogszabaly?docid=99700155.TV"
+        target="_blank"
+        >https://net.jogtar.hu/jogszabaly?docid=99700155.TV</a
+      >
+    </li>
+  </ul>
+  <h4>III. A kezelt adatokra vonatkozó információk</h4>
+  <p>Adatkezelő által kezelt adatok köre: érintett online azonosítója.</p>
+  <p>Az adatkezelés jogalapja: az érintett hozzájárulása</p>
+  <p>Az adatkezelés időtartama: a hozzájárulás visszavonásáig</p>
+
+  <h4>IV. A cookie-ról általában</h4>
+  <div class="margin-left-sm">
+    <p>
+      (1) A Sütik (cookie-k) rövid adatfájlok, melyeket a meglátogatott honlap
+      helyez el a felhasználó számítógépén. A cookie célja, hogy az adott
+      infokommunikációs, internetes szolgáltatást megkönnyítse, kényelmesebbé
+      tegye. Számos fajtája létezik, de általában két nagy csoportba
+      sorolhatóak. Az egyik az ideiglenes cookie, amelyet a honlap csak egy
+      adott munkamenet során (pl.: egy internetes bankolás biztonsági
+      azonosítása alatt) helyez el a felhasználó eszközén, a másik fajtája az
+      állandó cookie (pl.: egy honlap nyelvi beállítása), amely addig marad a
+      számítógépen, amíg a felhasználó le nem törli azt. Az Európai Bizottság
+      irányelvei alapján cookie-kat [kivéve, ha azok az adott szolgáltatás
+      használatához elengedhetetlenül szükségesek] csak a felhasználó
+      engedélyével lehet a felhasználó eszközén elhelyezni.
+    </p>
+    <p>
+      (2) A felhasználó hozzájárulását nem igénylő sütik esetében a honlap első
+      látogatása során kell tájékoztatást nyújtani. Nem szükséges, hogy a
+      sütikre vonatkozó tájékoztató teljes szövege megjelenjen a honlapon,
+      elegendő, ha a honlap üzemeltetői röviden összefoglalják a tájékoztatás
+      lényegét, és egy linken keresztül utalnak a teljes körű tájékoztató
+      elérhetőségére.
+    </p>
+    <p>
+      (3) A hozzájárulást igénylő sütik esetében a tájékoztatás kapcsolódhat a
+      honlap első látogatásához is abban az esetben, ha a sütik alkalmazásával
+      együtt járó adatkezelés már az oldal felkeresésével megkezdődik.
+      Amennyiben a süti alkalmazására a felhasználó által kifejezetten kért
+      funkció igénybevételéhez kapcsolódóan kerül sor, akkor a tájékoztatás is
+      megjelenhet e funkció igénybevételéhez kapcsolódóan. Ebben az esetben nem
+      szükséges az, hogy a sütikre vonatkozó tájékoztató teljes szövege
+      megjelenjen a honlapon, elegendő egy rövid összefoglaló a tájékoztatás
+      lényegéről, és egy linken keresztül utalás a teljes körű tájékoztató
+      elérhetőségére.
+    </p>
+    <p>
+      (4) A honlapon a sütik alkalmazásáról a látogatót tájékoztatni kell. Ezen
+      tájékoztatóval az Adatkezelő biztosítja, hogy a látogató a honlap
+      információs társadalommal összefüggő szolgáltatásainak igénybevétele előtt
+      és az igénybevétel során bármikor megismerhesse, hogy az Adatkezelő mely
+      adatkezelési célokból mely adatfajtákat kezel, ideértve az igénybe vevővel
+      közvetlenül kapcsolatba nem hozható adatok kezelését is.
+    </p>
+  </div>
+  <h4>V. Alkalmazott cookie-k</h4>
+  <ul style="list-style: none">
+    <li class="d-flex flex-column gap-2">
+      <p>
+        Az Adatkezelő tájékoztatja felhasználóit, hogy a Weboldala és aloldalai
+        látogatottságának méréséhez és látogatóinak viselkedésének figyeléséhez,
+        statisztikák készítéséhez és hirdetései eredményességéhez Google
+        Analytics, Google Remarketing, AdWords Konverziókövetés, és Facebook
+        Remarketing programokat használja. A hivatkozott programok a felhasználó
+        számítógépén ún. cookie-kat helyeznek el, melyek felhasználói adatokat
+        gyűjtenek. A weboldalra látogatók (Érintettek) engedélyezik az
+        Adatkezelő részére a Google Analytics, Google Remarketing, AdWords
+        Konverziókövetés, és Facebook Remarketing programok használatát. Egyben
+        hozzájárulnak felhasználó viselkedésük figyeléséhez, követéséhez és a
+        programok által nyújtott minden szolgáltatás igénybe vételéhez az
+        Adatkezelő részére. Mindezek mellett a felhasználónak lehetősége van
+        bármikor a cookie-k adatrögzítését és adattárolást a jövőre vonatkozóan
+        letiltani a lentiek szerint.
+      </p>
+      <p>
+        Tájékoztatjuk felhasználóinkat, hogy a Google Analytics, Google
+        Remarketing, AdWords Konverziókövetés, és Facebook Remarketing programok
+        beállításai és használata teljes mértékben megfelelnek az adatvédelmi
+        hatóság követelményeinek. A Google tájékoztatása szerint a Google
+        Analytics főleg első féltől származó cookie-k segítségével jelenti a
+        webhelyén létrejött látogatói interakciókat. Ezek a cookie-k csak
+        személyazonosításra alkalmatlan információkat rögzítenek. A böngészők
+        nem osztják meg a saját cookie-kat a domainek között. A cookie-ról
+        további információ található a Google Hirdetés és adatvédelem GYIK-ban.
+      </p>
+
+      <h5>V.1. Google Analytics:</h5>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            Az Adatkezelő a Google Analytics programot elsősorban statisztikái
+            előállításához használja, többek között méri vele kampányai
+            eredményességét. A program használatával az Adatkezelő főként arról
+            szerez információt, hogy hány látogató kereste fel Weboldalát, és a
+            látogatók mennyi időt töltöttek a Weboldalon. A program felismeri a
+            látogató IP címét, ezért tudja követni, hogy a látogató visszatérő
+            vagy új látogató-e, továbbá követhető, hogy a látogató milyen utat
+            tett meg a Weboldalon és hova lépett be.
+          </p>
+        </li>
+      </ul>
+
+      <h5>V.2. Google Remarketing:</h5>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            Az Adatkezelő a Google Remarketing program használatával a Google
+            Analytics megszokott adatai mellett a DoubleClick cookie adatait is
+            gyűjti. A DoubleClick cookie révén lehet használni a remarketing
+            szolgáltatást, amely elsősorban biztosítja azt, hogy a Weboldalra
+            látogatók később szabad Google hirdetési felületeken az Adatkezelő
+            hirdetésével találkozzanak. Az Adatkezelő a Google Remarketing
+            programot igénybe veszi online hirdetéseihez. Az Adatkezelő
+            hirdetéseit külső szolgáltatók – például a Google – is megjelenítik
+            internetes webhelyeken. Az Adatkezelő és külső szolgáltatók, például
+            a Google, saját cookie-kat (például a Google Analytics cookie-jait)
+            és harmadik féltől származó cookie-kat (például a DoubleClick
+            cookie-t) használnak együttesen a felhasználók által a Weboldalon
+            tett korábbi látogatások alapján történő tájékozódásra, illetve a
+            hirdetések optimalizálására és megjelenítésére.
+          </p>
+        </li>
+      </ul>
+
+      <h5>V.3. Google AdWords konverziókövetés:</h5>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            A Google AdWords konverziókövetés célja, hogy az Adatkezelő mérni
+            tudja az AdWords hirdetések hatékonyságát. Ezt a felhasználó
+            számítógépén elhelyezett cookie-k segítségével teszi, amely 30 napig
+            létezik, és nem gyűjt személyes adatokat.
+          </p>
+        </li>
+      </ul>
+
+      <h5>V.4. Facebook Remarketing:</h5>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            Az Adatkezelő a Facebook remarketing pixelét használja a
+            Facebook-hirdetések hatékonyságának növelésére, ún. remarketing
+            lista építése céljából. Így a Weboldal meglátogatása után külső
+            szolgáltató - például a Facebook - internetes webhelyeken
+            hirdetéseket jeleníthet meg. A remarketing listák nem alkalmasak
+            személyazonosításra. A látogató személyes adatait nem tartalmazzák,
+            kizárólag a böngésző szoftvert azonosítják.
+          </p>
+        </li>
+      </ul>
+
+      <h5>V.5. Cookie-k letiltása:</h5>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            Ha a cookie beállításait szeretné kezelni, vagy letiltani a
+            funkcióról, azt a saját felhasználói számítógépéről megteheti
+            böngészőjében. Ez az opció a böngésző eszköztárától függően
+            található meg a cookie-k/sütik/követési funkciók elhelyezései
+            menüpontban, általában azonban az Eszközök > Beállítások >
+            Adatvédelem beállításai alatt állíthatja be, milyen követési
+            funkciókat engedélyez/tilt le a számítógépén.
+          </p>
+          <p>
+            Azok a felhasználók, akik nem szeretnék, hogy a Google Analytics
+            jelentést készítsen a látogatásukról, telepíthetik a Google
+            Analytics letiltó böngészőbővítményt.
+          </p>
+          <br />
+          <p>
+            Ha le szeretné tiltani az Analytics webes tevékenységét, keresse fel
+            a Google Analytics letiltó oldalát, és telepítse a bővítményt
+            böngészőjéhez. A bővítmény telepítéséről és eltávolításáról további
+            tájékoztatásért tekintse meg az adott böngészőhöz tartozó súgót.
+          </p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h4>VI. Az adatokhoz való hozzáférés és az adatbiztonsági intézkedések</h4>
+  <ul style="list-style: none">
+    <li>
+      <h5>VI.1. Az adatokhoz való hozzáférés és az adattovábbítás</h5>
+
+      <ul style="list-style: none">
+        <li>
+          <p>
+            Az Ön által megadott személyes adatokhoz az Adatkezelő munkatársai
+            férhetnek hozzá a feladataik ellátása érdekében.
+          </p>
+
+          <p>
+            Adatkezelő a kezelt személyes adatokat jelen szabályzat
+            mellékletében rögzített alvállalkozóinak továbbítja.
+          </p>
+
+          <p>
+            Az Adatkezelő csak kivételes esetben adja át a személyes adatait más
+            – a mellékletben fel nem sorolt - Adatkezelőknek, állami szerveknek.
+          </p>
+
+          <p>Így például, amennyiben</p>
+          <ul>
+            <li>
+              az Önt érintő ügyben bírósági eljárás indul, és az eljáró bíróság
+              számára szükséges az Ön személyes adatait tartalmazó iratok
+              átadása,
+            </li>
+            <li>
+              a rendőrség megkeresi az Adatkezelőt, és a nyomozáshoz az Ön
+              személyes adatait tartalmazó iratok továbbítását kéri.
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <h5>VI.2. Adatbiztonsági intézkedések</h5>
+
+      <div class="section">
+        <p>
+          Az Adatkezelő az Ön által megadott személyes adatokat az Adatkezelő
+          szerverein, illetve adott esetben papír alapú irattárában tárolja. A
+          személyes adatok tárolásához az Adatkezelő más cég szolgáltatását nem
+          veszi igénybe.
+        </p>
+
+        <p>
+          Adatkezelő megfelelő intézkedésekkel gondoskodik arról, hogy a
+          személyes adatokat védje többek között a jogosulatlan hozzáférés ellen
+          vagy azok jogosulatlan megváltoztatása ellen. Így például a szerveren
+          tárolt személyes adatokhoz való hozzáférést Adatkezelő naplózza,
+          vagyis mindig ellenőrizhető, ki, mikor, milyen személyes adatokhoz
+          fért hozzá.
+        </p>
+      </div>
+    </li>
+  </ul>
+
+  <h4>VII. Az érintett adatkezeléssel kapcsolatos jogai</h4>
+
+  <ul style="list-style: none">
+    <li>
+      <h5>1. Az Ön hozzáférési jogai</h5>
+
+      <p>Ön, mint jogosult hozzáférhet a személyes adataihoz.</p>
+
+      <p>
+        Ha azt kéri, hogy az Adatkezelő visszajelzést adjon arra vonatkozóan,
+        hogy kezeli-e a személyes adatait, az Adatkezelő köteles tájékoztatást
+        adni, az alábbiakra vonatkozóan:
+      </p>
+      <ul style="list-style: none">
+        <li>(a) milyen személyes adatait,</li>
+        <li>(b) milyen jogalapon,</li>
+        <li>(c) milyen adatkezelési cél miatt,</li>
+        <li>(d) milyen forrásból,</li>
+        <li>(e) mennyi ideig kezeli.</li>
+      </ul>
+
+      <p>
+        Az Ön azon joga, hogy visszajelzést kapjon arról, hogy az Adatkezelő
+        kezeli-e (vagy sem) a személyes adatait,
+      </p>
+
+      <ul style="list-style: none">
+        <li>(a) az Önre vonatkozó személyes adatokra terjed ki;</li>
+        <li>(b) nem terjed ki az anonim adatokra;</li>
+        <li>(c) nem terjed ki a nem Önre vonatkozó személyes adatokra; és</li>
+        <li>
+          (d) magában foglalja az egyértelműen az Önhöz kapcsolható álnevesített
+          adatokat.
+        </li>
+      </ul>
+
+      <p>
+        Az Adatkezelő az Ön kérésére hozzáférést és másolatot biztosít a
+        személyes adataihoz. Ha Ön további/ismételt másolatot kér a személyes
+        adatairól, az Adatkezelő ésszerű díjat számíthat fel a kérés
+        teljesítésével összefüggésben felmerülő adminisztratív költségek
+        megfizetésére, mely díjat Ön fog viselni.
+      </p>
+
+      <h5>2. Az Ön helyesbítéshez való joga</h5>
+
+      <p>Ön jogosult a személyes adatai helyesbítésére. E joga</p>
+
+      <ul style="list-style: none">
+        <li>(a) nem terjed ki az anonim adatokra;</li>
+        <li>(b) az Önre vonatkozó személyes adatokra terjed ki;</li>
+        <li>(c) nem terjed ki a nem Önre vonatkozó személyes adatokra; és</li>
+        <li>
+          (d) magában foglalja az egyértelműen Önhöz kapcsolható álnevesített
+          adatokat.
+        </li>
+      </ul>
+
+      <p>
+        Az Adatkezelő az Ön kérése alapján megfelelően javítja vagy kiegészíti
+        személyes adatait. Az Adatkezelő az Ön személyes adatainak
+        helyesbítéséről tájékoztatja a személyes adatok címzettjeit (ha vannak
+        ilyenek). Az Adatkezelő azonban nem tájékoztatja a címzetteket a
+        személyes adatok helyesbítéséről, ha a címzettek tájékoztatása
+        lehetetlennek bizonyul vagy aránytalanul nagy erőfeszítést igényelne.
+      </p>
+      <h5>3. Az Ön törléshez való joga</h5>
+
+      <p>
+        Bizonyos feltételek esetén Ön jogosult a személyes adatai törlésére. Az
+        Adatkezelő indokolatlan késedelem nélkül köteles törölni az Ön személyes
+        adatait, amennyiben:
+      </p>
+
+      <ul style="list-style: none">
+        <li>(a) az Adatkezelő kezeli ezeket a személyes adatokat;</li>
+        <li>(b) Ön a személyes adatai törlését kéri; és</li>
+        <li>
+          (c) a személyes adatok nem szükségesek azon célokra, amelyekre az
+          Adatkezelő ezeket kezeli.
+        </li>
+      </ul>
+
+      <p>
+        Az Adatkezelő köteles az Ön személyes adatait indokolatlan késedelem
+        nélkül törölni, ha a fenti feltételek teljesülnek.
+      </p>
+      <ul style="list-style: none">
+        <li>(a) az Adatkezelő kezeli az Ön személyes adatait, és</li>
+        <li>(b) Ön a személyes adatai törlését kéri, és</li>
+        <li>
+          (c)Ön visszavonja a hozzájárulását, amin az adatainak kezelése alapul,
+          és
+        </li>
+        <li>(b) nincs más jogalap az Ön adatainak további kezelésére.</li>
+      </ul>
+      <p>
+        Az Adatkezelő indokolatlan késedelem nélkül köteles törölni az Ön
+        személyes adatait, ha:
+      </p>
+      <ul style="list-style-type: none">
+        <li>
+          (a) az adatkezelés az Adatkezelő vagy egy harmadik fél jogos
+          érdekeinek érvényesítéséhez szükséges, és
+        </li>
+        <li>
+          (b) Ön tiltakozik az ellen, hogy az Adatkezelő kezeli a személyes
+          adatait, és
+        </li>
+        <li>
+          (c) az ilyen személyes adatok kezelését megalapozó jogszerű ok nem
+          élvez elsőbbséget az Ön tiltakozásával szemben.
+        </li>
+      </ul>
+      <p>
+        Az Adatkezelő indokolatlan késedelem nélkül köteles törölni az Ön
+        személyes adatait, ha:
+      </p>
+      <ul style="list-style-type: none">
+        <li>(a) Ön a személyes adatai törlését kéri, és</li>
+        <li>
+          (b) az ilyen adatok Adatkezelő általi kezelése nem jogellenes, vagy
+        </li>
+        <li>(c) a törlés kötelező a hatályos törvények értelmében, vagy</li>
+        <li>
+          (d) az Ön adatait az információs társadalommal összefüggő
+          szolgáltatások vonatkozásában gyűjtik.
+        </li>
+      </ul>
+      <p>
+        Az Adatkezelő az Ön személyes adatainak törléséről tájékoztatja a
+        személyes adatok címzettjeit (ha vannak ilyenek). Az Adatkezelő azonban
+        nem tájékoztatja a címzetteket a személyes adatok törléséről, ha a
+        címzettek tájékoztatása lehetetlen vagy aránytalanul nagy erőfeszítést
+        igényelne.
+      </p>
+    </li>
+    <li>
+      <h5>4. Az Ön joga az adatkezelés korlátozásához</h5>
+      <ul style="list-style-type: none">
+        <li>Ön kérheti a személyes adatai kezelésének korlátozását.</li>
+        <li>
+          Az Ön joga a személyes adatai kezelése korlátozásának kérése
+          vonatkozásában:
+        </li>
+        <li>
+          <ul style="list-style-type: none">
+            <li>(a) nem terjed ki az anonim adatokra;</li>
+            <li>(b) a rá vonatkozó személyes adatokra terjed ki;</li>
+            <li>
+              (c) nem terjed ki a nem Önre vonatkozó személyes adatokra; és
+            </li>
+            <li>
+              (d) magában foglalja az egyértelműen az Önhöz kapcsolható
+              álnevesített adatokat.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Az Adatkezelő korlátozza az Ön személyes adatainak kezelését arra az
+          időszakra, amely alatt ellenőrzi az ilyen adatok pontosságát, ha:
+        </li>
+        <ul style="list-style-type: none">
+          <li>
+            Ön a személyes adatai kezelésének korlátozását kéri és vitatja az
+            ilyen adatok pontosságát.
+          </li>
+        </ul>
+        <li>
+          Az Adatkezelő korlátozza az Ön személyes adatainak kezelését, ha:
+        </li>
+        <ul style="list-style-type: none">
+          <li>
+            Ön olyan adatok kezelésének korlátozását kéri, amelyek kezelése
+            jogellenes, és Ön ellenzi az ilyen adatok törlését.
+          </li>
+        </ul>
+        <li>
+          Az Adatkezelő korlátozza az Ön személyes adatainak kezelését, ha:
+        </li>
+        <li>
+          <ul style="list-style-type: none">
+            <li>(a) Ön a személyes adatai kezelésének korlátozását kéri, és</li>
+            <li>
+              (b) az Adatkezelőnek már nincs szüksége ezekre az adatokra az
+              adatkezelés céljából, és
+            </li>
+            <li>
+              (c) Ön az adatait jogi igény előterjesztéséhez, érvényesítéséhez
+              vagy védelméhez igényli.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Az Adatkezelő korlátozza az Ön személyes adatainak kezelését, ha:
+        </li>
+        <li>
+          <ul style="list-style-type: none">
+            <li>
+              (a) Ön tiltakozik az olyan személyes adatai kezelése ellen, amik
+              szükségesek az Adatkezelő jogos érdekei céljából, és
+            </li>
+            <li>
+              (b) Ön annak visszaigazolására vár, hogy az Ön személyes adatainak
+              az Adatkezelő általi kezelésére van jogszerű ok, amely nem élvez
+              elsőbbséget az Ön tiltakozásával szemben.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Az Adatkezelő az Ön személyes adatai kezelésének korlátozásáról
+          tájékoztatja az ilyen személyes adatok címzettjeit (ha vannak
+          ilyenek), kivéve ha a címzettek tájékoztatása lehetetlen vagy
+          aránytalanul nagy erőfeszítést igényelne.
+        </li>
+        <li>
+          Ha az Adatkezelő korlátozza az Ön személyes adatainak kezelését,
+          akkor:
+        </li>
+        <li>
+          <ul style="list-style-type: none">
+            <li>(a) tárolhatja az ilyen személyes adatokat,</li>
+            <li>
+              (b) az Ön hozzájárulása alapján kezelheti az ilyen személyes
+              adatokat,
+            </li>
+            <li>
+              (c) kezelheti a személyes adatokat jogi igényének
+              előterjesztéséhez, érvényesítéséhez vagy védelméhez vagy valamely
+              személy jogainak megvédéséhez.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h5>5. Adathordozhatósághoz való joga</h5>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            Ön jogosult arra, hogy az Önre vonatkozó, Ön által egy adatkezelő
+            rendelkezésére bocsátott személyes adatait tagolt, széles körben
+            használt, géppel olvasható formátumban megkapja, továbbá jogosult
+            arra, hogy ezeket az adatokat egy másik adatkezelőnek továbbítsák
+            anélkül, hogy ez akadályozná (ahol technikailag lehetséges) azt az
+            adatkezelőt, amelynek a személyes adatokat a rendelkezésére
+            bocsátotta, ha az adatkezelés hozzájáruláson alapul vagy szerződés
+            teljesítéséhez szükséges és az adatkezelés automatizált módon
+            történik.
+          </p>
+          <p>Az Ön adathordozhatósághoz való joga:</p>
+          <ul style="list-style: none">
+            <li>(a) nem terjed ki az anonim adatokra;</li>
+            <li>(b) az Önre vonatkozó személyes adatokra terjed ki;</li>
+            <li>
+              (c) nem terjed ki a nem Önre vonatkozó személyes adatokra; és
+            </li>
+            <li>(d) nem terjed ki az egyértelműen álnevesített adatokra.</li>
+          </ul>
+        </li>
+      </ul>
+      <h5>6. Az Ön, mint érintett kérelmének ügyintézési határideje</h5>
+      <ul style="list-style: none">
+        <li>
+          Az Adatkezelő az Önt a fentiek szerint megillető jogosultságokra
+          vonatkozó kérelmekre indokolatlan késedelem nélkül, de legkésőbb egy
+          hónapon belül válaszol.
+        </li>
+      </ul>
+
+      <h5>7. Panasz benyújtásához való jog</h5>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            Ha Ön úgy véli, hogy a jogait megsértették, az Adatkezelő azt
+            javasolja, hogy kezdeményezzen egyeztetést az Adatkezelővel
+            közvetlen kapcsolatfelvétel útján. Ha az ilyen egyeztetés nem vezet
+            eredményre vagy ha Ön nem kíván részt venni ilyen tevékenységben, a
+            bírósághoz vagy a NAIH-hoz fordulhat.
+          </p>
+          <p>
+            Bírósági eljárás kezdeményezése esetén dönthet úgy, hogy az eljárást
+            a lakcíme vagy lakóhelye szerint illetékes bíróság előtt indítja
+            meg.
+          </p>
+          <p><strong>A NAIH kapcsolati adatai a következők:</strong></p>
+          <p>
+            1125 Budapest, Szilágyi Erzsébet fasor 22/C.;<br />
+            Telefon: +36 1 391 1400;<br />
+            Fax: +36 1 391 1410;<br />
+            E-mail:
+            <a href="mailto:ugyfelszolgalat@naih.hu">ugyfelszolgalat@naih.hu</a
+            >;<br />
+            Weboldal:
+            <a href="http://www.naih.hu" target="_blank">www.naih.hu</a>
+          </p>
+        </li>
+      </ul>
+      <h5 class="mt-2">8. A jelen tájékoztató módosításai</h5>
+      <ul>
+        <li>
+          Az Adatkezelő fenntartja a jogot, hogy bármikor módosítsa a jelen
+          tájékoztatót. Az Adatkezelő adott esetben levélben vagy e-mailben és
+          minden esetben a vonatkozó jogszabályok szerint tájékoztatja az
+          ügyfeleket az ilyen módosításokról.
+        </li>
+      </ul>
+    </li>
+  </ul>
+</section>
+`
+      },
+      "Cookie Usage": {
+        "title": "Hírlevéllel kapcsolatos adatkezelés",
+        "content": `<section class="container">
+  <div class="text-center">
+    <h3>Adatkezelési tájékoztató</h3>
+    <p>Hírlevélre feliratkozók adatainak kezeléséhez</p>
+  </div>
+
+  <h4>I. Adatkezelő megnevezése</h4>
+  <table class="table-bordered">
+    <tbody>
+      <tr>
+        <td>Cégnév:</td>
+        <td>Housiko Group Kft.</td>
+      </tr>
+      <tr>
+        <td>Székhely:</td>
+        <td>3580 Tiszaújváros, Lorántffy Zsuzsanna utca 1. 2. em. 2. ajtó</td>
+      </tr>
+      <tr>
+        <td>Adószám:</td>
+        <td>32136858-2-05</td>
+      </tr>
+      <tr>
+        <td>Képviseli:</td>
+        <td>Gere Márton Pál</td>
+      </tr>
+      <tr>
+        <td>e-mail:</td>
+        <td>info@housiko.com</td>
+      </tr>
+    </tbody>
+  </table>
+  <h4>II. Az adatkezelés alapjául szolgáló jogszabályok</h4>
+  <p>
+    Hírlevélre feliratkozók adatainak kezelésére az alábbi jogszabályok
+    vonatkoznak:
+  </p>
+  <ul>
+    <li>
+      <p>
+        Az Európai Parlament és a Tanács (EU) 2016/679 rendelete (2016. április
+        27.) a természetes személyeknek a személyes adatok kezelése tekintetében
+        történő védelméről és az ilyen adatok szabad áramlásáról, valamint a
+        95/46/EK rendelet hatályon kívül helyezéséről, hatályos szövege:
+        <a
+          href="https://eur-lex.europa.eu/legal-content/HU/TXT/PDF/?uri=CELEX:32016R0679&from=HU"
+          >https://eur-lex.europa.eu/legal-content/HU/TXT/PDF/?uri=CELEX:32016R0679&from=HU</a
+        >
+      </p>
+    </li>
+    <li>
+      <p>
+        Az információs önrendelkezési jogról és az információszabadságról szóló
+        2011. évi CXII. törvény (a továbbiakban: Info tv.), hatályos szövege:
+        <a href="https://net.jogtar.hu/jogszabaly?docid=A1100112.TV"
+          >https://net.jogtar.hu/jogszabaly?docid=A1100112.TV</a
+        >
+      </p>
+    </li>
+    <li>
+      <p>
+        A gazdasági reklámtevékenység alapvető feltételeiről és egyes
+        korlátairól szóló 2008. évi XLVIII. törvény, hatályos szövege:
+        <a href="https://net.jogtar.hu/jogszabaly?docid=A0800048.TV"
+          >https://net.jogtar.hu/jogszabaly?docid=A0800048.TV</a
+        >
+      </p>
+    </li>
+    <li>
+      <p>
+        A fogyasztóvédelemről szóló 1997. évi CLV. törvény, hatályos szövege:
+        <a href="https://net.jogtar.hu/jogszabaly?docid=99700155.TV"
+          >https://net.jogtar.hu/jogszabaly?docid=99700155.TV</a
+        >
+      </p>
+    </li>
+  </ul>
+
+  <h4>III. A kezelt adatokra vonatkozó információk</h4>
+  <p>A kezelt adatok köre és az adatkezelés célja</p>
+  <p>
+    A kezelt adatok körét és célját, időtartamát, jogalapját és a kezelés módját
+    jelen tájékoztató függeléke tartalmazza.
+  </p>
+
+  <h4>IV. Az adatokhoz való hozzáférés és az adatbiztonsági intézkedések</h4>
+  <ul style="list-style: none">
+    <li>
+      <h5>IV.1. Az adatokhoz való hozzáférés és az adattovábbítás</h5>
+      <p>
+        Az Ön által megadott személyes adatokhoz az Adatkezelő munkatársai
+        férhetnek hozzá a feladataik ellátása érdekében. Adatkezelő a kezelt
+        személyes adatokat jelen szabályzat mellékletében rögzített
+        alvállalkozóinak továbbítja.
+      </p>
+      <p>
+        Az Adatkezelő csak kivételes esetben adja át a személyes adatait más – a
+        mellékletben fel nem sorolt – Adatkezelőknek, állami szerveknek. Így
+        például, amennyiben
+      </p>
+      <ul>
+        <li>
+          <p>
+            az Önt érintő ügyben bírósági eljárás indul, és az eljáró bíróság
+            számára szükséges az Ön személyes adatait tartalmazó iratok átadása,
+          </p>
+        </li>
+        <li>
+          <p>
+            a rendőrség megkeresi az Adatkezelőt, és a nyomozáshoz az Ön
+            személyes adatait tartalmazó iratok továbbítását kéri.
+          </p>
+        </li>
+      </ul>
+
+      <h4>IV.2. Adatbiztonsági intézkedések</h4>
+      <p>
+        Az Adatkezelő az Ön által megadott személyes adatokat az Adatkezelő
+        szerverein, illetve adott esetben papír alapú irattárában tárolja. A
+        személyes adatok tárolásához az Adatkezelő más cég szolgáltatását nem
+        veszi igénybe.
+      </p>
+      <p>
+        Adatkezelő megfelelő intézkedésekkel gondoskodik arról, hogy a személyes
+        adatokat védje többek között a jogosulatlan hozzáférés ellen vagy azok
+        jogosulatlan megváltoztatása ellen. Így például a szerveren tárolt
+        személyes adatokhoz való hozzáférést Adatkezelő naplózza, vagyis mindig
+        ellenőrizhető, ki, mikor, milyen személyes adatokhoz fért hozzá.
+      </p>
+    </li>
+  </ul>
+  <h4>V. Az érintett adatkezeléssel kapcsolatos jogai</h4>
+
+  <h4>1. Az Ön hozzáférési jogai</h4>
+  <p>
+    Ön, mint jogosult hozzáférhet a személyes adataihoz. Ha azt kéri, hogy az
+    Adatkezelő visszajelzést adjon arra vonatkozóan, hogy kezeli-e a személyes
+    adatait, az Adatkezelő köteles tájékoztatást adni az alábbiakra vonatkozóan:
+  </p>
+  <ul style="list-style-type: none">
+    <li>(a) milyen személyes adatait,</li>
+    <li>(b) milyen jogalapon,</li>
+    <li>(c) milyen adatkezelési cél miatt,</li>
+    <li>(d) milyen forrásból,</li>
+    <li>(e) mennyi ideig kezeli.</li>
+  </ul>
+  <p>
+    Az Ön azon joga, hogy visszajelzést kapjon arról, hogy az Adatkezelő
+    kezeli-e (vagy sem) a személyes adatait:
+  </p>
+  <ul style="list-style-type: none">
+    <li>(a) az Önre vonatkozó személyes adatokra terjed ki;</li>
+    <li>(b) nem terjed ki az anonim adatokra;</li>
+    <li>(c) nem terjed ki a nem Önre vonatkozó személyes adatokra; és</li>
+    <li>
+      (d) magában foglalja az egyértelműen Önhöz kapcsolható álnevesített
+      adatokat.
+    </li>
+  </ul>
+  <p>
+    Az Adatkezelő az Ön kérésére hozzáférést és másolatot biztosít a személyes
+    adataihoz. Ha Ön további/ismételt másolatot kér a személyes adatairól, az
+    Adatkezelő ésszerű díjat számíthat fel a kérés teljesítésével összefüggésben
+    felmerülő adminisztratív költségek megfizetésére, mely díjat Ön fog viselni.
+  </p>
+
+  <h4>2. Az Ön helyesbítéshez való joga</h4>
+  <p>Ön jogosult a személyes adatai helyesbítésére. E joga:</p>
+  <ul style="list-style-type: none">
+    <li>(a) nem terjed ki az anonim adatokra;</li>
+    <li>(b) az Önre vonatkozó személyes adatokra terjed ki;</li>
+    <li>(c) nem terjed ki a nem Önre vonatkozó személyes adatokra; és</li>
+    <li>
+      (d) magában foglalja az egyértelműen Önhöz kapcsolható álnevesített
+      adatokat.
+    </li>
+  </ul>
+  <p>
+    Az Adatkezelő az Ön kérése alapján megfelelően javítja vagy kiegészíti
+    személyes adatait. Az Adatkezelő az Ön személyes adatainak helyesbítéséről
+    tájékoztatja a személyes adatok címzettjeit (ha vannak ilyenek). Az
+    Adatkezelő azonban nem tájékoztatja a címzetteket a személyes adatok
+    helyesbítéséről, ha a címzettek tájékoztatása lehetetlennek bizonyul vagy
+    aránytalanul nagy erőfeszítést igényelne.
+  </p>
+
+  <h4>3. Törléshez való jog</h4>
+  <p>
+    Bizonyos feltételek esetén Ön jogosult a személyes adatai törlésére. Az
+    Adatkezelő indokolatlan késedelem nélkül köteles törölni az Ön személyes
+    adatait, amennyiben:
+  </p>
+  <ul style="list-style-type: none">
+    <li>(a) az Adatkezelő kezeli e személyes adatokat, és</li>
+    <li>(b) Ön a személyes adatai törlését kéri, és</li>
+    <li>
+      (c) a személyes adatok nem szükségesek azon célokra, amelyekre az
+      Adatkezelő a személyes adatokat kezeli.
+    </li>
+  </ul>
+  <p>
+    Az Adatkezelő indokolatlan késedelem nélkül köteles törölni az Ön személyes
+    adatait, ha:
+  </p>
+  <ul style="list-style-type: none">
+    <li>(a) az Adatkezelő kezeli az Ön személyes adatait, és</li>
+    <li>(b) Ön a személyes adatai törlését kéri, és</li>
+    <li>
+      (c) Ön visszavonja a hozzájárulását, amin az adatainak kezelése alapul, és
+    </li>
+    <li>(d) nincs más jogalap az Ön adatainak további kezelésére.</li>
+  </ul>
+
+  <h4>4. Az Ön joga az adatkezelés korlátozásához</h4>
+  <p>
+    Ön kérheti a személyes adatai kezelésének korlátozását. Az Ön joga a
+    személyes adatai kezelése korlátozásának kérése vonatkozásában:
+  </p>
+  <ul style="list-style-type: none">
+    <li>(a) nem terjed ki az anonim adatokra;</li>
+    <li>(b) a rá vonatkozó személyes adatokra terjed ki;</li>
+    <li>(c) nem terjed ki a nem Önre vonatkozó személyes adatokra; és</li>
+    <li>
+      (d) magában foglalja az egyértelműen az Önhöz kapcsolható álnevesített
+      adatokat.
+    </li>
+  </ul>
+  <p>
+    Az Adatkezelő korlátozza az Ön személyes adatainak kezelését arra az
+    időszakra, amely alatt ellenőrzi az ilyen adatok pontosságát, ha Ön a
+    személyes adatai kezelésének korlátozását kéri és Ön vitatja az ilyen adatok
+    pontosságát.
+  </p>
+  <p>Az Adatkezelő korlátozza az Ön személyes adatainak kezelését, ha:</p>
+  <ul style="list-style-type: none">
+    <li>(a) Ön a személyes adatai kezelésének korlátozását kéri, és</li>
+    <li>
+      (b) az Adatkezelőnek már nincs szüksége ezekre az adatokra az adatkezelése
+      céljából, és
+    </li>
+    <li>
+      (c) Ön az adatait jogi igény előterjesztéséhez, érvényesítéséhez vagy
+      védelméhez igényli.
+    </li>
+  </ul>
+  <p>Ha az Adatkezelő korlátozza az Ön személyes adatainak kezelését, akkor:</p>
+  <ul style="list-style-type: none">
+    <li>(a) tárolhatja az ilyen személyes adatokat,</li>
+    <li>
+      (b) az Ön hozzájárulása alapján kezelheti az ilyen személyes adatokat,
+    </li>
+    <li>
+      (c) kezelheti a személyes adatokat jogi igényének előterjesztéséhez,
+      érvényesítéséhez vagy védelméhez vagy valamely személy jogainak
+      megvédéséhez.
+    </li>
+  </ul>
+  <h4>5. Adathordozhatósághoz való joga</h4>
+  <p>
+    Ön jogosult arra, hogy az Önre vonatkozó, Ön által egy adatkezelő
+    rendelkezésére bocsátott személyes adatait tagolt, széles körben használt,
+    géppel olvasható formátumban megkapja, továbbá jogosult arra, hogy ezeket az
+    adatokat egy másik adatkezelőnek továbbítsák anélkül, hogy ez akadályozná
+    (ahol technikailag lehetséges) azt az adatkezelőt, amelynek a személyes
+    adatokat a rendelkezésére bocsátotta, ha az adatkezelés hozzájáruláson
+    alapul vagy szerződés teljesítéséhez szükséges és az adatkezelés
+    automatizált módon történik.
+  </p>
+  <p>Az Ön adathordozhatósághoz való joga:</p>
+  <ul style="list-style-type: none">
+    <li>(a) nem terjed ki az anonim adatokra;</li>
+    <li>(b) az Önre vonatkozó személyes adatokra terjed ki;</li>
+    <li>(c) nem terjed ki a nem Önre vonatkozó személyes adatokra; és</li>
+    <li>(d) nem terjed ki az egyértelműen álnevesített adatokra.</li>
+  </ul>
+
+  <h4>6. Az Ön, mint érintett kérelmének ügyintézési határideje</h4>
+  <p>
+    Az Adatkezelő az Önt a fentiek szerint megillető jogosultságokra vonatkozó
+    kérelmekre indokolatlan késedelem nélkül, de legkésőbb egy hónapon belül
+    válaszol.
+  </p>
+
+  <h4>7. Panasz benyújtásához való jog</h4>
+  <ul style="list-style: none">
+    <li>
+      <p>
+        Ha Ön úgy véli, hogy a jogait megsértették, az Adatkezelő azt javasolja,
+        hogy kezdeményezzen egyeztetést az Adatkezelővel közvetlen
+        kapcsolatfelvétel útján. Ha az ilyen egyeztetés nem vezet eredményre
+        vagy ha Ön nem kíván részt venni ilyen tevékenységben, a bírósághoz vagy
+        a NAIH-hoz fordulhat.
+      </p>
+      <p>
+        Bírósági eljárás kezdeményezése esetén dönthet úgy, hogy az eljárást a
+        lakcíme vagy lakóhelye szerint illetékes bíróság előtt indítja meg.
+      </p>
+      <p class="mt-2">
+        <strong>A NAIH kapcsolati adatai a következők:</strong>
+      </p>
+      <p>
+        1125 Budapest, Szilágyi Erzsébet fasor 22/C.;<br />
+        Telefon: +36 1 391 1400;<br />
+        Fax: +36 1 391 1410;<br />
+        E-mail:
+        <a href="mailto:ugyfelszolgalat@naih.hu">ugyfelszolgalat@naih.hu</a
+        >;<br />
+        Weboldal:
+        <a href="http://www.naih.hu" target="_blank">www.naih.hu</a>
+      </p>
+    </li>
+  </ul>
+  <h4 class="mt-2">8. A jelen tájékoztató módosításai</h4>
+  <ul style="list-style: none">
+    <li>
+      Az Adatkezelő fenntartja a jogot, hogy bármikor módosítsa a jelen
+      tájékoztatót. Az Adatkezelő adott esetben levélben vagy e-mailben és
+      minden esetben a vonatkozó jogszabályok szerint tájékoztatja az ügyfeleket
+      az ilyen módosításokról.
+    </li>
+  </ul>
+  <div class="text-center">
+    <p>Hírlevélre történő feliratkozáshoz</p>
+    <p>kapcsolódó adatkezelés</p>
+  </div>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <div class="mt-2">
+    <h4 class="mb-3">Személyes adatok kezelése</h4>
+    <table class="table table-bordered">
       <thead class="table-light">
         <tr>
           <th scope="col">S.sz.</th>
@@ -2652,7 +3705,7 @@ const content = {
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
+          <th scope="row">1</th>
           <td>Név</td>
           <td>A Szolgáltatás értékesítése, számlázás</td>
           <td>
@@ -2663,41 +3716,12 @@ const content = {
             Ügyvezetés, Értékesítési feladatokkal megbízott munkatársak,
             Számlázás
           </td>
-          <td>E</td>
+          <td>Elektronikusan</td>
           <td>Elektronikus irattár</td>
           <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
         </tr>
         <tr>
-          <td>2</td>
-          <td>Lakcím</td>
-          <td>A Szolgáltatás értékesítése, számlázás</td>
-          <td>
-            Szerződés teljesítéséhez, vagy a szerződés megkötését megelőző
-            lépésekhez szükséges
-          </td>
-          <td>Ügyvezetés, Értékesítési feladatokkal megbízott munkatársak,Számlázás</td>
-          <td>E</td>
-          <td>Elektronikus irattár</td>
-          <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Online azonosító</td>
-          <td>A Szolgáltatás értékesítése, számlázás</td>
-          <td>
-            Szerződés teljesítéséhez, vagy a szerződés megkötését megelőző
-            lépésekhez szükséges
-          </td>
-          <td>
-            Ügyvezetés, Értékesítési feladatokkal megbízott munkatársak,
-            Számlázás
-          </td>
-          <td>E</td>
-          <td>Elektronikus irattár</td>
-          <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
-        </tr>
-        <tr>
-          <td>4</td>
+          <th scope="row">2</th>
           <td>E-mail cím</td>
           <td>A Szolgáltatás értékesítése, számlázás</td>
           <td>
@@ -2708,7 +3732,23 @@ const content = {
             Ügyvezetés, Értékesítési feladatokkal megbízott munkatársak,
             Számlázás
           </td>
-          <td>E</td>
+          <td>Elektronikusan</td>
+          <td>Elektronikus irattár</td>
+          <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Telefonszám</td>
+          <td>Szolgáltatás értékesítése, számlázás</td>
+          <td>
+            Szerződés teljesítéséhez, vagy a szerződés megkötését megelőző
+            lépésekhez szükséges
+          </td>
+          <td>
+            Ügyvezetés, Értékesítési feladatokkal megbízott munkatársak,
+            Számlázás
+          </td>
+          <td>Elektronikusan</td>
           <td>Elektronikus irattár</td>
           <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
         </tr>
@@ -2717,28 +3757,6 @@ const content = {
   </div>
 </section>
 `
-    },
-    "Cookie Policy": {
-      "title": "Sütikre Vonatkozó Szabályzat",
-      "Types of Cookies": {
-        "title": "Sütik Típusai",
-        "content": "lorem ipsum in Hungarian"
-      },
-      "Cookie Usage": {
-        "title": "Sütik Használata",
-        "content": "lorem ipsum in Hungarian"
-      },
-      "Managing Cookies": {
-        "title": "Sütik Kezelése",
-        "content": "lorem ipsum in Hungarian"
-      },
-      "Analytics and Tracking": {
-        "title": "Analitika és Nyomonkövetés",
-        "content": "lorem ipsum in Hungarian"
-      },
-      "Updates to the Cookie Policy": {
-        "title": "Frissítések a Sütiszabályzathoz",
-        "content": "lorem ipsum in Hungarian"
       }
     }
   }
