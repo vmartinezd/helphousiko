@@ -2731,6 +2731,103 @@ const content = {
         </tbody>
     </table>
   </div>
+  <div class="mt-2">
+    <h5>1. számú melléklet</h5>
+    <div class="text-center">
+      <h4>Adattovábbítások nyilvántartása</h4>
+    </div>
+    <table class="table table-bordered" style="table-layout: fixed">
+      <thead class="table-light">
+        <tr>
+          <th style="border: 1px solid #ccc; height: 35px">Sorszám</th>
+          <th style="border: 1px solid #ccc; height: 35px">Dátum</th>
+          <th style="border: 1px solid #ccc; height: 35px">Címzett</th>
+          <th style="border: 1px solid #ccc; height: 35px">
+            Személyes adatok köre
+          </th>
+          <th style="border: 1px solid #ccc; height: 35px">
+            Egyéb adatok
+          </th>
+          <th style="border: 1px solid #ccc; height: 35px">Megjegyzés</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 8 Empty Rows -->
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+      </tbody>
+    </table>
+</div>
 </section>
 `
     },
@@ -3680,8 +3777,8 @@ const content = {
     </li>
   </ul>
   <div class="text-center">
-    <p>Hírlevélre történő feliratkozáshoz</p>
-    <p>kapcsolódó adatkezelés</p>
+    <h4>Hírlevélre történő feliratkozáshoz</h4>
+    <h5>kapcsolódó adatkezelés</h5>
   </div>
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -3751,6 +3848,103 @@ const content = {
           <td>Elektronikusan</td>
           <td>Elektronikus irattár</td>
           <td>Adózás rendjéről szóló törvényben meghatározottak szerint</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="mt-2">
+    <h5>1. számú melléklet</h5>
+    <div class="text-center">
+      <h4>Adattovábbítások nyilvántartása</h4>
+    </div>
+    <table class="table table-bordered" style="table-layout: fixed">
+      <thead class="table-light">
+        <tr>
+          <th style="border: 1px solid #ccc; height: 35px">Sorszám</th>
+          <th style="border: 1px solid #ccc; height: 35px">Dátum</th>
+          <th style="border: 1px solid #ccc; height: 35px">Címzett</th>
+          <th style="border: 1px solid #ccc; height: 35px">
+            Személyes adatok köre
+          </th>
+          <th style="border: 1px solid #ccc; height: 35px">
+            Egyéb adatok
+          </th>
+          <th style="border: 1px solid #ccc; height: 35px">Megjegyzés</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 8 Empty Rows -->
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
+          <td style="border: 1px solid #ccc; height: 35px"></td>
         </tr>
       </tbody>
     </table>
