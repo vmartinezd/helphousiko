@@ -204,6 +204,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
-    color: hsla(0,0%,100%,.6);
+    color: hsla(0,0%,100%,.6) !important;
     text-align: center;
 }
