@@ -1224,18 +1224,6 @@ const content = {
         "title": "Cookie Usage",
         "content": "lorem ipsum"
       },
-      "Managing Cookies": {
-        "title": "Managing Cookies",
-        "content": "lorem ipsum"
-      },
-      "Analytics and Tracking": {
-        "title": "Analytics and Tracking",
-        "content": "lorem ipsum"
-      },
-      "Updates to the Cookie Policy": {
-        "title": "Updates to the Cookie Policy",
-        "content": "lorem ipsum"
-      }
     }
   },
   "hu": {
