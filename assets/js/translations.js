@@ -1217,8 +1217,673 @@ const content = {
     "Cookie Policy": {
       "title": "Cookie Policy",
       "Types of Cookies": {
-        "title": "Types of Cookies",
-        "content": "lorem ipsum"
+        "title": "Data management information",
+        "content": `<section class="container">
+    <div class="text-center">
+      <h3>Data management information</h3>
+      <p>regarding the use of cookies</p>
+    </div>
+  
+    <h4>I. Name of data controller</h4>
+    <table class="table-bordered">
+      <tbody>
+        <tr>
+          <td>Company name:</td>
+          <td>Housiko Group Kft.</td>
+        </tr>
+        <tr>
+          <td>Headquarters:</td>
+          <td>3580 Tiszaújváros, Lorántffy Zsuzsanna utca 1. 2. em. 2. ajtó</td>
+        </tr>
+        <tr>
+          <td>Tax number:</td>
+          <td>32136858-2-05</td>
+        </tr>
+        <tr>
+          <td>Represented by:</td>
+          <td>Pál Márton Gere</td>
+        </tr>
+        <tr>
+          <td>e-mail:</td>
+          <td>info@housiko.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <h4>II. Legislation on which data management is basedk</h4>
+    <p>The following legislation applies to data management:</p>
+    <ul>
+      <li>
+        Regulation (Eu) 2016/679 of the European Parliament and of the Council
+        (April 27, 2016) on the protection of natural persons with regard to the
+        processing of personal data and on the free flow of such data and on the
+        repeal of Regulation 95/46/EC, in force text:
+        <a
+          href="https://eur-lex.europa.eu/legalcontent/HU/TXT/PDF/?uri=CELEX:32016R0679&from=HU"
+          target="_blank"
+          >https://eur-lex.europa.eu/legalcontent/HU/TXT/PDF/?uri=CELEX:32016R0679&from=HU</a
+        >
+      </li>
+      <li>
+        CXII of 2011 on the right to information self-determination and freedom of
+        information. Act (hereinafter: Info tv.), effective text:
+        <a
+          href="https://net.jogtar.hu/jogszabaly?docid=A1100112.TV"
+          target="_blank"
+          >https://net.jogtar.hu/jogszabaly?docid=A1100112.TV</a
+        >
+      </li>
+      <li>
+        Valid text of Act XLVIII of 2008 on the basic conditions and certain
+        limitations of economic advertising:
+        <a
+          href="https://net.jogtar.hu/jogszabaly?docid=A0800048.TV"
+          target="_blank"
+          >https://net.jogtar.hu/jogszabaly?docid=A0800048.TV</a
+        >
+      </li>
+      <li>
+        CLV of 1997 on consumer protection. Act, effective text:
+        <a
+          href="https://net.jogtar.hu/jogszabaly?docid=99700155.TV"
+          target="_blank"
+          >https://net.jogtar.hu/jogszabaly?docid=99700155.TV</a
+        >
+      </li>
+    </ul>
+    <h4 class="mt-2">III. Information on managed data</h4>
+    <p>
+      Scope of data managed by the data controller: the online identifier of the
+      data subject. Legal basis for data management: the consent of the data
+      subject.
+    </p>
+    <p>Duration of data management: until withdrawal of consent</p>
+    <h5 class="mt-2">ARC. About Cookies in General</h5>
+  
+    <p>
+      <strong>(1)</strong> Cookies are short data files placed on the user's
+      computer by the visited website. The purpose of the cookie is to make the
+      given information communication and Internet service easier and more
+      convenient. There are many types, but they can generally be classified into
+      two large groups. One is the temporary cookie, which the website places on
+      the user's device only during a specific session (e.g. during the security
+      identification of internet banking), the other type is the permanent cookie
+      (e.g. the language setting of a website), which remains until then on the
+      computer until the user deletes it. Based on the guidelines of the European
+      Commission, cookies [unless they are absolutely necessary for the use of the
+      given service] can only be placed on the user's device with the user's
+      permission.
+    </p>
+  
+    <p>
+      <strong>(2)</strong> In the case of cookies that do not require the user's
+      consent, information must be provided during the first visit to the website.
+      It is not necessary for the full text of the information regarding cookies
+      to appear on the website, it is sufficient if the website operators briefly
+      summarize the essence of the information and refer to the availability of
+      the full information via a link.
+    </p>
+  
+    <p>
+      <strong>(3)</strong> In the case of cookies that require consent, the
+      information may also be linked to the first visit to the website, if the
+      data management associated with the use of cookies already begins with the
+      visit to the website. If the cookie is used in connection with the use of a
+      function specifically requested by the user, the information may also appear
+      in connection with the use of this function. In this case, it is not
+      necessary for the full text of the information regarding cookies to appear
+      on the website, a short summary of the essence of the information and a link
+      to the availability of the full information is sufficient.
+    </p>
+  
+    <p>
+      <strong>(4)</strong>The visitor must be informed about the use of cookies on
+      the website. With this information, the Data Controller ensures that the
+      visitor can learn, before using the information society-related services of
+      the website and at any time during the use, which types of data the Data
+      Controller processes for which data management purposes, including the
+      management of data that cannot be directly linked to the user.
+    </p>
+    <h5 class="mt-2">A. Cookies used</h5>
+    <p>
+      The Data Controller informs its users that it uses Google Analytics, Google
+      Remarketing, AdWords Conversion Tracking, and Facebook Remarketing programs
+      to measure the number of visitors to its Website and its subpages and to
+      monitor the behavior of its visitors, to compile statistics and to measure
+      the effectiveness of its advertisements. The referred programs on the user's
+      computer are so-called cookies are placed that collect user data. Website
+      visitors (Data Subjects) authorize the Data Controller to use the Google
+      Analytics, Google Remarketing, AdWords Conversion Tracking and Facebook
+      Remarketing programs. At the same time, they consent to the monitoring and
+      tracking of their user behavior and the use of all services provided by the
+      programs for the Data Controller. In addition to all of this, the user has
+      the option to disable the data recording and data storage of cookies for the
+      future at any time as described below.
+    </p>
+    <p>
+      We inform our users that the settings and use of the Google Analytics,
+      Google Remarketing, AdWords Conversion Tracking, and Facebook Remarketing
+      programs fully comply with the requirements of the data protection
+      authority. According to Google, Google Analytics mainly uses first-party
+      cookies to report visitor interactions on its website. These cookies only
+      record non-personally identifiable information. Browsers do not share their
+      own cookies between domains. More information about the cookie can be found
+      in the Google Advertising and Privacy FAQ.
+    </p>
+    <ul style="list-style: none" class="mt-2">
+      <h6>V.1. Google Analytics:</h6>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            The Data Controller uses the Google Analytics program primarily to
+            generate statistics, among other things, to measure the effectiveness
+            of its campaigns. By using the program, the Data Controller mainly
+            obtains information about how many visitors visited its Website and
+            how much time the visitors spent on the Website. The program
+            recognizes the IP address of the visitor, so it can track whether the
+            visitor is a returning or new visitor, and it can also be tracked how
+            the visitor traveled on the Website and where he entered.
+          </p>
+        </li>
+      </ul>
+      <h6>V.2. Google Remarketing:</h6>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            Using the Google Remarketing program, the Data Controller collects
+            data from the DoubleClick cookie in addition to the usual data from
+            Google Analytics. The remarketing service can be used through the
+            DoubleClick cookie, which primarily ensures that visitors to the
+            Website will later come across the Data Controller's ad on free Google
+            advertising platforms. The Data Controller uses the Google Remarketing
+            program for its online advertisements. The Data Controller's
+            advertisements are also displayed on Internet websites by external
+            service providers, such as Google. The Data Controller and third-party
+            service providers, such as Google, use their own cookies (such as
+            Google Analytics cookies) and third-party cookies (such as the
+            DoubleClick cookie) for the purpose of data collection based on
+            previous visits by users to the Website. for orientation and to
+            optimize and display advertisements.
+          </p>
+        </li>
+      </ul>
+      <h6>V.3. Google AdWords conversion tracking:</h6>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            The purpose of Google AdWords conversion tracking is to enable the
+            Data Controller to measure the effectiveness of AdWords ads. It does
+            this with the help of cookies placed on the user's computer, which
+            exist for 30 days and do not collect personal data.
+          </p>
+        </li>
+      </ul>
+      <h6>V.4. Facebook Remarketing</h6>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            The Data Controller uses the Facebook remarketing pixel to increase
+            the effectiveness of Facebook ads, so-called for the purpose of
+            building a remarketing list. Thus, after visiting the Website, an
+            external service provider - such as Facebook - may display
+            advertisements on Internet websites. Remarketing lists are not
+            suitable for personal identification. They do not contain the
+            visitor's personal data, they only identify the browser software.
+          </p>
+        </li>
+      </ul>
+      <h6>V.5. Disable cookies</h6>
+      <ul style="list-style: none">
+        <li>
+          <p>
+            If you want to manage cookie settings or disable the function, you can
+            do so from your own user's computer in your browser. Depending on your
+            browser's toolbar, this option can be found in the
+            cookies/cookies/tracking functions placements menu item, but in
+            general, you can set which tracking functions you enable/disable on
+            your computer under Tools > Settings > Privacy settings.
+          </p>
+          <p>
+            Users who do not want Google Analytics to report their visit can
+            install the Google Analytics blocking browser extension.
+          </p>
+          <p>
+            f you wish to opt-out of Analytics web activity, visit the Google
+            Analytics optout page and install the add-on for your browser. For
+            more information on installing and uninstalling this extension, see
+            the help for your browser.
+          </p>
+        </li>
+      </ul>
+      <h5>VI. Access to data and data security measures:</h5>
+      <ul style="list-style: none">
+        <li>
+          <h6>VI.1. Data access and data transfer</h6>
+          <p>
+            Employees of the Data Controller can access the personal data provided
+            by you in order to perform their duties.
+          </p>
+          <p>
+            The data manager forwards the processed personal data to its
+            subcontractors as specified in the annex to these regulations.
+          </p>
+          <p>
+            Only in exceptional cases does the Data Controller transfer your
+            personal data to other - not listed in the annex - Data Controllers
+            and public bodies.
+          </p>
+          <ul>
+            <p>For example, if</p>
+            <li>
+              court proceedings are initiated in the case concerning you, and the
+              court in charge needs to hand over the documents containing your
+              personal data,
+            </li>
+            <li>
+              the police contact the Data Controller and request the transmission
+              of documents containing your personal data for the investigation.
+            </li>
+          </ul>
+        </li>
+        <h6>VI.2. Data security measures</h6>
+        <li>
+          <p>
+            The Data Controller stores the personal data provided by you on the
+            Data Controller's servers or, where appropriate, in its paper-based
+            archives. The Data Controller does not use the services of other
+            companies to store personal data. The data manager takes appropriate
+            measures to protect personal data, among other things, against
+            unauthorized access or unauthorized changes. For example, access to
+            personal data stored on the server is logged by the Data Controller,
+            which means that it is always possible to check who, when and what
+            personal data was accessed.
+          </p>
+        </li>
+      </ul>
+      <h5>VII. The data subject's rights related to data management</h5>
+      <ul style="list-style: none">
+        <h6>1. Your access rights</h6>
+        <li>
+          <p>As the authorized person, you can access your personal data</p>
+          <p>
+            If you request that the Data Controller provide feedback on whether it
+            handles your personal data, the Data Controller is obliged to provide
+            information regarding the following:
+          </p>
+        </li>
+      </ul>
+      <ul style="list-style: none">
+        <li>
+          <strong>(a)</strong> What personal data:
+          <ul style="list-style: none">
+            <li>
+              Information related to you, such as name, contact details,
+              identification numbers, etc.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>(b)</strong> On what legal basis:
+          <ul style="list-style: none">
+            <li>
+              Consent, contractual necessity, legal obligation, legitimate
+              interest, etc.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>(c)</strong> For what purpose of data management:
+          <ul style="list-style: none">
+            <li>
+              To provide services, process transactions, improve customer
+              experience, fulfill legal requirements, etc.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>(d)</strong> From what source:
+          <ul style="list-style: none">
+            <li>
+              Directly from you, from third-party sources, or through publicly
+              available data.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>(e)</strong> How long you treat it:
+          <ul style="list-style: none">
+            <li>
+              For as long as necessary to fulfill the purpose, comply with legal
+              obligations, or as required by applicable law.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Your right to receive feedback on whether the Data Controller processes
+          (or not) your personal data:
+          <ul style="list-style: none">
+            <li><strong>(a)</strong> Covers personal data about you.</li>
+            <li><strong>(b)</strong> Does not cover anonymous data.</li>
+            <li>
+              <strong>(c)</strong> Does not cover personal information that does
+              not relate to you.
+            </li>
+            <li>
+              <strong>(d)</strong> Includes pseudonymized data that can be clearly
+              linked to you.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Upon your request, the Data Controller provides access and a copy of
+          your personal data.
+          <ul style="list-style: none">
+            <li>
+              If you request an additional/repeated copy of your personal data,
+              the Data Controller may charge a reasonable fee to cover the
+              administrative costs incurred in connection with the fulfillment of
+              the request, which fee you will bear.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul style="list-style: none">
+        <h6>2. Your Right to Rectification</h6>
+        <li>
+          <p>You have the right to correct your personal data.</p>
+          <p>E's right</p>
+          <ul style="list-style: none">
+            <li><strong>(a)</strong> does not cover anonymous data;</li>
+            <li><strong>(b)</strong>covers personal data about you;</li>
+            <li>
+              <strong>(c)</strong> does not cover personal information that does
+              not relate to you; and
+            </li>
+            <li>
+              <strong>(d)</strong> includes pseudonymized data that can be clearly
+              linked to you.
+            </li>
+          </ul>
+          <p>
+            Based on your request, the Data Controller will properly correct or
+            supplement your personal data. The Data Controller will inform you of
+            the correction of your personal data recipients (if any). However, the
+            Data Controller will not inform the recipients about the correction of
+            personal data if informing the recipients proves to be impossible or
+            would require a disproportionately large effort.
+          </p>
+        </li>
+      </ul>
+      <ul style="list-style: none">
+        <h6>3. Right to erasure</h6>
+        <li>
+          <p>
+            Under certain conditions, you have the right to delete your personal
+            data.
+          </p>
+          <p>
+            The Data Controller is obliged to delete your personal data without
+            undue delay, if
+          </p>
+          <ul style="list-style: none">
+            <li>
+              <strong>(a)</strong> the Data Controller manages these personal data
+              and
+            </li>
+            <li>
+              <strong>(b)</strong> You request the deletion of your personal data
+              and
+            </li>
+            <li>
+              <strong>(c)</strong> the personal data are not necessary for the
+              purposes for which the Data Controller processes the personal data
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            The Data Controller is obliged to delete your personal data without
+            undue delay if
+          </p>
+          <ul style="list-style: none">
+            <li>
+              <strong>(a)</strong>the Data Controller manages your personal data
+              and
+            </li>
+            <li>
+              <strong>(b)</strong> You request the deletion of your personal data
+              and
+            </li>
+            <li>
+              <strong>(c)</strong> You withdraw your consent on which the
+              processing of your data is based, and
+            </li>
+            <li>
+              <strong>(d)</strong> there is no other legal basis for the further
+              processing of your data
+            </li>
+          </ul>
+        </li>
+  
+        <li>
+          <p>
+            The Data Controller is obliged to delete your personal data without
+            undue delay if
+          </p>
+          <ul style="list-style: none">
+            <li>
+              <strong>(a)</strong> data processing is necessary to assert the
+              legitimate interests of the Data Controller or a third party, and
+            </li>
+            <li>
+              <strong>(b)</strong> You object to the Data Controller handling your
+              personal data and
+            </li>
+            <li>
+              <strong>(c)</strong> the legitimate reason for the processing of
+              such personal data does not take precedence over your objection.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            The Data Controller is obliged to delete your personal data without
+            undue delay if
+          </p>
+          <ul style="list-style: none">
+            <li>
+              <strong>(a)</strong>You request the deletion of your personal data
+              and
+            </li>
+            <li>
+              <strong>(b)</strong> the processing of such data by the Data
+              Controller is not illegal, or
+            </li>
+            <li>
+              <strong>(c)</strong> deletion is required by applicable law, or
+            </li>
+            <li>
+              <strong>(d)</strong> your data is collected in relation to services
+              related to the information society.
+            </li>
+          </ul>
+        </li>
+  
+        <li>
+          The Data Controller will inform the recipients of your personal data (if
+          any) about the deletion of your personal data. However, the Data
+          Controller will not inform the recipients of the deletion of personal
+          data if informing the recipients is impossible or would require a
+          disproportionately large effort
+        </li>
+      </ul>
+      <ul style="list-style: none">
+        <h6>4. Your right to restrict data processing</h6>
+        <li>
+          <p>
+            You can request the restriction of the processing of your personal
+            data
+          </p>
+          <p>
+            Your right to request the restriction of the processing of your
+            personal data
+          </p>
+          <ul style="list-style: none">
+            <li><strong>(a)</strong> does not cover anonymous data;</li>
+            <li><strong>(b)</strong> covers personal data relating to him;</li>
+            <li>
+              <strong>(c)</strong> does not cover personal information that does
+              not relate to you; and
+            </li>
+            <li>
+              <strong>(d)</strong> includes pseudonymized data that can be clearly
+              linked to you.
+            </li>
+          </ul>
+        </li>
+        <p>
+          The Data Controller limits the processing of your personal data to the
+          period during which it checks the accuracy of such data, if you request
+          the restriction of the processing of your personal data and you dispute
+          the accuracy of such data
+        </p>
+        <p>
+          The Data Controller restricts the processing of your personal data if
+          you request the restriction of the processing of data whose processing
+          is illegal and you oppose the deletion of such data.
+        </p>
+        <li>
+          <p>
+            The Data Controller restricts the processing of your personal data if
+          </p>
+          <ul style="list-style: none;">
+            <li>
+              <strong>(a)</strong>You request the restriction of the processing of
+              your personal data and
+            </li>
+            <li>
+              <strong>(b)</strong> the Data Controller no longer needs this data
+              for the purposes of its data management, and
+            </li>
+            <li>
+              <strong>(c)</strong> You require your data to submit, enforce or
+              defend a legal claim.
+            </li>
+          </ul>
+        </li>
+  
+        <li>
+          <p>
+            The Data Controller restricts the processing of your personal data if
+          </p>
+          <ul style="list-style: none;">
+            <li>
+              <strong>(a)</strong> You object to the processing of your personal
+              data that is necessary for the legitimate interests of the Data
+              Controller, and
+            </li>
+            <li>
+              <strong>(b)</strong> You are waiting for confirmation that there is
+              a legitimate reason for the processing of your personal data by the
+              Data Controller, which does not take precedence over Against your
+              objection.
+            </li>
+          </ul>
+          <p>
+            The Data Controller informs the recipients of such personal data (if
+            any) about the restriction of the processing of your personal data.
+            However, the Data Controller will not inform the recipients of such a
+            restriction if informing the recipients would be impossible or would
+            require a disproportionately large effort.
+          </p>
+        </li>
+        <li>
+          <p>
+            If the Data Controller restricts the processing of your personal data,
+            then
+          </p>
+          <ul style="list-style: none;">
+            <li><strong>(a)</strong> store such personal data;</li>
+            <li>
+              <strong>(b)</strong> may process such personal data based on your
+              consent,
+            </li>
+            <li>
+              <strong>(c)</strong> may process personal data for the presentation,
+              enforcement or defense of a legal claim or to protect the rights of
+              a person.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul style="list-style: none">
+        <h6>5. Your right to data portability</h6>
+        <li>
+          <p>
+            You have the right to receive your personal data that you have
+            provided to a data controller in a segmented, widely used,
+            machine-readable format, and you have the right to have this data
+            transmitted to another data controller without hindrance (where
+            technically possible) the data controller to whom you provided the
+            personal data, if the data management is based on consent or is
+            necessary for the performance of a contract and the data management is
+            automated.
+          </p>
+          <ul style="list-style: none">
+            <li><strong>(a)</strong>does not cover anonymous data;</li>
+            <li><strong>(b)</strong> covers personal data about you;</li>
+            <li>
+              <strong>(c)</strong> does not cover personal information that does
+              not relate to you; and
+            </li>
+            <li>
+              <strong>(d)</strong> does not cover clearly pseudonymized data.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul style="list-style: none">
+        <h6>6. The administrative deadline for your request as a data subject</h6>
+        <li>
+          <p>
+            The Data Controller shall respond to requests regarding the rights you
+            are entitled to according to the above without undue delay, but within
+            one month at the latest.
+          </p>
+        </li>
+      </ul>
+      <ul style="list-style: none">
+        <h6>7. Right to file a complaint</h6>
+        <li>
+          <p>
+            If you believe that your rights have been violated, the Data
+            Controller recommends that you initiate a consultation with the Data
+            Controller by contacting the Data Controller directly. If such
+            consultation does not lead to results or if you do not wish to
+            participate in such activities, you may contact the court or the NAIH.
+            In the event of initiation of court proceedings, you may decide to
+            initiate the proceedings before the competent court according to your
+            address or place of residence.
+          </p>
+          <p>
+            NAIH's contact details are as follows: 1125 Budapest, Szilágyi
+            Erzsébet fasor 22/C.; telephone: +36 1 391 1400; fax: +36 1 391 1410;
+            e-mail: ugyfelszolgalat@naih.hu ; website: www.naih.hu
+          </p>
+        </li>
+      </ul>
+      <ul style="list-style: none">
+        <h6>8. Amendments to this prospectus</h6>
+        <li>
+          <p>
+            The Data Controller reserves the right to modify this information at
+            any time. The Data Controller informs customers of such modifications
+            by letter or e-mail, as appropriate, and in all cases in accordance
+            with the relevant legislation.
+          </p>
+        </li>
+      </ul>
+    </ul>
+  </section>`
       },
       "Cookie Usage": {
         "title": "Cookie Usage",
