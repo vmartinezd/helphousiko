@@ -3,7 +3,7 @@ const content = {
     "Who We Are": {
       "title": "Who We Are",
       "content": `
-   <h4>   Exceptional, cost-effective, ground-breaking.</h4>
+   <h1 style="font-size: 24px!important;">   Exceptional, cost-effective, ground-breaking.</h1>
    <p>We had this trifecta in mind when we came up with the idea, and it was with these qualities in mind that we laid the foundations for Housiko.</p>
    <p>We wanted to provide property sellers and buyers with an easy-to-use platform that would save them time, energy and, of course, money. </p>
    <p>The phone app allows anyone, anywhere, anytime to find the perfect apartments, holiday homes, shops, plots or even offices for sale or rent in just a few clicks. </p>
@@ -1896,7 +1896,7 @@ const content = {
     "Who We Are": {
         "title": "Kik vagyunk",
         "content": `
-     <h4>Kivételes, költséghatékony, korszakalkotó.</h4>
+     <h1 style="font-size: 24px!important;">Kivételes, költséghatékony, korszakalkotó.</h1>
      <p>Az ötlet születésekor ez a hármas lebegett a szemünk előtt, ezeket a tulajdonságokat előtérbe helyezve tettük le a Housiko alapköveit.</p>
      <p>Egy olyan egyszerűen használható felületet szeretnénk biztosítani az ingatlanok értékesítői és vásárlói számára, amivel időt, energiát, és persze pénzt is megtakaríthatnak. </p>
      <p>A telefonos alkalmazás lehetővé teszi, hogy bárki, bárhol és bármikor néhány kattintással megtalálhassa a tökéletes eladó vagy kiadó lakásokat, nyaralókat, üzlethelységeket, telkeket, vagy akár irodákat. </p>
